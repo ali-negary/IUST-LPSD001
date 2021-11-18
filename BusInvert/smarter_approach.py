@@ -261,4 +261,6 @@ if __name__ == "__main__":
         if reordered_sequence[1]['average'] < min_ave_transition and overhead < 50:
             min_ave_transition = reordered_sequence[1]['average']
 
-    print(f"\nMinimum average among efficient approaches is {min_ave_transition}.")
+    print(f"\nMinimum average among efficient approaches is {min_ave_transition} which shows " + 
+    	  f"{round((1 - min_ave_transition/unoptimized_sequence_t_c['average']) * 100,2)}% improvement " + 
+    	  "over unoptimized sequence.")

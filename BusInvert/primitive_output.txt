@@ -1,76 +1,130 @@
 ============= Sequence of Data =============
-[1, 0, 0, 0, 0, 0, 0, 0]
-[1, 1, 0, 1, 0, 0, 1, 1]
-[0, 1, 0, 0, 0, 1, 0, 0]
 [0, 1, 0, 1, 1, 0, 1, 1]
+[0, 1, 0, 0, 0, 1, 1, 0]
+[0, 1, 1, 1, 0, 0, 1, 1]
+[1, 1, 1, 0, 0, 1, 0, 1]
+[1, 0, 1, 1, 0, 1, 1, 0]
+[0, 1, 0, 0, 1, 1, 0, 0]
+[1, 0, 0, 0, 1, 0, 0, 1]
+[1, 1, 0, 1, 0, 0, 0, 0]
+[1, 1, 1, 0, 0, 0, 0, 0]
+[0, 1, 0, 1, 0, 0, 1, 0]
 Count of transition without any optimization performed on the data:
- {'transitions': [4, 5, 5], 'sum': 14, 'average': 4.667} 
+ {'transitions': [4, 4, 4, 4, 6, 4, 4, 2, 4], 'sum': 36, 'average': 4.0} 
 There is no optimization overhead.
 ============= Bus Inverted Sequence of Data (1 partition) =============
-[0, 1, 1, 1, 1, 1, 1, 1, 1]
-[0, 0, 1, 0, 1, 1, 0, 0, 1]
-[1, 0, 1, 1, 1, 0, 1, 1, 1]
-[0, 1, 0, 1, 1, 0, 1, 1, 0]
+[1, 0, 1, 0, 0, 1, 0, 0, 1]
+[1, 0, 1, 1, 1, 0, 0, 1, 1]
+[1, 0, 0, 0, 1, 1, 0, 0, 1]
+[0, 0, 0, 1, 1, 0, 1, 0, 1]
+[0, 1, 0, 0, 1, 0, 0, 1, 1]
+[1, 0, 1, 1, 0, 0, 1, 1, 1]
+[0, 1, 1, 1, 0, 1, 1, 0, 1]
+[1, 1, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 1, 1, 1, 1, 1]
+[0, 1, 0, 1, 0, 0, 1, 0, 0]
 Count of transition with bus invert:
- {'transitions': [4, 3, 3], 'sum': 10, 'average': 3.333} 
-There is 1 bit overhead per data and 4 bits overhead for total 32bits of data (12.5% overhead).
+ {'transitions': [4, 4, 4, 4, 2, 4, 4, 2, 4], 'sum': 32, 'average': 3.556} 
+There is 1 bit overhead per data and 10 bits overhead for total 80bits of data (12.5% overhead).
 ============= 2 Partition Bus Inverted Sequence of Data =============
-[[0, 1, 1, 1, 1], [1, 1, 1, 1, 1]]
-[[0, 0, 1, 0, 1], [1, 1, 0, 0, 1]]
-[[0, 1, 0, 0, 0], [1, 0, 1, 1, 1]]
-[[0, 1, 0, 1, 0], [1, 0, 1, 1, 0]]
+[[0, 1, 0, 1, 0], [0, 1, 0, 0, 1]]
+[[1, 0, 1, 1, 1], [1, 0, 0, 1, 1]]
+[[1, 0, 0, 0, 1], [1, 1, 0, 0, 1]]
+[[0, 0, 0, 1, 1], [1, 0, 1, 0, 1]]
+[[0, 1, 0, 0, 1], [1, 0, 0, 1, 1]]
+[[1, 0, 1, 1, 1], [0, 0, 1, 1, 1]]
+[[0, 1, 1, 1, 1], [0, 1, 1, 0, 1]]
+[[0, 0, 1, 0, 1], [0, 0, 0, 0, 0]]
+[[0, 0, 0, 1, 1], [0, 0, 0, 0, 0]]
+[[0, 1, 0, 1, 0], [0, 0, 1, 0, 0]]
 Count of transition with bus invert:
- {'transitions': [4, 3, 1], 'sum': 8, 'average': 2.667} 
-There are 2 bits overhead per data and 8 bits overhead for total 32 bits of data (25.0% overhead).
+ {'transitions': [2, 4, 4, 4, 2, 4, 4, 2, 2], 'sum': 28, 'average': 3.111} 
+There are 2 bits overhead per data and 20 bits overhead for total 80 bits of data (25.0% overhead).
 ============= 4 Partition Bus Inverted Sequence of Data =============
-[[0, 1, 1], [1, 1, 1], [0, 0, 0], [1, 1, 1]]
-[[0, 0, 1], [1, 0, 1], [1, 1, 1], [0, 0, 1]]
-[[0, 1, 0], [1, 1, 1], [1, 0, 1], [1, 1, 1]]
-[[0, 1, 0], [0, 1, 0], [1, 0, 0], [1, 1, 0]]
+[[0, 1, 0], [1, 0, 1], [0, 1, 1], [0, 0, 1]]
+[[0, 1, 0], [1, 1, 1], [1, 0, 1], [0, 1, 1]]
+[[1, 0, 1], [0, 0, 1], [1, 1, 1], [0, 0, 1]]
+[[0, 0, 1], [0, 1, 1], [0, 1, 0], [1, 0, 1]]
+[[0, 1, 1], [0, 0, 1], [1, 0, 1], [0, 1, 1]]
+[[1, 0, 1], [0, 0, 0], [0, 0, 1], [1, 1, 1]]
+[[0, 1, 1], [1, 1, 1], [0, 1, 1], [1, 0, 1]]
+[[1, 1, 0], [1, 0, 1], [0, 0, 0], [0, 0, 0]]
+[[0, 0, 1], [0, 1, 1], [0, 0, 0], [1, 1, 1]]
+[[0, 1, 0], [0, 1, 0], [0, 0, 0], [1, 0, 0]]
 Count of transition with bus invert:
- {'transitions': [2, 3, 1], 'sum': 6, 'average': 2.0} 
-There are 4 bits overhead per data and 16 bits overhead for total 32 bits of data (50.0% overhead).
+ {'transitions': [2, 2, 4, 2, 2, 2, 4, 0, 2], 'sum': 20, 'average': 2.222} 
+There are 4 bits overhead per data and 40 bits overhead for total 80 bits of data (50.0% overhead).
 ============= 8 Partition Bus Inverted Sequence of Data =============
-[[1, 0], [1, 1], [0, 0], [1, 1], [0, 0], [0, 0], [1, 1], [1, 1]]
-[[0, 1], [1, 0], [0, 0], [0, 1], [0, 0], [1, 1], [0, 1], [0, 1]]
-[[0, 0], [1, 0], [0, 0], [1, 1], [1, 1], [0, 1], [1, 1], [1, 1]]
-[[0, 0], [1, 0], [0, 0], [1, 0], [1, 0], [0, 0], [1, 0], [1, 0]]
+[[0, 0], [1, 0], [0, 0], [0, 1], [0, 1], [1, 1], [1, 0], [0, 1]]
+[[0, 0], [1, 0], [1, 1], [1, 1], [0, 0], [0, 1], [1, 0], [1, 1]]
+[[1, 1], [1, 0], [1, 0], [0, 1], [0, 0], [1, 1], [0, 1], [1, 0]]
+[[1, 0], [0, 1], [1, 0], [1, 1], [0, 0], [1, 0], [1, 1], [0, 1]]
+[[0, 1], [1, 1], [0, 1], [0, 1], [1, 1], [1, 0], [0, 1], [0, 0]]
+[[1, 1], [0, 1], [0, 0], [0, 0], [1, 0], [0, 1], [0, 0], [1, 1]]
+[[1, 0], [1, 1], [0, 0], [1, 1], [0, 1], [0, 0], [0, 0], [0, 1]]
+[[1, 0], [1, 0], [1, 1], [0, 1], [0, 0], [0, 0], [0, 0], [0, 0]]
+[[0, 1], [1, 0], [0, 1], [1, 1], [0, 0], [0, 0], [1, 1], [0, 0]]
+[[0, 0], [1, 0], [0, 0], [1, 0], [0, 0], [0, 0], [1, 0], [0, 0]]
 Count of transition with bus invert:
- {'transitions': [0, 0, 0], 'sum': 0, 'average': 0.0} 
-There are 8 bits overhead per data and 32 bits overhead for total 32 bits of data (100.0% overhead).
+ {'transitions': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'sum': 0, 'average': 0.0} 
+There are 8 bits overhead per data and 80 bits overhead for total 80 bits of data (100.0% overhead).
 
 Best partition size is 8. its average is 0.0.
 ============= 8 Partition right-Rotated Bus Inverted Sequence of Data =============
-[[1, 1], [1, 0], [1, 1], [0, 0], [1, 1], [0, 0], [0, 0], [1, 1]]
-[[0, 1], [0, 1], [1, 0], [0, 0], [0, 1], [0, 0], [1, 1], [0, 1]]
-[[1, 1], [0, 0], [1, 0], [0, 0], [1, 1], [1, 1], [0, 1], [1, 1]]
-[[1, 0], [0, 0], [1, 0], [0, 0], [1, 0], [1, 0], [0, 0], [1, 0]]
+[[0, 1], [0, 0], [1, 0], [0, 0], [0, 1], [0, 1], [1, 1], [1, 0]]
+[[1, 1], [0, 0], [1, 0], [1, 1], [1, 1], [0, 0], [0, 1], [1, 0]]
+[[1, 0], [1, 1], [1, 0], [1, 0], [0, 1], [0, 0], [1, 1], [0, 1]]
+[[0, 1], [1, 0], [0, 1], [1, 0], [1, 1], [0, 0], [1, 0], [1, 1]]
+[[0, 0], [0, 1], [1, 1], [0, 1], [0, 1], [1, 1], [1, 0], [0, 1]]
+[[1, 1], [1, 1], [0, 1], [0, 0], [0, 0], [1, 0], [0, 1], [0, 0]]
+[[0, 1], [1, 0], [1, 1], [0, 0], [1, 1], [0, 1], [0, 0], [0, 0]]
+[[0, 0], [1, 0], [1, 0], [1, 1], [0, 1], [0, 0], [0, 0], [0, 0]]
+[[0, 0], [0, 1], [1, 0], [0, 1], [1, 1], [0, 0], [0, 0], [1, 1]]
+[[0, 0], [0, 0], [1, 0], [0, 0], [1, 0], [0, 0], [0, 0], [1, 0]]
 Count of transition with bus invert:
- {'transitions': [0, 0, 0], 'sum': 0, 'average': 0.0} 
-There are 8 bits overhead per data and 32 bits overhead for total 32 bits of data (103.125% overhead).
+ {'transitions': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'sum': 0, 'average': 0.0} 
+There are 8 bits overhead per data and 80 bits overhead for total 80 bits of data (101.25000000000001% overhead).
 ============= 8 Partition left-Rotated Bus Inverted Sequence of Data =============
-[[1, 1], [0, 0], [1, 1], [0, 0], [0, 0], [1, 1], [1, 1], [1, 0]]
-[[1, 0], [0, 0], [0, 1], [0, 0], [1, 1], [0, 1], [0, 1], [0, 1]]
-[[1, 0], [0, 0], [1, 1], [1, 1], [0, 1], [1, 1], [1, 1], [0, 0]]
-[[1, 0], [0, 0], [1, 0], [1, 0], [0, 0], [1, 0], [1, 0], [0, 0]]
+[[1, 0], [0, 0], [0, 1], [0, 1], [1, 1], [1, 0], [0, 1], [0, 0]]
+[[1, 0], [1, 1], [1, 1], [0, 0], [0, 1], [1, 0], [1, 1], [0, 0]]
+[[1, 0], [1, 0], [0, 1], [0, 0], [1, 1], [0, 1], [1, 0], [1, 1]]
+[[0, 1], [1, 0], [1, 1], [0, 0], [1, 0], [1, 1], [0, 1], [1, 0]]
+[[1, 1], [0, 1], [0, 1], [1, 1], [1, 0], [0, 1], [0, 0], [0, 1]]
+[[0, 1], [0, 0], [0, 0], [1, 0], [0, 1], [0, 0], [1, 1], [1, 1]]
+[[1, 1], [0, 0], [1, 1], [0, 1], [0, 0], [0, 0], [0, 1], [1, 0]]
+[[1, 0], [1, 1], [0, 1], [0, 0], [0, 0], [0, 0], [0, 0], [1, 0]]
+[[1, 0], [0, 1], [1, 1], [0, 0], [0, 0], [1, 1], [0, 0], [0, 1]]
+[[1, 0], [0, 0], [1, 0], [0, 0], [0, 0], [1, 0], [0, 0], [0, 0]]
 Count of transition with bus invert:
- {'transitions': [0, 0, 0], 'sum': 0, 'average': 0.0} 
-There are 8 bits overhead per data and 32 bits overhead for total 32 bits of data (103.125% overhead).
+ {'transitions': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'sum': 0, 'average': 0.0} 
+There are 8 bits overhead per data and 80 bits overhead for total 80 bits of data (101.25000000000001% overhead).
 ============= Reordered Sequence of Data with windows of size 2 bits =============
-[0, 0, 1, 0, 0, 0, 0, 0]
-[0, 1, 1, 1, 1, 1, 0, 0]
-[0, 0, 0, 1, 0, 0, 0, 1]
 [0, 1, 0, 1, 1, 1, 1, 0]
-Count of transition with bus invert:
- {'transitions': [4, 5, 5], 'sum': 14, 'average': 4.667} 
-There are 1 bits overhead per data and 4 bits overhead for total 32 bits of data (12.5% overhead).
-============= Reordered Sequence of Data with windows of size 4 bits =============
-[0, 0, 0, 0, 1, 0, 0, 0]
-[0, 0, 1, 1, 1, 1, 0, 1]
-[0, 1, 0, 0, 0, 1, 0, 0]
+[0, 0, 0, 1, 1, 0, 0, 1]
+[1, 1, 0, 1, 1, 1, 0, 0]
 [1, 0, 1, 1, 0, 1, 0, 1]
+[1, 1, 1, 0, 1, 0, 0, 1]
+[0, 0, 0, 1, 0, 0, 1, 1]
+[0, 0, 1, 0, 0, 1, 1, 0]
+[0, 1, 1, 1, 0, 0, 0, 0]
+[1, 0, 1, 1, 0, 0, 0, 0]
+[0, 1, 0, 1, 1, 0, 0, 0]
 Count of transition with bus invert:
- {'transitions': [4, 5, 5], 'sum': 14, 'average': 4.667} 
-There are 1 bits overhead per data and 4 bits overhead for total 32 bits of data (12.5% overhead).
+ {'transitions': [4, 4, 4, 4, 6, 4, 4, 2, 4], 'sum': 36, 'average': 4.0} 
+There are 1 bits overhead per data and 10 bits overhead for total 80 bits of data (12.5% overhead).
+============= Reordered Sequence of Data with windows of size 4 bits =============
+[1, 0, 1, 1, 0, 1, 0, 1]
+[0, 1, 1, 0, 0, 1, 0, 0]
+[0, 0, 1, 1, 0, 1, 1, 1]
+[0, 1, 0, 1, 1, 1, 1, 0]
+[0, 1, 1, 0, 1, 0, 1, 1]
+[1, 1, 0, 0, 0, 1, 0, 0]
+[1, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 1, 1, 0, 1]
+[0, 0, 0, 0, 1, 1, 1, 0]
+[0, 0, 1, 0, 0, 1, 0, 1]
+Count of transition with bus invert:
+ {'transitions': [4, 4, 4, 4, 6, 4, 4, 2, 4], 'sum': 36, 'average': 4.0} 
+There are 1 bits overhead per data and 10 bits overhead for total 80 bits of data (12.5% overhead).
 
- Minimum average is 0.0.
+Minimum average among efficient approaches is 0.0 which shows 100.0% improvement over unoptimized sequence.
