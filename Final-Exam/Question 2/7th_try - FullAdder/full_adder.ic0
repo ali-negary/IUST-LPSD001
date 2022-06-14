@@ -1,0 +1,33 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "21:16:49 01/24/2022 "
+* "netlist" "full_adder.sp "
+* "runtitle" "****full adder design****"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ carryf = 6.286e-01       
++ ina = 0.000e+00       
++ inb = 1.000e+00       
++ inc = 1.000e+00       
++ sumf = 1.209e+00       
++ vddh = 3.000e+00       
++ vddl = 3.000e+00       
++ vss = 0.000e+00       
++ xor3.x3 = 1.478e+00       
++ xor3.x4 = 2.184e-01       
++ xor3.x5 = 1.050e+00       
++ xor3.xorex2.xortemp1 = 6.171e-01       
++ xor3.xand6.n2 = 2.999e+00       
++ xor3.xand6.n3 = 1.998e+00       
++ xor3.xand7.n2 = 2.878e+00       
++ xor3.xand7.n3 = 4.319e-01       
++ xor3.xor3.n2 = 2.708e+00       
++ xor3.xor3.n3 = 2.301e+00       
++ xor3.xorex2.xor1.n2 = 1.220e+00       
++ xor3.xorex2.xor2.n2 = 1.801e+00       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,58 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: xor_gate.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   Ali_Negary           HOSTNAME: AliNegary-Desktop
+lic: HOSTID: "d0534943d96d"       PID:      13524
+lic: Using FLEXlm license file:
+lic: 27000@AliNegary-Desktop
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@AliNegary-Desktop
+lic:
+
+ init: begin read circuit files, cpu clock= 5.00E-02
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option post =     2.00
+       option autostop
+       option ingold =     2.00
+       option dcon =     1.00
+ init: end read circuit files, cpu clock= 5.40E-02 peak memory=      62 mb
+ init: begin check errors, cpu clock= 5.40E-02
+ init: end check errors, cpu clock= 6.10E-02 peak memory=      62 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.10E-02
+       establish matrix -- done, cpu clock= 6.20E-02 peak memory=      62 mb
+       re-order matrix -- done, cpu clock= 6.20E-02 peak memory=      62 mb
+ init: end setup matrix, cpu clock= 6.40E-02 peak memory=      62 mb
+ dcop: begin dcop, cpu clock= 6.40E-02
+ dcop: end dcop, cpu clock= 6.70E-02 peak memory=      62 mb tot_iter=      41
+ output: C:\Users\Ali_Negary\Desktop\IUST\Semester 3\Low-Power System Design\Fin
+ sweep: tran tran0    begin, stop_t=  1.00E-07 #sweeps= 991 cpu clock= 6.80E-02
+ tran: time= 1.0010E-08 tot_iter=     245 conv_iter=      80 cpu clock= 7.50E-02
+ tran: time= 2.0000E-08 tot_iter=     466 conv_iter=     153 cpu clock= 8.20E-02
+ tran: time= 3.0010E-08 tot_iter=     710 conv_iter=     230 cpu clock= 8.80E-02
+ tran: time= 4.0000E-08 tot_iter=     931 conv_iter=     303 cpu clock= 9.40E-02
+ tran: time= 5.0010E-08 tot_iter=    1175 conv_iter=     380 cpu clock= 1.01E-01
+ tran: time= 6.0000E-08 tot_iter=    1396 conv_iter=     453 cpu clock= 1.07E-01
+ tran: time= 7.0010E-08 tot_iter=    1640 conv_iter=     530 cpu clock= 1.14E-01
+ tran: time= 8.0000E-08 tot_iter=    1861 conv_iter=     603 cpu clock= 1.17E-01
+ tran: time= 9.0010E-08 tot_iter=    2105 conv_iter=     680 cpu clock= 1.22E-01
+ tran: time= 1.0000E-07 tot_iter=    2326 conv_iter=     753 cpu clock= 1.28E-01
+ sweep: tran tran0    end, cpu clock= 1.28E-01 peak memory=      62 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

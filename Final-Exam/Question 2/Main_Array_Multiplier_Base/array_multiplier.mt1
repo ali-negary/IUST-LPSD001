@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE ''
+ leakage0         temper           alter#          
+    failed         2.500e+01       2               

@@ -1,0 +1,21 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "20:44:11 01/24/2022 "
+* "netlist" "and_gate.sp "
+* "runtitle" "****and gate design****"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ ina = 0.000e+00       
++ inb = 1.000e+00       
++ outf = 4.434e-08       
++ vddh = 1.000e+00       
++ vddl = 1.000e+00       
++ vss = 0.000e+00       
++ xand1.n2 = 1.000e-00       
++ xand1.n3 = 8.954e-01       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,2759 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: array_multiplier_dual_vth.sp                                      
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i array_multiplier_dual_vth.sp -o C:\Users\Ali_Negary\Desktop\IUST\Semester 3\Low-Power System Design\Final Exam\Question2\Array_Multiplier\10th_try - Array Multiplier - DualVth\array_multiplier_dual_vth.lis
+  Start time: Tue Jan 25 10:50:07 2022
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   Ali_Negary           HOSTNAME: AliNegary-Desktop 
+  lic: HOSTID: "d0534943d96d"       PID:      12604 
+  lic: Using FLEXlm license file: 
+  lic: 27000@AliNegary-Desktop 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@AliNegary-Desktop
+  
+  lic:   
+1****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+ ******  
+ ****array multiplier design****
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xam88.                          am88               1.00 
+        2 xam88.xandgate00.               and                1.00 
+        3 xam88.xandgate01.               and                1.00 
+        4 xam88.xandgate02.               and                1.00 
+        5 xam88.xandgate03.               and                1.00 
+        6 xam88.xandgate04.               and                1.00 
+        7 xam88.xandgate05.               and                1.00 
+        8 xam88.xandgate06.               and                1.00 
+        9 xam88.xandgate07.               and                1.00 
+       10 xam88.xandgate10.               and                1.00 
+       11 xam88.xandgate11.               and                1.00 
+       12 xam88.xandgate12.               and                1.00 
+       13 xam88.xandgate13.               and                1.00 
+       14 xam88.xandgate14.               and                1.00 
+       15 xam88.xandgate15.               and                1.00 
+       16 xam88.xandgate16.               and                1.00 
+       17 xam88.xandgate17.               and                1.00 
+       18 xam88.xandgate20.               and                1.00 
+       19 xam88.xandgate21.               and                1.00 
+       20 xam88.xandgate22.               and                1.00 
+       21 xam88.xandgate23.               and                1.00 
+       22 xam88.xandgate24.               and                1.00 
+       23 xam88.xandgate25.               and                1.00 
+       24 xam88.xandgate26.               and                1.00 
+       25 xam88.xandgate27.               and                1.00 
+       26 xam88.xandgate30.               and                1.00 
+       27 xam88.xandgate31.               and                1.00 
+       28 xam88.xandgate32.               and                1.00 
+       29 xam88.xandgate33.               and                1.00 
+       30 xam88.xandgate34.               and                1.00 
+       31 xam88.xandgate35.               and                1.00 
+       32 xam88.xandgate36.               and                1.00 
+       33 xam88.xandgate37.               and                1.00 
+       34 xam88.xandgate40.               and                1.00 
+       35 xam88.xandgate41.               and                1.00 
+       36 xam88.xandgate42.               and                1.00 
+       37 xam88.xandgate43.               and                1.00 
+       38 xam88.xandgate44.               and                1.00 
+       39 xam88.xandgate45.               and                1.00 
+       40 xam88.xandgate46.               and                1.00 
+       41 xam88.xandgate47.               and                1.00 
+       42 xam88.xandgate50.               and                1.00 
+       43 xam88.xandgate51.               and                1.00 
+       44 xam88.xandgate52.               and                1.00 
+       45 xam88.xandgate53.               and                1.00 
+       46 xam88.xandgate54.               and                1.00 
+       47 xam88.xandgate55.               and                1.00 
+       48 xam88.xandgate56.               and                1.00 
+       49 xam88.xandgate57.               and                1.00 
+       50 xam88.xandgate60.               and                1.00 
+       51 xam88.xandgate61.               and                1.00 
+       52 xam88.xandgate62.               and                1.00 
+       53 xam88.xandgate63.               and                1.00 
+       54 xam88.xandgate64.               and                1.00 
+       55 xam88.xandgate65.               and                1.00 
+       56 xam88.xandgate66.               and                1.00 
+       57 xam88.xandgate67.               and                1.00 
+       58 xam88.xandgate70.               and                1.00 
+       59 xam88.xandgate71.               and                1.00 
+       60 xam88.xandgate72.               and                1.00 
+       61 xam88.xandgate73.               and                1.00 
+       62 xam88.xandgate74.               and                1.00 
+       63 xam88.xandgate75.               and                1.00 
+       64 xam88.xandgate76.               and                1.00 
+       65 xam88.xandgate77.               and                1.00 
+       66 xam88.xfulladder01.             fulladder          1.00 
+       67 xam88.xfulladder02.             fulladder          1.00 
+       68 xam88.xfulladder03.             fulladder          1.00 
+       69 xam88.xfulladder04.             fulladder          1.00 
+       70 xam88.xfulladder05.             fulladder          1.00 
+       71 xam88.xfulladder06.             fulladder          1.00 
+       72 xam88.xfulladder11.             fulladder          1.00 
+       73 xam88.xfulladder21.             fulladder          1.00 
+       74 xam88.xfulladder31.             fulladder          1.00 
+       75 xam88.xfulladder41.             fulladder          1.00 
+       76 xam88.xfulladder51.             fulladder          1.00 
+       77 xam88.xfulladder61.             fulladder          1.00 
+       78 xam88.xfulladder16.             fulladderh         1.00 
+       79 xam88.xfulladder12.             fulladderh         1.00 
+       80 xam88.xfulladder13.             fulladderh         1.00 
+       81 xam88.xfulladder14.             fulladderh         1.00 
+       82 xam88.xfulladder15.             fulladderh         1.00 
+       83 xam88.xfulladder17.             fulladderh         1.00 
+       84 xam88.xfulladder22.             fulladderh         1.00 
+       85 xam88.xfulladder23.             fulladderh         1.00 
+       86 xam88.xfulladder24.             fulladderh         1.00 
+       87 xam88.xfulladder25.             fulladderh         1.00 
+       88 xam88.xfulladder26.             fulladderh         1.00 
+       89 xam88.xfulladder27.             fulladderh         1.00 
+       90 xam88.xfulladder32.             fulladderh         1.00 
+       91 xam88.xfulladder33.             fulladderh         1.00 
+       92 xam88.xfulladder34.             fulladderh         1.00 
+       93 xam88.xfulladder35.             fulladderh         1.00 
+       94 xam88.xfulladder36.             fulladderh         1.00 
+       95 xam88.xfulladder37.             fulladderh         1.00 
+       96 xam88.xfulladder42.             fulladderh         1.00 
+       97 xam88.xfulladder43.             fulladderh         1.00 
+       98 xam88.xfulladder44.             fulladderh         1.00 
+       99 xam88.xfulladder45.             fulladderh         1.00 
+      100 xam88.xfulladder46.             fulladderh         1.00 
+      101 xam88.xfulladder47.             fulladderh         1.00 
+      102 xam88.xfulladder52.             fulladderh         1.00 
+      103 xam88.xfulladder53.             fulladderh         1.00 
+      104 xam88.xfulladder54.             fulladderh         1.00 
+      105 xam88.xfulladder55.             fulladderh         1.00 
+      106 xam88.xfulladder56.             fulladderh         1.00 
+      107 xam88.xfulladder57.             fulladderh         1.00 
+      108 xam88.xfulladder62.             fulladder          1.00 
+      109 xam88.xfulladder63.             fulladder          1.00 
+      110 xam88.xfulladder64.             fulladder          1.00 
+      111 xam88.xfulladder65.             fulladder          1.00 
+      112 xam88.xfulladder66.             fulladder          1.00 
+      113 xam88.xfulladder67.             fulladder          1.00 
+      114 xam88.xhalfadder1.              halfadder          1.00 
+      115 xam88.xhalfadder2.              halfadder          1.00 
+      116 xam88.xhalfadder3.              halfadder          1.00 
+      117 xam88.xhalfadder4.              halfadder          1.00 
+      118 xam88.xhalfadder5.              halfadder          1.00 
+      119 xam88.xhalfadder6.              halfadder          1.00 
+      120 xam88.xhalfadder7.              halfadder          1.00 
+      121 xam88.xhalfadder8.              halfadder          1.00 
+      122 xam88.xfulladder01.xorexfa.     orx3f2             1.00 
+      123 xam88.xfulladder01.xandfa0.     and                1.00 
+      124 xam88.xfulladder01.xandfa1.     and                1.00 
+      125 xam88.xfulladder01.xandfa2.     and                1.00 
+      126 xam88.xfulladder01.xorfa0.      or                 1.00 
+      127 xam88.xfulladder01.xorfa1.      or                 1.00 
+      128 xam88.xfulladder02.xorexfa.     orx3f2             1.00 
+      129 xam88.xfulladder02.xandfa0.     and                1.00 
+      130 xam88.xfulladder02.xandfa1.     and                1.00 
+      131 xam88.xfulladder02.xandfa2.     and                1.00 
+      132 xam88.xfulladder02.xorfa0.      or                 1.00 
+      133 xam88.xfulladder02.xorfa1.      or                 1.00 
+      134 xam88.xfulladder03.xorexfa.     orx3f2             1.00 
+      135 xam88.xfulladder03.xandfa0.     and                1.00 
+      136 xam88.xfulladder03.xandfa1.     and                1.00 
+      137 xam88.xfulladder03.xandfa2.     and                1.00 
+      138 xam88.xfulladder03.xorfa0.      or                 1.00 
+      139 xam88.xfulladder03.xorfa1.      or                 1.00 
+      140 xam88.xfulladder04.xorexfa.     orx3f2             1.00 
+      141 xam88.xfulladder04.xandfa0.     and                1.00 
+      142 xam88.xfulladder04.xandfa1.     and                1.00 
+      143 xam88.xfulladder04.xandfa2.     and                1.00 
+      144 xam88.xfulladder04.xorfa0.      or                 1.00 
+      145 xam88.xfulladder04.xorfa1.      or                 1.00 
+      146 xam88.xfulladder05.xorexfa.     orx3f2             1.00 
+      147 xam88.xfulladder05.xandfa0.     and                1.00 
+      148 xam88.xfulladder05.xandfa1.     and                1.00 
+      149 xam88.xfulladder05.xandfa2.     and                1.00 
+      150 xam88.xfulladder05.xorfa0.      or                 1.00 
+      151 xam88.xfulladder05.xorfa1.      or                 1.00 
+      152 xam88.xfulladder06.xorexfa.     orx3f2             1.00 
+      153 xam88.xfulladder06.xandfa0.     and                1.00 
+      154 xam88.xfulladder06.xandfa1.     and                1.00 
+      155 xam88.xfulladder06.xandfa2.     and                1.00 
+      156 xam88.xfulladder06.xorfa0.      or                 1.00 
+      157 xam88.xfulladder06.xorfa1.      or                 1.00 
+      158 xam88.xfulladder11.xorexfa.     orx3f2             1.00 
+      159 xam88.xfulladder11.xandfa0.     and                1.00 
+      160 xam88.xfulladder11.xandfa1.     and                1.00 
+      161 xam88.xfulladder11.xandfa2.     and                1.00 
+      162 xam88.xfulladder11.xorfa0.      or                 1.00 
+      163 xam88.xfulladder11.xorfa1.      or                 1.00 
+      164 xam88.xfulladder21.xorexfa.     orx3f2             1.00 
+      165 xam88.xfulladder21.xandfa0.     and                1.00 
+      166 xam88.xfulladder21.xandfa1.     and                1.00 
+      167 xam88.xfulladder21.xandfa2.     and                1.00 
+      168 xam88.xfulladder21.xorfa0.      or                 1.00 
+      169 xam88.xfulladder21.xorfa1.      or                 1.00 
+      170 xam88.xfulladder31.xorexfa.     orx3f2             1.00 
+      171 xam88.xfulladder31.xandfa0.     and                1.00 
+      172 xam88.xfulladder31.xandfa1.     and                1.00 
+      173 xam88.xfulladder31.xandfa2.     and                1.00 
+      174 xam88.xfulladder31.xorfa0.      or                 1.00 
+      175 xam88.xfulladder31.xorfa1.      or                 1.00 
+      176 xam88.xfulladder41.xorexfa.     orx3f2             1.00 
+      177 xam88.xfulladder41.xandfa0.     and                1.00 
+      178 xam88.xfulladder41.xandfa1.     and                1.00 
+      179 xam88.xfulladder41.xandfa2.     and                1.00 
+      180 xam88.xfulladder41.xorfa0.      or                 1.00 
+      181 xam88.xfulladder41.xorfa1.      or                 1.00 
+      182 xam88.xfulladder51.xorexfa.     orx3f2             1.00 
+      183 xam88.xfulladder51.xandfa0.     and                1.00 
+      184 xam88.xfulladder51.xandfa1.     and                1.00 
+      185 xam88.xfulladder51.xandfa2.     and                1.00 
+      186 xam88.xfulladder51.xorfa0.      or                 1.00 
+      187 xam88.xfulladder51.xorfa1.      or                 1.00 
+      188 xam88.xfulladder61.xorexfa.     orx3f2             1.00 
+      189 xam88.xfulladder61.xandfa0.     and                1.00 
+      190 xam88.xfulladder61.xandfa1.     and                1.00 
+      191 xam88.xfulladder61.xandfa2.     and                1.00 
+      192 xam88.xfulladder61.xorfa0.      or                 1.00 
+      193 xam88.xfulladder61.xorfa1.      or                 1.00 
+      194 xam88.xfulladder16.xorexfah.    orx3f2h            1.00 
+      195 xam88.xfulladder16.xandfah0.    andh               1.00 
+      196 xam88.xfulladder16.xandfah1.    andh               1.00 
+      197 xam88.xfulladder16.xandfah2.    andh               1.00 
+      198 xam88.xfulladder16.xorfah0.     orh                1.00 
+      199 xam88.xfulladder16.xorfah1.     orh                1.00 
+      200 xam88.xfulladder12.xorexfah.    orx3f2h            1.00 
+      201 xam88.xfulladder12.xandfah0.    andh               1.00 
+      202 xam88.xfulladder12.xandfah1.    andh               1.00 
+      203 xam88.xfulladder12.xandfah2.    andh               1.00 
+      204 xam88.xfulladder12.xorfah0.     orh                1.00 
+      205 xam88.xfulladder12.xorfah1.     orh                1.00 
+      206 xam88.xfulladder13.xorexfah.    orx3f2h            1.00 
+      207 xam88.xfulladder13.xandfah0.    andh               1.00 
+      208 xam88.xfulladder13.xandfah1.    andh               1.00 
+      209 xam88.xfulladder13.xandfah2.    andh               1.00 
+      210 xam88.xfulladder13.xorfah0.     orh                1.00 
+      211 xam88.xfulladder13.xorfah1.     orh                1.00 
+      212 xam88.xfulladder14.xorexfah.    orx3f2h            1.00 
+      213 xam88.xfulladder14.xandfah0.    andh               1.00 
+      214 xam88.xfulladder14.xandfah1.    andh               1.00 
+      215 xam88.xfulladder14.xandfah2.    andh               1.00 
+      216 xam88.xfulladder14.xorfah0.     orh                1.00 
+      217 xam88.xfulladder14.xorfah1.     orh                1.00 
+      218 xam88.xfulladder15.xorexfah.    orx3f2h            1.00 
+      219 xam88.xfulladder15.xandfah0.    andh               1.00 
+      220 xam88.xfulladder15.xandfah1.    andh               1.00 
+      221 xam88.xfulladder15.xandfah2.    andh               1.00 
+      222 xam88.xfulladder15.xorfah0.     orh                1.00 
+      223 xam88.xfulladder15.xorfah1.     orh                1.00 
+      224 xam88.xfulladder17.xorexfah.    orx3f2h            1.00 
+      225 xam88.xfulladder17.xandfah0.    andh               1.00 
+      226 xam88.xfulladder17.xandfah1.    andh               1.00 
+      227 xam88.xfulladder17.xandfah2.    andh               1.00 
+      228 xam88.xfulladder17.xorfah0.     orh                1.00 
+      229 xam88.xfulladder17.xorfah1.     orh                1.00 
+      230 xam88.xfulladder22.xorexfah.    orx3f2h            1.00 
+      231 xam88.xfulladder22.xandfah0.    andh               1.00 
+      232 xam88.xfulladder22.xandfah1.    andh               1.00 
+      233 xam88.xfulladder22.xandfah2.    andh               1.00 
+      234 xam88.xfulladder22.xorfah0.     orh                1.00 
+      235 xam88.xfulladder22.xorfah1.     orh                1.00 
+      236 xam88.xfulladder23.xorexfah.    orx3f2h            1.00 
+      237 xam88.xfulladder23.xandfah0.    andh               1.00 
+      238 xam88.xfulladder23.xandfah1.    andh               1.00 
+      239 xam88.xfulladder23.xandfah2.    andh               1.00 
+      240 xam88.xfulladder23.xorfah0.     orh                1.00 
+      241 xam88.xfulladder23.xorfah1.     orh                1.00 
+      242 xam88.xfulladder24.xorexfah.    orx3f2h            1.00 
+      243 xam88.xfulladder24.xandfah0.    andh               1.00 
+      244 xam88.xfulladder24.xandfah1.    andh               1.00 
+      245 xam88.xfulladder24.xandfah2.    andh               1.00 
+      246 xam88.xfulladder24.xorfah0.     orh                1.00 
+      247 xam88.xfulladder24.xorfah1.     orh                1.00 
+      248 xam88.xfulladder25.xorexfah.    orx3f2h            1.00 
+      249 xam88.xfulladder25.xandfah0.    andh               1.00 
+      250 xam88.xfulladder25.xandfah1.    andh               1.00 
+      251 xam88.xfulladder25.xandfah2.    andh               1.00 
+      252 xam88.xfulladder25.xorfah0.     orh                1.00 
+      253 xam88.xfulladder25.xorfah1.     orh                1.00 
+      254 xam88.xfulladder26.xorexfah.    orx3f2h            1.00 
+      255 xam88.xfulladder26.xandfah0.    andh               1.00 
+      256 xam88.xfulladder26.xandfah1.    andh               1.00 
+      257 xam88.xfulladder26.xandfah2.    andh               1.00 
+      258 xam88.xfulladder26.xorfah0.     orh                1.00 
+      259 xam88.xfulladder26.xorfah1.     orh                1.00 
+      260 xam88.xfulladder27.xorexfah.    orx3f2h            1.00 
+      261 xam88.xfulladder27.xandfah0.    andh               1.00 
+      262 xam88.xfulladder27.xandfah1.    andh               1.00 
+      263 xam88.xfulladder27.xandfah2.    andh               1.00 
+      264 xam88.xfulladder27.xorfah0.     orh                1.00 
+      265 xam88.xfulladder27.xorfah1.     orh                1.00 
+      266 xam88.xfulladder32.xorexfah.    orx3f2h            1.00 
+      267 xam88.xfulladder32.xandfah0.    andh               1.00 
+      268 xam88.xfulladder32.xandfah1.    andh               1.00 
+      269 xam88.xfulladder32.xandfah2.    andh               1.00 
+      270 xam88.xfulladder32.xorfah0.     orh                1.00 
+      271 xam88.xfulladder32.xorfah1.     orh                1.00 
+      272 xam88.xfulladder33.xorexfah.    orx3f2h            1.00 
+      273 xam88.xfulladder33.xandfah0.    andh               1.00 
+      274 xam88.xfulladder33.xandfah1.    andh               1.00 
+      275 xam88.xfulladder33.xandfah2.    andh               1.00 
+      276 xam88.xfulladder33.xorfah0.     orh                1.00 
+      277 xam88.xfulladder33.xorfah1.     orh                1.00 
+      278 xam88.xfulladder34.xorexfah.    orx3f2h            1.00 
+      279 xam88.xfulladder34.xandfah0.    andh               1.00 
+      280 xam88.xfulladder34.xandfah1.    andh               1.00 
+      281 xam88.xfulladder34.xandfah2.    andh               1.00 
+      282 xam88.xfulladder34.xorfah0.     orh                1.00 
+      283 xam88.xfulladder34.xorfah1.     orh                1.00 
+      284 xam88.xfulladder35.xorexfah.    orx3f2h            1.00 
+      285 xam88.xfulladder35.xandfah0.    andh               1.00 
+      286 xam88.xfulladder35.xandfah1.    andh               1.00 
+      287 xam88.xfulladder35.xandfah2.    andh               1.00 
+      288 xam88.xfulladder35.xorfah0.     orh                1.00 
+      289 xam88.xfulladder35.xorfah1.     orh                1.00 
+      290 xam88.xfulladder36.xorexfah.    orx3f2h            1.00 
+      291 xam88.xfulladder36.xandfah0.    andh               1.00 
+      292 xam88.xfulladder36.xandfah1.    andh               1.00 
+      293 xam88.xfulladder36.xandfah2.    andh               1.00 
+      294 xam88.xfulladder36.xorfah0.     orh                1.00 
+      295 xam88.xfulladder36.xorfah1.     orh                1.00 
+      296 xam88.xfulladder37.xorexfah.    orx3f2h            1.00 
+      297 xam88.xfulladder37.xandfah0.    andh               1.00 
+      298 xam88.xfulladder37.xandfah1.    andh               1.00 
+      299 xam88.xfulladder37.xandfah2.    andh               1.00 
+      300 xam88.xfulladder37.xorfah0.     orh                1.00 
+      301 xam88.xfulladder37.xorfah1.     orh                1.00 
+      302 xam88.xfulladder42.xorexfah.    orx3f2h            1.00 
+      303 xam88.xfulladder42.xandfah0.    andh               1.00 
+      304 xam88.xfulladder42.xandfah1.    andh               1.00 
+      305 xam88.xfulladder42.xandfah2.    andh               1.00 
+      306 xam88.xfulladder42.xorfah0.     orh                1.00 
+      307 xam88.xfulladder42.xorfah1.     orh                1.00 
+      308 xam88.xfulladder43.xorexfah.    orx3f2h            1.00 
+      309 xam88.xfulladder43.xandfah0.    andh               1.00 
+      310 xam88.xfulladder43.xandfah1.    andh               1.00 
+      311 xam88.xfulladder43.xandfah2.    andh               1.00 
+      312 xam88.xfulladder43.xorfah0.     orh                1.00 
+      313 xam88.xfulladder43.xorfah1.     orh                1.00 
+      314 xam88.xfulladder44.xorexfah.    orx3f2h            1.00 
+      315 xam88.xfulladder44.xandfah0.    andh               1.00 
+      316 xam88.xfulladder44.xandfah1.    andh               1.00 
+      317 xam88.xfulladder44.xandfah2.    andh               1.00 
+      318 xam88.xfulladder44.xorfah0.     orh                1.00 
+      319 xam88.xfulladder44.xorfah1.     orh                1.00 
+      320 xam88.xfulladder45.xorexfah.    orx3f2h            1.00 
+      321 xam88.xfulladder45.xandfah0.    andh               1.00 
+      322 xam88.xfulladder45.xandfah1.    andh               1.00 
+      323 xam88.xfulladder45.xandfah2.    andh               1.00 
+      324 xam88.xfulladder45.xorfah0.     orh                1.00 
+      325 xam88.xfulladder45.xorfah1.     orh                1.00 
+      326 xam88.xfulladder46.xorexfah.    orx3f2h            1.00 
+      327 xam88.xfulladder46.xandfah0.    andh               1.00 
+      328 xam88.xfulladder46.xandfah1.    andh               1.00 
+      329 xam88.xfulladder46.xandfah2.    andh               1.00 
+      330 xam88.xfulladder46.xorfah0.     orh                1.00 
+      331 xam88.xfulladder46.xorfah1.     orh                1.00 
+      332 xam88.xfulladder47.xorexfah.    orx3f2h            1.00 
+      333 xam88.xfulladder47.xandfah0.    andh               1.00 
+      334 xam88.xfulladder47.xandfah1.    andh               1.00 
+      335 xam88.xfulladder47.xandfah2.    andh               1.00 
+      336 xam88.xfulladder47.xorfah0.     orh                1.00 
+      337 xam88.xfulladder47.xorfah1.     orh                1.00 
+      338 xam88.xfulladder52.xorexfah.    orx3f2h            1.00 
+      339 xam88.xfulladder52.xandfah0.    andh               1.00 
+      340 xam88.xfulladder52.xandfah1.    andh               1.00 
+      341 xam88.xfulladder52.xandfah2.    andh               1.00 
+      342 xam88.xfulladder52.xorfah0.     orh                1.00 
+      343 xam88.xfulladder52.xorfah1.     orh                1.00 
+      344 xam88.xfulladder53.xorexfah.    orx3f2h            1.00 
+      345 xam88.xfulladder53.xandfah0.    andh               1.00 
+      346 xam88.xfulladder53.xandfah1.    andh               1.00 
+      347 xam88.xfulladder53.xandfah2.    andh               1.00 
+      348 xam88.xfulladder53.xorfah0.     orh                1.00 
+      349 xam88.xfulladder53.xorfah1.     orh                1.00 
+      350 xam88.xfulladder54.xorexfah.    orx3f2h            1.00 
+      351 xam88.xfulladder54.xandfah0.    andh               1.00 
+      352 xam88.xfulladder54.xandfah1.    andh               1.00 
+      353 xam88.xfulladder54.xandfah2.    andh               1.00 
+      354 xam88.xfulladder54.xorfah0.     orh                1.00 
+      355 xam88.xfulladder54.xorfah1.     orh                1.00 
+      356 xam88.xfulladder55.xorexfah.    orx3f2h            1.00 
+      357 xam88.xfulladder55.xandfah0.    andh               1.00 
+      358 xam88.xfulladder55.xandfah1.    andh               1.00 
+      359 xam88.xfulladder55.xandfah2.    andh               1.00 
+      360 xam88.xfulladder55.xorfah0.     orh                1.00 
+      361 xam88.xfulladder55.xorfah1.     orh                1.00 
+      362 xam88.xfulladder56.xorexfah.    orx3f2h            1.00 
+      363 xam88.xfulladder56.xandfah0.    andh               1.00 
+      364 xam88.xfulladder56.xandfah1.    andh               1.00 
+      365 xam88.xfulladder56.xandfah2.    andh               1.00 
+      366 xam88.xfulladder56.xorfah0.     orh                1.00 
+      367 xam88.xfulladder56.xorfah1.     orh                1.00 
+      368 xam88.xfulladder57.xorexfah.    orx3f2h            1.00 
+      369 xam88.xfulladder57.xandfah0.    andh               1.00 
+      370 xam88.xfulladder57.xandfah1.    andh               1.00 
+      371 xam88.xfulladder57.xandfah2.    andh               1.00 
+      372 xam88.xfulladder57.xorfah0.     orh                1.00 
+      373 xam88.xfulladder57.xorfah1.     orh                1.00 
+      374 xam88.xfulladder62.xorexfa.     orx3f2             1.00 
+      375 xam88.xfulladder62.xandfa0.     and                1.00 
+      376 xam88.xfulladder62.xandfa1.     and                1.00 
+      377 xam88.xfulladder62.xandfa2.     and                1.00 
+      378 xam88.xfulladder62.xorfa0.      or                 1.00 
+      379 xam88.xfulladder62.xorfa1.      or                 1.00 
+      380 xam88.xfulladder63.xorexfa.     orx3f2             1.00 
+      381 xam88.xfulladder63.xandfa0.     and                1.00 
+      382 xam88.xfulladder63.xandfa1.     and                1.00 
+      383 xam88.xfulladder63.xandfa2.     and                1.00 
+      384 xam88.xfulladder63.xorfa0.      or                 1.00 
+      385 xam88.xfulladder63.xorfa1.      or                 1.00 
+      386 xam88.xfulladder64.xorexfa.     orx3f2             1.00 
+      387 xam88.xfulladder64.xandfa0.     and                1.00 
+      388 xam88.xfulladder64.xandfa1.     and                1.00 
+      389 xam88.xfulladder64.xandfa2.     and                1.00 
+      390 xam88.xfulladder64.xorfa0.      or                 1.00 
+      391 xam88.xfulladder64.xorfa1.      or                 1.00 
+      392 xam88.xfulladder65.xorexfa.     orx3f2             1.00 
+      393 xam88.xfulladder65.xandfa0.     and                1.00 
+      394 xam88.xfulladder65.xandfa1.     and                1.00 
+      395 xam88.xfulladder65.xandfa2.     and                1.00 
+      396 xam88.xfulladder65.xorfa0.      or                 1.00 
+      397 xam88.xfulladder65.xorfa1.      or                 1.00 
+      398 xam88.xfulladder66.xorexfa.     orx3f2             1.00 
+      399 xam88.xfulladder66.xandfa0.     and                1.00 
+      400 xam88.xfulladder66.xandfa1.     and                1.00 
+      401 xam88.xfulladder66.xandfa2.     and                1.00 
+      402 xam88.xfulladder66.xorfa0.      or                 1.00 
+      403 xam88.xfulladder66.xorfa1.      or                 1.00 
+      404 xam88.xfulladder67.xorexfa.     orx3f2             1.00 
+      405 xam88.xfulladder67.xandfa0.     and                1.00 
+      406 xam88.xfulladder67.xandfa1.     and                1.00 
+      407 xam88.xfulladder67.xandfa2.     and                1.00 
+      408 xam88.xfulladder67.xorfa0.      or                 1.00 
+      409 xam88.xfulladder67.xorfa1.      or                 1.00 
+      410 xam88.xhalfadder1.xorxha1.      orx                1.00 
+      411 xam88.xhalfadder1.xandha1.      and                1.00 
+      412 xam88.xhalfadder2.xorxha1.      orx                1.00 
+      413 xam88.xhalfadder2.xandha1.      and                1.00 
+      414 xam88.xhalfadder3.xorxha1.      orx                1.00 
+      415 xam88.xhalfadder3.xandha1.      and                1.00 
+      416 xam88.xhalfadder4.xorxha1.      orx                1.00 
+      417 xam88.xhalfadder4.xandha1.      and                1.00 
+      418 xam88.xhalfadder5.xorxha1.      orx                1.00 
+      419 xam88.xhalfadder5.xandha1.      and                1.00 
+      420 xam88.xhalfadder6.xorxha1.      orx                1.00 
+      421 xam88.xhalfadder6.xandha1.      and                1.00 
+      422 xam88.xhalfadder7.xorxha1.      orx                1.00 
+      423 xam88.xhalfadder7.xandha1.      and                1.00 
+      424 xam88.xhalfadder8.xorxha1.      orx                1.00 
+      425 xam88.xhalfadder8.xandha1.      and                1.00 
+      426 xam88.xfulladder01.xorexfa.xor3f1.
+                                            orx                1.00 
+      427 xam88.xfulladder01.xorexfa.xor3f2.
+                                            orx                1.00 
+      428 xam88.xfulladder02.xorexfa.xor3f1.
+                                            orx                1.00 
+      429 xam88.xfulladder02.xorexfa.xor3f2.
+                                            orx                1.00 
+      430 xam88.xfulladder03.xorexfa.xor3f1.
+                                            orx                1.00 
+      431 xam88.xfulladder03.xorexfa.xor3f2.
+                                            orx                1.00 
+      432 xam88.xfulladder04.xorexfa.xor3f1.
+                                            orx                1.00 
+      433 xam88.xfulladder04.xorexfa.xor3f2.
+                                            orx                1.00 
+      434 xam88.xfulladder05.xorexfa.xor3f1.
+                                            orx                1.00 
+      435 xam88.xfulladder05.xorexfa.xor3f2.
+                                            orx                1.00 
+      436 xam88.xfulladder06.xorexfa.xor3f1.
+                                            orx                1.00 
+      437 xam88.xfulladder06.xorexfa.xor3f2.
+                                            orx                1.00 
+      438 xam88.xfulladder11.xorexfa.xor3f1.
+                                            orx                1.00 
+      439 xam88.xfulladder11.xorexfa.xor3f2.
+                                            orx                1.00 
+      440 xam88.xfulladder21.xorexfa.xor3f1.
+                                            orx                1.00 
+      441 xam88.xfulladder21.xorexfa.xor3f2.
+                                            orx                1.00 
+      442 xam88.xfulladder31.xorexfa.xor3f1.
+                                            orx                1.00 
+      443 xam88.xfulladder31.xorexfa.xor3f2.
+                                            orx                1.00 
+      444 xam88.xfulladder41.xorexfa.xor3f1.
+                                            orx                1.00 
+      445 xam88.xfulladder41.xorexfa.xor3f2.
+                                            orx                1.00 
+      446 xam88.xfulladder51.xorexfa.xor3f1.
+                                            orx                1.00 
+      447 xam88.xfulladder51.xorexfa.xor3f2.
+                                            orx                1.00 
+      448 xam88.xfulladder61.xorexfa.xor3f1.
+                                            orx                1.00 
+      449 xam88.xfulladder61.xorexfa.xor3f2.
+                                            orx                1.00 
+      450 xam88.xfulladder16.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      451 xam88.xfulladder16.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      452 xam88.xfulladder12.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      453 xam88.xfulladder12.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      454 xam88.xfulladder13.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      455 xam88.xfulladder13.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      456 xam88.xfulladder14.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      457 xam88.xfulladder14.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      458 xam88.xfulladder15.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      459 xam88.xfulladder15.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      460 xam88.xfulladder17.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      461 xam88.xfulladder17.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      462 xam88.xfulladder22.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      463 xam88.xfulladder22.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      464 xam88.xfulladder23.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      465 xam88.xfulladder23.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      466 xam88.xfulladder24.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      467 xam88.xfulladder24.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      468 xam88.xfulladder25.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      469 xam88.xfulladder25.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      470 xam88.xfulladder26.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      471 xam88.xfulladder26.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      472 xam88.xfulladder27.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      473 xam88.xfulladder27.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      474 xam88.xfulladder32.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      475 xam88.xfulladder32.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      476 xam88.xfulladder33.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      477 xam88.xfulladder33.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      478 xam88.xfulladder34.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      479 xam88.xfulladder34.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      480 xam88.xfulladder35.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      481 xam88.xfulladder35.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      482 xam88.xfulladder36.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      483 xam88.xfulladder36.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      484 xam88.xfulladder37.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      485 xam88.xfulladder37.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      486 xam88.xfulladder42.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      487 xam88.xfulladder42.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      488 xam88.xfulladder43.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      489 xam88.xfulladder43.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      490 xam88.xfulladder44.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      491 xam88.xfulladder44.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      492 xam88.xfulladder45.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      493 xam88.xfulladder45.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      494 xam88.xfulladder46.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      495 xam88.xfulladder46.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      496 xam88.xfulladder47.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      497 xam88.xfulladder47.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      498 xam88.xfulladder52.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      499 xam88.xfulladder52.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      500 xam88.xfulladder53.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      501 xam88.xfulladder53.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      502 xam88.xfulladder54.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      503 xam88.xfulladder54.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      504 xam88.xfulladder55.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      505 xam88.xfulladder55.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      506 xam88.xfulladder56.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      507 xam88.xfulladder56.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      508 xam88.xfulladder57.xorexfah.xor3f1h.
+                                            orxh               1.00 
+      509 xam88.xfulladder57.xorexfah.xor3f2h.
+                                            orxh               1.00 
+      510 xam88.xfulladder62.xorexfa.xor3f1.
+                                            orx                1.00 
+      511 xam88.xfulladder62.xorexfa.xor3f2.
+                                            orx                1.00 
+      512 xam88.xfulladder63.xorexfa.xor3f1.
+                                            orx                1.00 
+      513 xam88.xfulladder63.xorexfa.xor3f2.
+                                            orx                1.00 
+      514 xam88.xfulladder64.xorexfa.xor3f1.
+                                            orx                1.00 
+      515 xam88.xfulladder64.xorexfa.xor3f2.
+                                            orx                1.00 
+      516 xam88.xfulladder65.xorexfa.xor3f1.
+                                            orx                1.00 
+      517 xam88.xfulladder65.xorexfa.xor3f2.
+                                            orx                1.00 
+      518 xam88.xfulladder66.xorexfa.xor3f1.
+                                            orx                1.00 
+      519 xam88.xfulladder66.xorexfa.xor3f2.
+                                            orx                1.00 
+      520 xam88.xfulladder67.xorexfa.xor3f1.
+                                            orx                1.00 
+      521 xam88.xfulladder67.xorexfa.xor3f2.
+                                            orx                1.00 
+
+ **warning** It is recommended that you set start explicitly:
+             .TRAN tstep tstop START=val
+
+
+ ******  
+ ****array multiplier design****
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ Model file: cmos_45nm.lib
+ Model line:            5
+ Model Name: nmos  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.8e-09 
+    TOXE = 1.8e-09 
+    TOXP = 1.5e-09 
+    TOXM = 1.8e-09 
+    DTOX =  3e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    1.6 
+    XJ = 1.4e-08 
+    VSAT = 1.3e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.24e+18 
+    NSD =  2e+20 
+    NGATE =  1e+23 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 = 0.6226 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.049 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    210 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0125 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL =      0 
+    XLREF =      0 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01521 
+    BIGC = 0.002743 
+    CIGC =  0.002 
+    AIGSD = 0.01521 
+    BIGSD = 0.002743 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.189e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC =      0 
+    DLCIG =      0 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT =      0 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model file: cmos_45nm.lib
+ Model line:           74
+ Model Name: pmos  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.82e-09 
+    TOXE = 1.82e-09 
+    TOXP = 1.5e-09 
+    TOXM = 1.82e-09 
+    DTOX = 3.2e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    1.8 
+    XJ = 1.4e-08 
+    VSAT =  9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  1e+23 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.587 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.021 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    250 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0125 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL =      0 
+    XLREF =      0 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.0097 
+    BIGC = 0.00125 
+    CIGC = 0.0008 
+    AIGSD = 0.0097 
+    BIGSD = 0.00125 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.186e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC =      0 
+    DLCIG =      0 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT =      0 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model file: cmos_45nm_high_treshold.lib
+ Model line:            5
+ Model Name: hnmos  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.8e-09 
+    TOXE = 1.8e-09 
+    TOXP = 1.5e-09 
+    TOXM = 1.8e-09 
+    DTOX =  3e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    1.6 
+    XJ = 1.4e-08 
+    VSAT = 1.3e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.24e+18 
+    NSD =  2e+20 
+    NGATE =  1e+23 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 = 0.7226 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.049 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    210 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0125 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL =      0 
+    XLREF =      0 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01521 
+    BIGC = 0.002743 
+    CIGC =  0.002 
+    AIGSD = 0.01521 
+    BIGSD = 0.002743 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.189e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC =      0 
+    DLCIG =      0 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT =      0 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ Model file: cmos_45nm_high_treshold.lib
+ Model line:           74
+ Model Name: hpmos  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.82e-09 
+    TOXE = 1.82e-09 
+    TOXP = 1.5e-09 
+    TOXM = 1.82e-09 
+    DTOX = 3.2e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    1.8 
+    XJ = 1.4e-08 
+    VSAT =  9e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  1e+23 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.687 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.021 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    250 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0125 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL =      0 
+    XLREF =      0 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.0097 
+    BIGC = 0.00125 
+    CIGC = 0.0008 
+    AIGSD = 0.0097 
+    BIGSD = 0.00125 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.186e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC =      0 
+    DLCIG =      0 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT =      0 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **info** (array_multiplier_dual_vth.sp:319) DC voltage reset to initial transient source value in source 0:vxx0. new dc=0.0000D+00
+  **warning** (nmos:mn1 (array_multiplier_dual_vth.sp:59)) Warning:  Acde = 0.280299 may be too small in BSIM4 model with w=4.5e-08 l=4.5e-08.
+  
+  **warning** No connections on node zz10; Node ignored.
+             
+ Warning:'No DC path nodes' occurs 41 times
+ No DC path from the following nodes,connected with gdcpath:
+ --------------------------
+ |Node         |Subckt    |
+ |-------------+----------|
+ |xam88.outfa01|am88      |
+ |xam88.outfa03|am88      |
+ |xam88.outfa04|am88      |
+ |xam88.outfa05|am88      |
+ |xam88.outfa06|am88      |
+ |xam88.outfa08|am88      |
+ |xam88.outfa11|am88      |
+ |xam88.outfa13|am88      |
+ |xam88.outfa14|am88      |
+ |xam88.outfa15|am88      |
+ --------------------------
+              
+             
+ Warning:'1 connection nodes' occurs 120 times
+ Summary of 1 connection from the following nodes:
+ -------------------------------------------
+ |Node                          |Subckt    |
+ |------------------------------+----------|
+ |xam88.xfulladder16.xorfah0.hn2|orh       |
+ |xam88.xfulladder16.xorfah0.n2h|orh       |
+ |xam88.xfulladder16.xorfah1.hn2|orh       |
+ |xam88.xfulladder16.xorfah1.n2h|orh       |
+ |xam88.xfulladder12.xorfah0.hn2|orh       |
+ |xam88.xfulladder12.xorfah0.n2h|orh       |
+ |xam88.xfulladder12.xorfah1.hn2|orh       |
+ |xam88.xfulladder12.xorfah1.n2h|orh       |
+ |xam88.xfulladder13.xorfah0.hn2|orh       |
+ |xam88.xfulladder13.xorfah0.n2h|orh       |
+ -------------------------------------------
+              
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 79
+ file=C:\Users\Ali_Negary\Desktop\IUST\Semester 3\Low-Power System Design\Final Exam\Question2\Array_Multiplier\10th_try - Array Multiplier - DualVth\array_multiplier_dual_vth.pa0
+
+ no convergence with standard algorithm,  trying damped pseudo-transient
+
+   *** pseudo tran failed *** 
+  *** gshunt ramping started *** 
+  *** gshunt ramping succeeded *** 
+ ******  
+ ****array multiplier design****
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is   0.000e+00
+      node    =voltage        node    =voltage        node    =voltage
+
+ +  0:vddh    = 2.000e+00   0:vss     = 0.000e+00   0:xx0     = 0.000e+00
+ +  0:xx1     = 2.000e+00   0:xx2     = 2.000e+00   0:xx3     = 2.000e+00
+ +  0:xx4     = 2.000e+00   0:xx5     = 2.000e+00   0:xx6     = 0.000e+00
+ +  0:xx7     = 2.000e+00   0:yy0     = 2.000e+00   0:yy1     = 2.000e+00
+ +  0:yy2     = 2.000e+00   0:yy3     = 2.000e+00   0:yy4     = 2.000e+00
+ +  0:yy5     = 0.000e+00   0:yy6     = 0.000e+00   0:yy7     = 0.000e+00
+ +  0:zz0     = 2.494e-03   0:zz10    = 0.000e+00   0:zz11    = 0.000e+00
+ +  0:zz12    = 0.000e+00   0:zz13    = 0.000e+00   0:zz14    = 0.000e+00
+ +  0:zz15    = 1.905e-03   0:zz2     = 1.035e+00   0:zz3     = 1.035e+00
+ +  0:zz4     = 1.035e+00   0:zz5     = 1.000e+00   0:zz6     = 1.000e+00
+ +  0:zz7     = 1.000e+00   0:zz8     = 0.000e+00   0:zz9     = 0.000e+00
+ +  1:andout01= 4.769e-01   1:andout02= 4.703e-01   1:andout03= 4.703e-01
+ +  1:andout04= 4.703e-01   1:andout05= 4.333e-01   1:andout06= 4.333e-01
+ +  1:andout07= 4.333e-01   1:andout10= 1.998e+00   1:andout11= 1.998e+00
+ +  1:andout12= 1.998e+00   1:andout13= 1.998e+00   1:andout14= 1.998e+00
+ +  1:andout15= 1.166e+00   1:andout16= 1.166e+00   1:andout17= 1.166e+00
+ +  1:andout20= 1.998e+00   1:andout21= 1.998e+00   1:andout22= 1.998e+00
+ +  1:andout23= 1.998e+00   1:andout24= 1.998e+00   1:andout25= 1.074e+00
+ +  1:andout26= 1.074e+00   1:andout27= 1.042e+00   1:andout30= 1.998e+00
+ +  1:andout31= 1.998e+00   1:andout32= 1.998e+00   1:andout33= 1.998e+00
+ +  1:andout34= 1.998e+00   1:andout35= 1.016e+00   1:andout36= 1.016e+00
+ +  1:andout37= 1.042e+00   1:andout40= 1.998e+00   1:andout41= 1.998e+00
+ +  1:andout42= 1.998e+00   1:andout43= 1.998e+00   1:andout44= 1.998e+00
+ +  1:andout45= 1.016e+00   1:andout46= 1.016e+00   1:andout47= 1.042e+00
+ +  1:andout50= 1.998e+00   1:andout51= 1.998e+00   1:andout52= 1.998e+00
+ +  1:andout53= 1.998e+00   1:andout54= 1.998e+00   1:andout55= 1.016e+00
+ +  1:andout56= 1.016e+00   1:andout57= 1.042e+00   1:andout60= 4.769e-01
+ +  1:andout61= 2.553e-03   1:andout62= 2.524e-03   1:andout63= 2.514e-03
+ +  1:andout64= 2.514e-03   1:andout65= 2.389e-03   1:andout66= 2.389e-03
+ +  1:andout67= 2.442e-03   1:andout70= 1.922e+00   1:andout71= 1.997e+00
+ +  1:andout72= 1.998e+00   1:andout73= 1.998e+00   1:andout74= 1.998e+00
+ +  1:andout75= 1.016e+00   1:andout76= 1.016e+00   1:andout77= 1.042e+00
+ +  1:facarry0= 1.795e+00   1:facarry0= 1.936e+00   1:facarry0= 1.998e+00
+ +  1:facarry0= 1.805e+00   1:facarry0= 2.295e-03   1:facarry0= 1.999e+00
+ +  1:facarry1= 1.751e+00   1:facarry1= 1.935e+00   1:facarry1= 1.934e+00
+ +  1:facarry1= 1.934e+00   1:facarry1= 1.995e+00   1:facarry1= 1.934e+00
+ +  1:facarry1= 1.998e+00   1:facarry2= 1.740e+00   1:facarry2= 1.934e+00
+ +  1:facarry2= 1.934e+00   1:facarry2= 1.934e+00   1:facarry2= 1.935e+00
+ +  1:facarry2= 1.934e+00   1:facarry2= 1.998e+00   1:facarry3= 1.740e+00
+ +  1:facarry3= 1.934e+00   1:facarry3= 1.934e+00   1:facarry3= 1.934e+00
+ +  1:facarry3= 1.935e+00   1:facarry3= 1.934e+00   1:facarry3= 1.998e+00
+ +  1:facarry4= 3.960e-01   1:facarry4= 1.935e+00   1:facarry4= 1.935e+00
+ +  1:facarry4= 1.935e+00   1:facarry4= 1.935e+00   1:facarry4= 1.935e+00
+ +  1:facarry4= 1.998e+00   1:facarry5= 3.960e-01   1:facarry5= 1.935e+00
+ +  1:facarry5= 1.935e+00   1:facarry5= 1.935e+00   1:facarry5= 1.935e+00
+ +  1:facarry5= 1.935e+00   1:facarry5= 1.998e+00   1:facarry6= 4.278e-01
+ +  1:facarry6= 4.295e-01   1:facarry6= 4.295e-01   1:facarry6= 4.295e-01
+ +  1:facarry6= 4.304e-01   1:facarry6= 4.279e-01   1:hacarry1= 2.653e-03
+ +  1:hacarry2= 2.582e-02   1:hacarry3= 2.101e-02   1:hacarry4= 2.101e-02
+ +  1:hacarry5= 1.533e-02   1:hacarry6= 1.533e-02   1:hacarry7= 1.533e-02
+ +  1:hacarry8= 1.998e+00   1:outfa01 = 1.029e+00   1:outfa02 = 1.132e+00
+ +  1:outfa03 = 1.011e+00   1:outfa04 = 1.018e+00   1:outfa05 = 9.976e-01
+ +  1:outfa06 = 9.978e-01   1:outfa08 = 9.978e-01   1:outfa11 = 1.046e+00
+ +  1:outfa12 = 1.152e+00   1:outfa13 = 9.777e-01   1:outfa14 = 9.978e-01
+ +  1:outfa15 = 9.978e-01   1:outfa16 = 9.978e-01   1:outfa17 = 1.013e+00
+ +  1:outfa18 = 9.978e-01   1:outfa21 = 1.046e+00   1:outfa22 = 1.152e+00
+ +  1:outfa23 = 9.777e-01   1:outfa24 = 9.978e-01   1:outfa25 = 9.978e-01
+ +  1:outfa26 = 9.978e-01   1:outfa27 = 1.013e+00   1:outfa28 = 9.978e-01
+ +  1:outfa31 = 1.041e+00   1:outfa32 = 1.010e+00   1:outfa33 = 9.851e-01
+ +  1:outfa34 = 1.007e+00   1:outfa35 = 1.007e+00   1:outfa36 = 1.007e+00
+ +  1:outfa37 = 1.013e+00   1:outfa38 = 1.007e+00   1:outfa41 = 1.041e+00
+ +  1:outfa42 = 1.010e+00   1:outfa43 = 9.851e-01   1:outfa44 = 1.007e+00
+ +  1:outfa45 = 1.007e+00   1:outfa46 = 1.007e+00   1:outfa47 = 1.013e+00
+ +  1:outfa48 = 1.007e+00   1:outfa51 = 1.041e+00   1:outfa52 = 1.010e+00
+ +  1:outfa53 = 1.073e+00   1:outfa54 = 1.074e+00   1:outfa55 = 1.074e+00
+ +  1:outfa56 = 1.074e+00   1:outfa57 = 1.092e+00   1:outfa58 = 1.073e+00
+ +  1:outha8  = 6.793e-03   1:outp1   = 1.041e+00   2:n2      = 2.000e+00
+ +  2:n3      = 1.648e+00   3:n2      = 2.000e+00   3:n3      = 1.648e+00
+ +  4:n2      = 2.000e+00   4:n3      = 1.648e+00   5:n2      = 2.000e+00
+ +  5:n3      = 1.648e+00   6:n2      = 2.000e+00   6:n3      = 1.648e+00
+ +  7:n2      = 1.999e+00   7:n3      = 1.933e+00   8:n2      = 1.999e+00
+ +  8:n3      = 1.933e+00   9:n2      = 1.999e+00   9:n3      = 1.933e+00
+ + 10:n2      = 8.960e-03  10:n3      = 4.485e-03  11:n2      = 8.960e-03
+ + 11:n3      = 4.485e-03  12:n2      = 8.960e-03  12:n3      = 4.485e-03
+ + 13:n2      = 8.960e-03  13:n3      = 4.485e-03  14:n2      = 8.960e-03
+ + 14:n3      = 4.485e-03  15:n2      = 1.998e+00  15:n3      = 1.339e-03
+ + 16:n2      = 1.998e+00  16:n3      = 1.339e-03  17:n2      = 1.998e+00
+ + 17:n3      = 1.339e-03  18:n2      = 8.960e-03  18:n3      = 4.485e-03
+ + 19:n2      = 8.960e-03  19:n3      = 4.485e-03  20:n2      = 8.960e-03
+ + 20:n3      = 4.485e-03  21:n2      = 8.960e-03  21:n3      = 4.485e-03
+ + 22:n2      = 8.960e-03  22:n3      = 4.485e-03  23:n2      = 1.998e+00
+ + 23:n3      = 1.339e-03  24:n2      = 1.998e+00  24:n3      = 1.339e-03
+ + 25:n2      = 1.998e+00  25:n3      = 1.339e-03  26:n2      = 8.960e-03
+ + 26:n3      = 4.485e-03  27:n2      = 8.960e-03  27:n3      = 4.485e-03
+ + 28:n2      = 8.960e-03  28:n3      = 4.485e-03  29:n2      = 8.960e-03
+ + 29:n3      = 4.485e-03  30:n2      = 8.960e-03  30:n3      = 4.485e-03
+ + 31:n2      = 1.998e+00  31:n3      = 1.339e-03  32:n2      = 1.998e+00
+ + 32:n3      = 1.339e-03  33:n2      = 1.998e+00  33:n3      = 1.339e-03
+ + 34:n2      = 8.960e-03  34:n3      = 4.485e-03  35:n2      = 8.960e-03
+ + 35:n3      = 4.485e-03  36:n2      = 8.960e-03  36:n3      = 4.485e-03
+ + 37:n2      = 8.960e-03  37:n3      = 4.485e-03  38:n2      = 8.960e-03
+ + 38:n3      = 4.485e-03  39:n2      = 1.998e+00  39:n3      = 1.339e-03
+ + 40:n2      = 1.998e+00  40:n3      = 1.339e-03  41:n2      = 1.998e+00
+ + 41:n3      = 1.339e-03  42:n2      = 8.960e-03  42:n3      = 4.485e-03
+ + 43:n2      = 8.960e-03  43:n3      = 4.485e-03  44:n2      = 8.960e-03
+ + 44:n3      = 4.485e-03  45:n2      = 8.960e-03  45:n3      = 4.485e-03
+ + 46:n2      = 8.960e-03  46:n3      = 4.485e-03  47:n2      = 1.998e+00
+ + 47:n3      = 1.339e-03  48:n2      = 1.998e+00  48:n3      = 1.339e-03
+ + 49:n2      = 1.998e+00  49:n3      = 1.339e-03  50:n2      = 2.000e+00
+ + 50:n3      = 1.648e+00  51:n2      = 2.000e+00  51:n3      = 1.648e+00
+ + 52:n2      = 2.000e+00  52:n3      = 1.648e+00  53:n2      = 2.000e+00
+ + 53:n3      = 1.648e+00  54:n2      = 2.000e+00  54:n3      = 1.648e+00
+ + 55:n2      = 1.999e+00  55:n3      = 1.933e+00  56:n2      = 1.999e+00
+ + 56:n3      = 1.933e+00  57:n2      = 1.999e+00  57:n3      = 1.933e+00
+ + 58:n2      = 8.962e-03  58:n3      = 4.486e-03  59:n2      = 8.960e-03
+ + 59:n3      = 4.485e-03  60:n2      = 8.960e-03  60:n3      = 4.485e-03
+ + 61:n2      = 8.960e-03  61:n3      = 4.485e-03  62:n2      = 8.960e-03
+ + 62:n3      = 4.485e-03  63:n2      = 1.998e+00  63:n3      = 1.339e-03
+ + 64:n2      = 1.998e+00  64:n3      = 1.339e-03  65:n2      = 1.998e+00
+ + 65:n3      = 1.339e-03  66:fatemp0 = 1.998e+00  66:fatemp1 = 7.239e-01
+ + 66:fatemp2 = 2.524e-03  66:fatemp3 = 1.998e+00  67:fatemp0 = 1.998e+00
+ + 67:fatemp1 = 1.631e+00  67:fatemp2 = 3.891e-01  67:fatemp3 = 1.998e+00
+ + 68:fatemp0 = 1.998e+00  68:fatemp1 = 1.999e+00  68:fatemp2 = 1.999e+00
+ + 68:fatemp3 = 1.998e+00  69:fatemp0 = 1.998e+00  69:fatemp1 = 1.423e+00
+ + 69:fatemp2 = 3.201e-02  69:fatemp3 = 1.998e+00  70:fatemp0 = 2.614e-03
+ + 70:fatemp1 = 3.223e-02  70:fatemp2 = 8.683e-02  70:fatemp3 = 2.304e-03
+ + 71:fatemp0 = 9.896e-01  71:fatemp1 = 1.415e+00  71:fatemp2 = 9.880e-01
+ + 71:fatemp3 = 1.999e+00  72:fatemp0 = 1.999e+00  72:fatemp1 = 7.234e-01
+ + 72:fatemp2 = 2.519e-03  72:fatemp3 = 1.998e+00  73:fatemp0 = 1.999e+00
+ + 73:fatemp1 = 7.235e-01  73:fatemp2 = 2.520e-03  73:fatemp3 = 1.998e+00
+ + 74:fatemp0 = 1.999e+00  74:fatemp1 = 7.235e-01  74:fatemp2 = 2.520e-03
+ + 74:fatemp3 = 1.998e+00  75:fatemp0 = 3.718e-01  75:fatemp1 = 9.822e-01
+ + 75:fatemp2 = 3.309e-03  75:fatemp3 = 8.836e-02  76:fatemp0 = 3.718e-01
+ + 76:fatemp1 = 9.822e-01  76:fatemp2 = 3.309e-03  76:fatemp3 = 8.836e-02
+ + 77:fatemp0 = 3.718e-01  77:fatemp1 = 9.822e-01  77:fatemp2 = 3.309e-03
+ + 77:fatemp3 = 8.836e-02  78:fatemp0h= 9.913e-01  78:fatemp1h= 1.998e+00
+ + 78:fatemp2h= 9.913e-01  78:fatemp3h= 1.998e+00  79:fatemp0h= 1.613e+00
+ + 79:fatemp1h= 1.998e+00  79:fatemp2h= 1.633e+00  79:fatemp3h= 1.998e+00
+ + 80:fatemp0h= 1.698e+00  80:fatemp1h= 1.998e+00  80:fatemp2h= 1.703e+00
+ + 80:fatemp3h= 1.998e+00  81:fatemp0h= 1.515e+00  81:fatemp1h= 1.998e+00
+ + 81:fatemp2h= 1.519e+00  81:fatemp3h= 1.998e+00  82:fatemp0h= 1.517e+00
+ + 82:fatemp1h= 1.998e+00  82:fatemp2h= 1.521e+00  82:fatemp3h= 1.998e+00
+ + 83:fatemp0h= 1.517e+00  83:fatemp1h= 1.998e+00  83:fatemp2h= 1.521e+00
+ + 83:fatemp3h= 1.998e+00  84:fatemp0h= 1.332e+00  84:fatemp1h= 1.998e+00
+ + 84:fatemp2h= 1.356e+00  84:fatemp3h= 1.998e+00  85:fatemp0h= 1.517e+00
+ + 85:fatemp1h= 1.998e+00  85:fatemp2h= 1.521e+00  85:fatemp3h= 1.998e+00
+ + 86:fatemp0h= 1.517e+00  86:fatemp1h= 1.998e+00  86:fatemp2h= 1.521e+00
+ + 86:fatemp3h= 1.998e+00  87:fatemp0h= 1.517e+00  87:fatemp1h= 1.998e+00
+ + 87:fatemp2h= 1.521e+00  87:fatemp3h= 1.998e+00  88:fatemp0h= 1.645e+00
+ + 88:fatemp1h= 6.411e-01  88:fatemp2h= 5.618e-03  88:fatemp3h= 1.998e+00
+ + 89:fatemp0h= 1.517e+00  89:fatemp1h= 1.998e+00  89:fatemp2h= 1.521e+00
+ + 89:fatemp3h= 1.998e+00  90:fatemp0h= 1.332e+00  90:fatemp1h= 1.998e+00
+ + 90:fatemp2h= 1.356e+00  90:fatemp3h= 1.998e+00  91:fatemp0h= 1.517e+00
+ + 91:fatemp1h= 1.998e+00  91:fatemp2h= 1.521e+00  91:fatemp3h= 1.998e+00
+ + 92:fatemp0h= 1.517e+00  92:fatemp1h= 1.998e+00  92:fatemp2h= 1.521e+00
+ + 92:fatemp3h= 1.998e+00  93:fatemp0h= 1.517e+00  93:fatemp1h= 1.998e+00
+ + 93:fatemp2h= 1.521e+00  93:fatemp3h= 1.998e+00  94:fatemp0h= 1.645e+00
+ + 94:fatemp1h= 6.411e-01  94:fatemp2h= 5.618e-03  94:fatemp3h= 1.998e+00
+ + 95:fatemp0h= 1.517e+00  95:fatemp1h= 1.998e+00  95:fatemp2h= 1.521e+00
+ + 95:fatemp3h= 1.998e+00  96:fatemp0h= 1.041e-01  96:fatemp1h= 2.634e-02
+ + 96:fatemp2h= 9.358e-01  96:fatemp3h= 1.903e+00  97:fatemp0h= 1.591e+00
+ + 97:fatemp1h= 1.447e+00  97:fatemp2h= 8.517e-01  97:fatemp3h= 1.998e+00
+ + 98:fatemp0h= 1.591e+00  98:fatemp1h= 1.447e+00  98:fatemp2h= 8.517e-01
+ + 98:fatemp3h= 1.998e+00  99:fatemp0h= 1.591e+00  99:fatemp1h= 1.447e+00
+ + 99:fatemp2h= 8.517e-01  99:fatemp3h= 1.998e+00 100:fatemp0h= 1.645e+00
+ +100:fatemp1h= 6.411e-01 100:fatemp2h= 5.618e-03 100:fatemp3h= 1.998e+00
+ +101:fatemp0h= 1.591e+00 101:fatemp1h= 1.447e+00 101:fatemp2h= 8.517e-01
+ +101:fatemp3h= 1.998e+00 102:fatemp0h= 1.041e-01 102:fatemp1h= 2.634e-02
+ +102:fatemp2h= 9.358e-01 102:fatemp3h= 1.903e+00 103:fatemp0h= 1.591e+00
+ +103:fatemp1h= 1.447e+00 103:fatemp2h= 8.517e-01 103:fatemp3h= 1.998e+00
+ +104:fatemp0h= 1.591e+00 104:fatemp1h= 1.447e+00 104:fatemp2h= 8.517e-01
+ +104:fatemp3h= 1.998e+00 105:fatemp0h= 1.591e+00 105:fatemp1h= 1.447e+00
+ +105:fatemp2h= 8.517e-01 105:fatemp3h= 1.998e+00 106:fatemp0h= 1.645e+00
+ +106:fatemp1h= 6.411e-01 106:fatemp2h= 5.618e-03 106:fatemp3h= 1.998e+00
+ +107:fatemp0h= 1.591e+00 107:fatemp1h= 1.447e+00 107:fatemp2h= 8.517e-01
+ +107:fatemp3h= 1.998e+00 108:fatemp0 = 1.110e-02 108:fatemp1 = 1.425e-02
+ +108:fatemp2 = 5.234e-01 108:fatemp3 = 2.300e-03 109:fatemp0 = 1.118e-02
+ +109:fatemp1 = 1.447e-02 109:fatemp2 = 5.226e-01 109:fatemp3 = 2.300e-03
+ +110:fatemp0 = 1.118e-02 110:fatemp1 = 1.447e-02 110:fatemp2 = 5.226e-01
+ +110:fatemp3 = 2.300e-03 111:fatemp0 = 1.118e-02 111:fatemp1 = 1.447e-02
+ +111:fatemp2 = 5.226e-01 111:fatemp3 = 2.300e-03 112:fatemp0 = 9.925e-03
+ +112:fatemp1 = 2.450e-03 112:fatemp2 = 3.514e-03 112:fatemp3 = 2.297e-03
+ +113:fatemp0 = 1.110e-02 113:fatemp1 = 1.426e-02 113:fatemp2 = 5.234e-01
+ +113:fatemp3 = 2.300e-03 122:xorout1 = 1.089e+00 122:xortemp1= 5.879e-01
+ +123:n2      = 8.881e-03 123:n3      = 4.446e-03 124:n2      = 1.998e+00
+ +124:n3      = 1.309e-03 125:n2      = 2.000e+00 125:n3      = 1.648e+00
+ +126:n2      = 3.362e-01 126:n3      = 5.237e-05 127:n2      = 1.468e+00
+ +127:n3      = 8.912e-01 128:xorout1 = 1.121e+00 128:xortemp1= 5.641e-01
+ +129:n2      = 8.881e-03 129:n3      = 4.446e-03 130:n2      = 1.657e+00
+ +130:n3      = 1.212e-01 131:n2      = 1.282e+00 131:n3      = 9.071e-01
+ +132:n2      = 3.362e-01 132:n3      = 4.565e-05 133:n2      = 1.261e+00
+ +133:n3      = 6.866e-01 134:xorout1 = 1.121e+00 134:xortemp1= 5.641e-01
+ +135:n2      = 8.881e-03 135:n3      = 4.446e-03 136:n2      = 7.257e-01
+ +136:n3      = 1.265e-01 137:n2      = 4.640e-01 137:n3      = 3.005e-01
+ +138:n2      = 3.363e-01 138:n3      = 1.073e-04 139:n2      = 3.365e-01
+ +139:n3      = 1.073e-04 140:xorout1 = 1.121e+00 140:xortemp1= 5.641e-01
+ +141:n2      = 8.881e-03 141:n3      = 4.446e-03 142:n2      = 1.721e+00
+ +142:n3      = 1.179e-01 143:n2      = 1.516e+00 143:n3      = 9.505e-01
+ +144:n2      = 3.362e-01 144:n3      = 3.904e-05 145:n2      = 1.459e+00
+ +145:n3      = 8.827e-01 146:xorout1 = 1.030e+00 146:xortemp1= 1.041e+00
+ +147:n2      = 1.998e+00 147:n3      = 1.457e+00 148:n2      = 1.999e+00
+ +148:n3      = 5.973e-01 149:n2      = 1.433e+00 149:n3      = 9.369e-01
+ +150:n2      = 1.998e+00 150:n3      = 1.996e+00 151:n2      = 1.998e+00
+ +151:n3      = 1.996e+00 152:xorout1 = 9.683e-01 152:xortemp1= 1.843e+00
+ +153:n2      = 1.998e+00 153:n3      = 1.322e-03 154:n2      = 1.754e+00
+ +154:n3      = 1.160e-01 155:n2      = 1.999e+00 155:n3      = 2.047e-03
+ +156:n2      = 7.045e-01 156:n3      = 1.520e-01 157:n2      = 6.863e-01
+ +157:n3      = 1.335e-01 158:xorout1 = 1.014e+00 158:xortemp1= 9.105e-01
+ +159:n2      = 4.640e-01 159:n3      = 3.005e-01 160:n2      = 1.999e+00
+ +160:n3      = 1.432e-03 161:n2      = 2.000e+00 161:n3      = 1.657e+00
+ +162:n2      = 3.365e-01 162:n3      = 5.273e-05 163:n2      = 1.468e+00
+ +163:n3      = 8.912e-01 164:xorout1 = 1.019e+00 164:xortemp1= 8.917e-01
+ +165:n2      = 4.169e-01 165:n3      = 2.615e-01 166:n2      = 1.999e+00
+ +166:n3      = 1.469e-03 167:n2      = 2.000e+00 167:n3      = 1.655e+00
+ +168:n2      = 3.365e-01 168:n3      = 5.276e-05 169:n2      = 1.468e+00
+ +169:n3      = 8.912e-01 170:xorout1 = 1.019e+00 170:xortemp1= 8.917e-01
+ +171:n2      = 4.169e-01 171:n3      = 2.615e-01 172:n2      = 1.999e+00
+ +172:n3      = 1.469e-03 173:n2      = 2.000e+00 173:n3      = 1.655e+00
+ +174:n2      = 3.365e-01 174:n3      = 5.276e-05 175:n2      = 1.468e+00
+ +175:n3      = 8.912e-01 176:xorout1 = 1.140e+00 176:xortemp1= 1.140e+00
+ +177:n2      = 1.877e+00 177:n3      = 2.886e-01 178:n2      = 1.999e+00
+ +178:n3      = 1.796e-03 179:n2      = 2.000e+00 179:n3      = 1.087e+00
+ +180:n2      = 1.862e+00 180:n3      = 1.374e+00 181:n2      = 1.998e+00
+ +181:n3      = 1.996e+00 182:xorout1 = 1.140e+00 182:xortemp1= 1.140e+00
+ +183:n2      = 1.877e+00 183:n3      = 2.886e-01 184:n2      = 1.999e+00
+ +184:n3      = 1.796e-03 185:n2      = 2.000e+00 185:n3      = 1.087e+00
+ +186:n2      = 1.862e+00 186:n3      = 1.374e+00 187:n2      = 1.998e+00
+ +187:n3      = 1.996e+00 188:xorout1 = 1.140e+00 188:xortemp1= 1.140e+00
+ +189:n2      = 1.877e+00 189:n3      = 2.886e-01 190:n2      = 1.999e+00
+ +190:n3      = 1.796e-03 191:n2      = 2.000e+00 191:n3      = 1.087e+00
+ +192:n2      = 1.862e+00 192:n3      = 1.374e+00 193:n2      = 1.998e+00
+ +193:n3      = 1.996e+00 194:xorout1h= 7.047e-03 194:xortemp1= 1.992e+00
+ +195:n2h     = 1.998e+00 195:n3h     = 1.386e-03 196:n2h     = 9.210e-03
+ +196:n3h     = 4.608e-03 197:n2h     = 1.998e+00 197:n3h     = 1.385e-03
+ +198:hn2     = 1.656e-04 198:n2h     = 2.000e+00 198:n3h     = 1.655e-04
+ +199:hn2     = 1.657e-04 199:n2h     = 2.000e+00 199:n3h     = 1.657e-04
+ +200:xorout1h= 1.324e+00 200:xortemp1= 8.101e-01 201:n2h     = 1.651e+00
+ +201:n3h     = 9.198e-02 202:n2h     = 5.305e-03 202:n3h     = 2.719e-03
+ +203:n2h     = 1.632e+00 203:n3h     = 8.749e-02 204:hn2     = 1.315e-04
+ +204:n2h     = 2.000e+00 204:n3h     = 1.314e-04 205:hn2     = 1.312e-04
+ +205:n2h     = 2.000e+00 205:n3h     = 1.312e-04 206:xorout1h= 2.895e-01
+ +206:xortemp1= 1.130e+00 207:n2h     = 1.581e+00 207:n3h     = 8.889e-02
+ +208:n2h     = 7.393e-03 208:n3h     = 3.718e-03 209:n2h     = 1.576e+00
+ +209:n3h     = 8.793e-02 210:hn2     = 1.299e-04 210:n2h     = 2.000e+00
+ +210:n3h     = 1.299e-04 211:hn2     = 1.300e-04 211:n2h     = 2.000e+00
+ +211:n3h     = 1.299e-04 212:xorout1h= 6.195e-02 212:xortemp1= 1.332e+00
+ +213:n2h     = 1.720e+00 213:n3h     = 8.681e-02 214:n2h     = 7.387e-03
+ +214:n3h     = 3.715e-03 215:n2h     = 1.717e+00 215:n3h     = 8.592e-02
+ +216:hn2     = 1.337e-04 216:n2h     = 2.000e+00 216:n3h     = 1.337e-04
+ +217:hn2     = 1.338e-04 217:n2h     = 2.000e+00 217:n3h     = 1.337e-04
+ +218:xorout1h= 6.304e-02 218:xortemp1= 1.330e+00 219:n2h     = 1.719e+00
+ +219:n3h     = 8.684e-02 220:n2h     = 7.387e-03 220:n3h     = 3.715e-03
+ +221:n2h     = 1.716e+00 221:n3h     = 8.595e-02 222:hn2     = 1.337e-04
+ +222:n2h     = 2.000e+00 222:n3h     = 1.336e-04 223:hn2     = 1.336e-04
+ +223:n2h     = 2.000e+00 223:n3h     = 1.335e-04 224:xorout1h= 6.304e-02
+ +224:xortemp1= 1.330e+00 225:n2h     = 1.719e+00 225:n3h     = 8.684e-02
+ +226:n2h     = 7.387e-03 226:n3h     = 3.715e-03 227:n2h     = 1.716e+00
+ +227:n3h     = 8.595e-02 228:hn2     = 1.337e-04 228:n2h     = 2.000e+00
+ +228:n3h     = 1.336e-04 229:hn2     = 1.336e-04 229:n2h     = 2.000e+00
+ +229:n3h     = 1.335e-04 230:xorout1h= 1.337e+00 230:xortemp1= 8.311e-01
+ +231:n2h     = 1.788e+00 231:n3h     = 8.637e-02 232:n2h     = 5.275e-03
+ +232:n3h     = 2.708e-03 233:n2h     = 1.781e+00 233:n3h     = 8.227e-02
+ +234:hn2     = 1.397e-04 234:n2h     = 2.000e+00 234:n3h     = 1.396e-04
+ +235:hn2     = 1.389e-04 235:n2h     = 2.000e+00 235:n3h     = 1.388e-04
+ +236:xorout1h= 6.304e-02 236:xortemp1= 1.330e+00 237:n2h     = 1.719e+00
+ +237:n3h     = 8.684e-02 238:n2h     = 7.387e-03 238:n3h     = 3.715e-03
+ +239:n2h     = 1.716e+00 239:n3h     = 8.595e-02 240:hn2     = 1.337e-04
+ +240:n2h     = 2.000e+00 240:n3h     = 1.336e-04 241:hn2     = 1.337e-04
+ +241:n2h     = 2.000e+00 241:n3h     = 1.337e-04 242:xorout1h= 6.304e-02
+ +242:xortemp1= 1.330e+00 243:n2h     = 1.719e+00 243:n3h     = 8.684e-02
+ +244:n2h     = 7.387e-03 244:n3h     = 3.715e-03 245:n2h     = 1.716e+00
+ +245:n3h     = 8.595e-02 246:hn2     = 1.337e-04 246:n2h     = 2.000e+00
+ +246:n3h     = 1.336e-04 247:hn2     = 1.337e-04 247:n2h     = 2.000e+00
+ +247:n3h     = 1.337e-04 248:xorout1h= 6.304e-02 248:xortemp1= 1.330e+00
+ +249:n2h     = 1.719e+00 249:n3h     = 8.684e-02 250:n2h     = 7.387e-03
+ +250:n3h     = 3.715e-03 251:n2h     = 1.716e+00 251:n3h     = 8.595e-02
+ +252:hn2     = 1.337e-04 252:n2h     = 2.000e+00 252:n3h     = 1.336e-04
+ +253:hn2     = 1.337e-04 253:n2h     = 2.000e+00 253:n3h     = 1.337e-04
+ +254:xorout1h= 1.189e+00 254:xortemp1= 1.189e+00 255:n2h     = 1.623e+00
+ +255:n3h     = 8.856e-02 256:n2h     = 1.998e+00 256:n3h     = 1.399e-03
+ +257:n2h     = 2.000e+00 257:n3h     = 9.316e-01 258:hn2     = 1.132e-05
+ +258:n2h     = 2.000e+00 258:n3h     = 1.132e-05 259:hn2     = 2.518e-04
+ +259:n2h     = 2.000e+00 259:n3h     = 2.517e-04 260:xorout1h= 6.304e-02
+ +260:xortemp1= 1.330e+00 261:n2h     = 1.719e+00 261:n3h     = 8.684e-02
+ +262:n2h     = 7.387e-03 262:n3h     = 3.715e-03 263:n2h     = 1.716e+00
+ +263:n3h     = 8.595e-02 264:hn2     = 1.337e-04 264:n2h     = 2.000e+00
+ +264:n3h     = 1.336e-04 265:hn2     = 1.336e-04 265:n2h     = 2.000e+00
+ +265:n3h     = 1.335e-04 266:xorout1h= 1.337e+00 266:xortemp1= 8.311e-01
+ +267:n2h     = 1.788e+00 267:n3h     = 8.637e-02 268:n2h     = 5.275e-03
+ +268:n3h     = 2.708e-03 269:n2h     = 1.781e+00 269:n3h     = 8.227e-02
+ +270:hn2     = 1.397e-04 270:n2h     = 2.000e+00 270:n3h     = 1.396e-04
+ +271:hn2     = 1.389e-04 271:n2h     = 2.000e+00 271:n3h     = 1.388e-04
+ +272:xorout1h= 6.304e-02 272:xortemp1= 1.330e+00 273:n2h     = 1.719e+00
+ +273:n3h     = 8.684e-02 274:n2h     = 7.387e-03 274:n3h     = 3.715e-03
+ +275:n2h     = 1.716e+00 275:n3h     = 8.595e-02 276:hn2     = 1.337e-04
+ +276:n2h     = 2.000e+00 276:n3h     = 1.336e-04 277:hn2     = 1.337e-04
+ +277:n2h     = 2.000e+00 277:n3h     = 1.337e-04 278:xorout1h= 6.304e-02
+ +278:xortemp1= 1.330e+00 279:n2h     = 1.719e+00 279:n3h     = 8.684e-02
+ +280:n2h     = 7.387e-03 280:n3h     = 3.715e-03 281:n2h     = 1.716e+00
+ +281:n3h     = 8.595e-02 282:hn2     = 1.337e-04 282:n2h     = 2.000e+00
+ +282:n3h     = 1.336e-04 283:hn2     = 1.337e-04 283:n2h     = 2.000e+00
+ +283:n3h     = 1.337e-04 284:xorout1h= 6.304e-02 284:xortemp1= 1.330e+00
+ +285:n2h     = 1.719e+00 285:n3h     = 8.684e-02 286:n2h     = 7.387e-03
+ +286:n3h     = 3.715e-03 287:n2h     = 1.716e+00 287:n3h     = 8.595e-02
+ +288:hn2     = 1.337e-04 288:n2h     = 2.000e+00 288:n3h     = 1.336e-04
+ +289:hn2     = 1.337e-04 289:n2h     = 2.000e+00 289:n3h     = 1.337e-04
+ +290:xorout1h= 1.189e+00 290:xortemp1= 1.189e+00 291:n2h     = 1.623e+00
+ +291:n3h     = 8.856e-02 292:n2h     = 1.998e+00 292:n3h     = 1.399e-03
+ +293:n2h     = 2.000e+00 293:n3h     = 9.316e-01 294:hn2     = 1.132e-05
+ +294:n2h     = 2.000e+00 294:n3h     = 1.132e-05 295:hn2     = 2.518e-04
+ +295:n2h     = 2.000e+00 295:n3h     = 2.517e-04 296:xorout1h= 6.304e-02
+ +296:xortemp1= 1.330e+00 297:n2h     = 1.719e+00 297:n3h     = 8.684e-02
+ +298:n2h     = 7.387e-03 298:n3h     = 3.715e-03 299:n2h     = 1.716e+00
+ +299:n3h     = 8.595e-02 300:hn2     = 1.337e-04 300:n2h     = 2.000e+00
+ +300:n3h     = 1.336e-04 301:hn2     = 1.336e-04 301:n2h     = 2.000e+00
+ +301:n3h     = 1.335e-04 302:xorout1h= 1.303e+00 302:xortemp1= 9.618e-01
+ +303:n2h     = 2.000e+00 303:n3h     = 6.386e-01 304:n2h     = 2.000e+00
+ +304:n3h     = 7.167e-01 305:n2h     = 1.919e+00 305:n3h     = 1.385e-01
+ +306:hn2     = 8.156e-01 306:n2h     = 2.000e+00 306:n3h     = 8.156e-01
+ +307:hn2     = 1.122e-04 307:n2h     = 2.000e+00 307:n3h     = 1.122e-04
+ +308:xorout1h= 1.125e-01 308:xortemp1= 1.255e+00 309:n2h     = 1.666e+00
+ +309:n3h     = 8.805e-02 310:n2h     = 1.593e+00 310:n3h     = 8.880e-02
+ +311:n2h     = 1.928e+00 311:n3h     = 1.659e-01 312:hn2     = 1.371e-05
+ +312:n2h     = 2.000e+00 312:n3h     = 1.371e-05 313:hn2     = 1.922e-04
+ +313:n2h     = 2.000e+00 313:n3h     = 1.921e-04 314:xorout1h= 1.125e-01
+ +314:xortemp1= 1.255e+00 315:n2h     = 1.666e+00 315:n3h     = 8.805e-02
+ +316:n2h     = 1.593e+00 316:n3h     = 8.880e-02 317:n2h     = 1.928e+00
+ +317:n3h     = 1.659e-01 318:hn2     = 1.371e-05 318:n2h     = 2.000e+00
+ +318:n3h     = 1.371e-05 319:hn2     = 1.922e-04 319:n2h     = 2.000e+00
+ +319:n3h     = 1.921e-04 320:xorout1h= 1.125e-01 320:xortemp1= 1.255e+00
+ +321:n2h     = 1.666e+00 321:n3h     = 8.805e-02 322:n2h     = 1.593e+00
+ +322:n3h     = 8.880e-02 323:n2h     = 1.928e+00 323:n3h     = 1.659e-01
+ +324:hn2     = 1.371e-05 324:n2h     = 2.000e+00 324:n3h     = 1.371e-05
+ +325:hn2     = 1.922e-04 325:n2h     = 2.000e+00 325:n3h     = 1.921e-04
+ +326:xorout1h= 1.189e+00 326:xortemp1= 1.189e+00 327:n2h     = 1.623e+00
+ +327:n3h     = 8.856e-02 328:n2h     = 1.998e+00 328:n3h     = 1.401e-03
+ +329:n2h     = 2.000e+00 329:n3h     = 9.316e-01 330:hn2     = 1.132e-05
+ +330:n2h     = 2.000e+00 330:n3h     = 1.132e-05 331:hn2     = 2.518e-04
+ +331:n2h     = 2.000e+00 331:n3h     = 2.517e-04 332:xorout1h= 1.125e-01
+ +332:xortemp1= 1.255e+00 333:n2h     = 1.666e+00 333:n3h     = 8.805e-02
+ +334:n2h     = 1.593e+00 334:n3h     = 8.880e-02 335:n2h     = 1.928e+00
+ +335:n3h     = 1.659e-01 336:hn2     = 1.371e-05 336:n2h     = 2.000e+00
+ +336:n3h     = 1.371e-05 337:hn2     = 1.919e-04 337:n2h     = 2.000e+00
+ +337:n3h     = 1.919e-04 338:xorout1h= 1.303e+00 338:xortemp1= 9.618e-01
+ +339:n2h     = 2.000e+00 339:n3h     = 6.386e-01 340:n2h     = 2.000e+00
+ +340:n3h     = 7.167e-01 341:n2h     = 1.919e+00 341:n3h     = 1.385e-01
+ +342:hn2     = 8.156e-01 342:n2h     = 2.000e+00 342:n3h     = 8.156e-01
+ +343:hn2     = 1.122e-04 343:n2h     = 2.000e+00 343:n3h     = 1.122e-04
+ +344:xorout1h= 1.125e-01 344:xortemp1= 1.255e+00 345:n2h     = 1.666e+00
+ +345:n3h     = 8.805e-02 346:n2h     = 1.593e+00 346:n3h     = 8.880e-02
+ +347:n2h     = 1.928e+00 347:n3h     = 1.659e-01 348:hn2     = 1.371e-05
+ +348:n2h     = 2.000e+00 348:n3h     = 1.371e-05 349:hn2     = 1.922e-04
+ +349:n2h     = 2.000e+00 349:n3h     = 1.921e-04 350:xorout1h= 1.125e-01
+ +350:xortemp1= 1.255e+00 351:n2h     = 1.666e+00 351:n3h     = 8.805e-02
+ +352:n2h     = 1.593e+00 352:n3h     = 8.880e-02 353:n2h     = 1.928e+00
+ +353:n3h     = 1.659e-01 354:hn2     = 1.371e-05 354:n2h     = 2.000e+00
+ +354:n3h     = 1.371e-05 355:hn2     = 1.922e-04 355:n2h     = 2.000e+00
+ +355:n3h     = 1.921e-04 356:xorout1h= 1.125e-01 356:xortemp1= 1.255e+00
+ +357:n2h     = 1.666e+00 357:n3h     = 8.805e-02 358:n2h     = 1.593e+00
+ +358:n3h     = 8.880e-02 359:n2h     = 1.928e+00 359:n3h     = 1.659e-01
+ +360:hn2     = 1.371e-05 360:n2h     = 2.000e+00 360:n3h     = 1.371e-05
+ +361:hn2     = 1.922e-04 361:n2h     = 2.000e+00 361:n3h     = 1.921e-04
+ +362:xorout1h= 1.189e+00 362:xortemp1= 1.189e+00 363:n2h     = 1.623e+00
+ +363:n3h     = 8.856e-02 364:n2h     = 1.998e+00 364:n3h     = 1.401e-03
+ +365:n2h     = 2.000e+00 365:n3h     = 9.316e-01 366:hn2     = 1.132e-05
+ +366:n2h     = 2.000e+00 366:n3h     = 1.132e-05 367:hn2     = 2.518e-04
+ +367:n2h     = 2.000e+00 367:n3h     = 2.517e-04 368:xorout1h= 1.125e-01
+ +368:xortemp1= 1.255e+00 369:n2h     = 1.666e+00 369:n3h     = 8.805e-02
+ +370:n2h     = 1.593e+00 370:n3h     = 8.880e-02 371:n2h     = 1.928e+00
+ +371:n3h     = 1.659e-01 372:hn2     = 1.371e-05 372:n2h     = 2.000e+00
+ +372:n3h     = 1.371e-05 373:hn2     = 1.919e-04 373:n2h     = 2.000e+00
+ +373:n3h     = 1.919e-04 374:xorout1 = 1.211e+00 374:xortemp1= 9.951e-01
+ +375:n2      = 1.999e+00 375:n3      = 6.890e-01 376:n2      = 1.999e+00
+ +376:n3      = 6.615e-01 377:n2      = 1.897e+00 377:n3      = 2.177e-01
+ +378:n2      = 1.998e+00 378:n3      = 1.996e+00 379:n2      = 1.986e+00
+ +379:n3      = 1.975e+00 380:xorout1 = 1.204e+00 380:xortemp1= 9.968e-01
+ +381:n2      = 1.999e+00 381:n3      = 6.880e-01 382:n2      = 1.999e+00
+ +382:n3      = 6.600e-01 383:n2      = 1.896e+00 383:n3      = 2.181e-01
+ +384:n2      = 1.998e+00 384:n3      = 1.996e+00 385:n2      = 1.986e+00
+ +385:n3      = 1.975e+00 386:xorout1 = 1.204e+00 386:xortemp1= 9.967e-01
+ +387:n2      = 1.999e+00 387:n3      = 6.880e-01 388:n2      = 1.999e+00
+ +388:n3      = 6.600e-01 389:n2      = 1.896e+00 389:n3      = 2.181e-01
+ +390:n2      = 1.998e+00 390:n3      = 1.996e+00 391:n2      = 1.986e+00
+ +391:n3      = 1.975e+00 392:xorout1 = 1.204e+00 392:xortemp1= 9.967e-01
+ +393:n2      = 1.999e+00 393:n3      = 6.880e-01 394:n2      = 1.999e+00
+ +394:n3      = 6.600e-01 395:n2      = 1.896e+00 395:n3      = 2.181e-01
+ +396:n2      = 1.998e+00 396:n3      = 1.996e+00 397:n2      = 1.986e+00
+ +397:n3      = 1.975e+00 398:xorout1 = 9.994e-01 398:xortemp1= 9.976e-01
+ +399:n2      = 1.999e+00 399:n3      = 7.031e-01 400:n2      = 1.999e+00
+ +400:n3      = 1.758e+00 401:n2      = 2.000e+00 401:n3      = 1.032e+00
+ +402:n2      = 1.997e+00 402:n3      = 1.995e+00 403:n2      = 1.997e+00
+ +403:n3      = 1.995e+00 404:xorout1 = 1.210e+00 404:xortemp1= 9.952e-01
+ +405:n2      = 1.999e+00 405:n3      = 6.889e-01 406:n2      = 1.999e+00
+ +406:n3      = 6.615e-01 407:n2      = 1.897e+00 407:n3      = 2.177e-01
+ +408:n2      = 1.998e+00 408:n3      = 1.996e+00 409:n2      = 1.986e+00
+ +409:n3      = 1.975e+00 410:n2      = 1.591e+00 411:n2      = 1.998e+00
+ +411:n3      = 1.457e+00 412:n2      = 1.600e+00 413:n2      = 1.999e+00
+ +413:n3      = 6.129e-01 414:n2      = 1.600e+00 415:n2      = 1.999e+00
+ +415:n3      = 6.282e-01 416:n2      = 1.600e+00 417:n2      = 1.999e+00
+ +417:n3      = 6.282e-01 418:n2      = 1.567e+00 419:n2      = 1.999e+00
+ +419:n3      = 6.553e-01 420:n2      = 1.567e+00 421:n2      = 1.999e+00
+ +421:n3      = 6.553e-01 422:n2      = 1.567e+00 423:n2      = 1.999e+00
+ +423:n3      = 6.553e-01 424:n2      = 4.532e-03 425:n2      = 8.842e-03
+ +425:n3      = 4.427e-03 426:n2      = 2.780e-01 427:n2      = 1.647e+00
+ +428:n2      = 2.680e-01 429:n2      = 1.679e+00 430:n2      = 2.680e-01
+ +431:n2      = 1.679e+00 432:n2      = 2.680e-01 433:n2      = 1.679e+00
+ +434:n2      = 1.591e+00 435:n2      = 1.009e+00 436:n2      = 1.432e-03
+ +437:n2      = 9.712e-02 438:n2      = 8.251e-01 439:n2      = 1.537e+00
+ +440:n2      = 7.880e-01 441:n2      = 1.547e+00 442:n2      = 7.880e-01
+ +443:n2      = 1.547e+00 444:n2      = 1.313e+00 445:n2      = 3.502e-01
+ +446:n2      = 1.313e+00 447:n2      = 3.502e-01 448:n2      = 1.313e+00
+ +449:n2      = 3.502e-01 450:n2h     = 3.689e-03 451:n2h     = 4.675e-03
+ +452:n2h     = 7.197e-02 453:n2h     = 1.829e+00 454:n2h     = 7.872e-02
+ +455:n2h     = 2.894e-01 456:n2h     = 7.754e-02 457:n2h     = 6.052e-02
+ +458:n2h     = 7.755e-02 459:n2h     = 6.162e-02 460:n2h     = 7.755e-02
+ +461:n2h     = 6.162e-02 462:n2h     = 6.339e-02 463:n2h     = 1.832e+00
+ +464:n2h     = 7.755e-02 465:n2h     = 6.162e-02 466:n2h     = 7.755e-02
+ +467:n2h     = 6.162e-02 468:n2h     = 7.755e-02 469:n2h     = 6.162e-02
+ +470:n2h     = 7.863e-02 471:n2h     = 1.803e-01 472:n2h     = 7.755e-02
+ +473:n2h     = 6.162e-02 474:n2h     = 6.339e-02 475:n2h     = 1.832e+00
+ +476:n2h     = 7.755e-02 477:n2h     = 6.162e-02 478:n2h     = 7.755e-02
+ +479:n2h     = 6.162e-02 480:n2h     = 7.755e-02 481:n2h     = 6.162e-02
+ +482:n2h     = 7.863e-02 483:n2h     = 1.803e-01 484:n2h     = 7.755e-02
+ +485:n2h     = 6.162e-02 486:n2h     = 1.527e+00 487:n2h     = 1.645e+00
+ +488:n2h     = 7.847e-02 489:n2h     = 1.125e-01 490:n2h     = 7.847e-02
+ +491:n2h     = 1.125e-01 492:n2h     = 7.847e-02 493:n2h     = 1.125e-01
+ +494:n2h     = 7.863e-02 495:n2h     = 1.803e-01 496:n2h     = 7.847e-02
+ +497:n2h     = 1.125e-01 498:n2h     = 1.527e+00 499:n2h     = 1.645e+00
+ +500:n2h     = 7.847e-02 501:n2h     = 1.125e-01 502:n2h     = 7.847e-02
+ +503:n2h     = 1.125e-01 504:n2h     = 7.847e-02 505:n2h     = 1.125e-01
+ +506:n2h     = 7.863e-02 507:n2h     = 1.803e-01 508:n2h     = 7.847e-02
+ +509:n2h     = 1.125e-01 510:n2      = 1.562e+00 511:n2      = 1.453e+00
+ +512:n2      = 1.564e+00 513:n2      = 1.439e+00 514:n2      = 1.564e+00
+ +515:n2      = 1.439e+00 516:n2      = 1.564e+00 517:n2      = 1.439e+00
+ +518:n2      = 1.564e+00 519:n2      = 1.420e+00 520:n2      = 1.562e+00
+ +521:n2      = 1.452e+00
+
+ ******
+ ****array multiplier design****
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+x
+
+ time         power     
+              total     
+  1.0000e-09  6.584e-03 
+  1.1000e-09  6.576e-03 
+  1.2000e-09  6.573e-03 
+  1.3000e-09  6.572e-03 
+  1.4000e-09  6.572e-03 
+  1.5000e-09  6.573e-03 
+  1.6000e-09  6.574e-03 
+  1.7000e-09  6.576e-03 
+  1.8000e-09  6.577e-03 
+  1.9000e-09  6.579e-03 
+  2.0000e-09  6.581e-03 
+  2.1000e-09  6.583e-03 
+  2.2000e-09  6.585e-03 
+  2.3000e-09  6.587e-03 
+  2.4000e-09  6.588e-03 
+  2.5000e-09  6.590e-03 
+  2.6000e-09  6.591e-03 
+  2.7000e-09  6.592e-03 
+  2.8000e-09  6.593e-03 
+  2.9000e-09  6.595e-03 
+  3.0000e-09  6.596e-03 
+  3.1000e-09  6.597e-03 
+  3.2000e-09  6.601e-03 
+  3.3000e-09  6.606e-03 
+  3.4000e-09  6.611e-03 
+  3.5000e-09  6.617e-03 
+  3.6000e-09  6.622e-03 
+  3.7000e-09  6.610e-03 
+  3.8000e-09  6.466e-03 
+  3.9000e-09  6.319e-03 
+  4.0000e-09  6.247e-03 
+  4.1000e-09  6.213e-03 
+  4.2000e-09  6.185e-03 
+  4.3000e-09  6.161e-03 
+  4.4000e-09  6.140e-03 
+  4.5000e-09  6.128e-03 
+  4.6000e-09  6.116e-03 
+  4.7000e-09  6.104e-03 
+  4.8000e-09  6.085e-03 
+  4.9000e-09  6.035e-03 
+  5.0000e-09  5.985e-03 
+  5.1000e-09  6.155e-03 
+  5.2000e-09  6.166e-03 
+  5.3000e-09  6.122e-03 
+  5.4000e-09  6.118e-03 
+  5.5000e-09  6.183e-03 
+  5.6000e-09  6.196e-03 
+  5.7000e-09  6.075e-03 
+  5.8000e-09  6.076e-03 
+  5.9000e-09  6.080e-03 
+  6.0000e-09  6.075e-03 
+  6.1000e-09  6.077e-03 
+  6.2000e-09  6.320e-03 
+  6.3000e-09  6.304e-03 
+  6.4000e-09  6.270e-03 
+  6.5000e-09  6.245e-03 
+  6.6000e-09  6.242e-03 
+  6.7000e-09  6.248e-03 
+  6.8000e-09  6.262e-03 
+  6.9000e-09  6.294e-03 
+  7.0000e-09  6.315e-03 
+  7.1000e-09  6.355e-03 
+  7.2000e-09  6.346e-03 
+  7.3000e-09  6.173e-03 
+  7.4000e-09  6.158e-03 
+  7.5000e-09  6.098e-03 
+  7.6000e-09  6.062e-03 
+  7.7000e-09  6.051e-03 
+  7.8000e-09  6.045e-03 
+  7.9000e-09  6.039e-03 
+  8.0000e-09  6.033e-03 
+  8.1000e-09  6.027e-03 
+  8.2000e-09  6.021e-03 
+  8.3000e-09  6.016e-03 
+  8.4000e-09  6.011e-03 
+  8.5000e-09  6.007e-03 
+  8.6000e-09  6.003e-03 
+  8.7000e-09  5.999e-03 
+  8.8000e-09  5.995e-03 
+  8.9000e-09  5.992e-03 
+  9.0000e-09  5.988e-03 
+  9.1000e-09  5.985e-03 
+  9.2000e-09  5.982e-03 
+  9.3000e-09  5.979e-03 
+  9.4000e-09  5.977e-03 
+  9.5000e-09  5.975e-03 
+  9.6000e-09  5.972e-03 
+  9.7000e-09  5.970e-03 
+  9.8000e-09  5.968e-03 
+  9.9000e-09  5.965e-03 
+  1.0000e-08  5.963e-03 
+  1.0100e-08  6.121e-03 
+  1.0200e-08  6.136e-03 
+  1.0300e-08  6.078e-03 
+  1.0400e-08  6.073e-03 
+  1.0500e-08  6.093e-03 
+  1.0600e-08  6.069e-03 
+  1.0700e-08  6.060e-03 
+  1.0800e-08  6.066e-03 
+  1.0900e-08  6.066e-03 
+  1.1000e-08  6.069e-03 
+  1.1100e-08  6.074e-03 
+  1.1200e-08  6.079e-03 
+  1.1300e-08  6.085e-03 
+  1.1400e-08  6.091e-03 
+  1.1500e-08  6.097e-03 
+  1.1600e-08  6.104e-03 
+  1.1700e-08  6.110e-03 
+  1.1800e-08  6.116e-03 
+  1.1900e-08  6.122e-03 
+  1.2000e-08  6.128e-03 
+  1.2100e-08  6.134e-03 
+  1.2200e-08  6.140e-03 
+  1.2300e-08  6.145e-03 
+  1.2400e-08  6.150e-03 
+  1.2500e-08  6.155e-03 
+  1.2600e-08  6.160e-03 
+  1.2700e-08  6.164e-03 
+  1.2800e-08  6.169e-03 
+  1.2900e-08  6.174e-03 
+  1.3000e-08  6.178e-03 
+  1.3100e-08  6.183e-03 
+  1.3200e-08  6.188e-03 
+  1.3300e-08  6.194e-03 
+  1.3400e-08  6.199e-03 
+  1.3500e-08  6.213e-03 
+  1.3600e-08  6.227e-03 
+  1.3700e-08  6.164e-03 
+  1.3800e-08  6.047e-03 
+  1.3900e-08  5.906e-03 
+  1.4000e-08  5.866e-03 
+  1.4100e-08  5.840e-03 
+  1.4200e-08  5.818e-03 
+  1.4300e-08  5.801e-03 
+  1.4400e-08  5.789e-03 
+  1.4500e-08  5.784e-03 
+  1.4600e-08  5.779e-03 
+  1.4700e-08  5.777e-03 
+  1.4800e-08  5.763e-03 
+  1.4900e-08  5.724e-03 
+  1.5000e-08  5.670e-03 
+  1.5100e-08  5.852e-03 
+  1.5200e-08  5.872e-03 
+  1.5300e-08  5.833e-03 
+  1.5400e-08  5.835e-03 
+  1.5500e-08  5.886e-03 
+  1.5600e-08  5.896e-03 
+  1.5700e-08  5.815e-03 
+  1.5800e-08  5.845e-03 
+  1.5900e-08  5.878e-03 
+  1.6000e-08  5.901e-03 
+  1.6100e-08  5.916e-03 
+  1.6200e-08  6.222e-03 
+  1.6300e-08  6.155e-03 
+  1.6400e-08  6.127e-03 
+  1.6500e-08  6.106e-03 
+  1.6600e-08  6.107e-03 
+  1.6700e-08  6.116e-03 
+  1.6800e-08  6.131e-03 
+  1.6900e-08  6.159e-03 
+  1.7000e-08  6.189e-03 
+  1.7100e-08  6.213e-03 
+  1.7200e-08  6.292e-03 
+  1.7300e-08  6.226e-03 
+  1.7400e-08  6.076e-03 
+  1.7500e-08  6.045e-03 
+  1.7600e-08  5.999e-03 
+  1.7700e-08  5.959e-03 
+  1.7800e-08  5.948e-03 
+  1.7900e-08  5.943e-03 
+  1.8000e-08  5.938e-03 
+  1.8100e-08  5.933e-03 
+  1.8200e-08  5.928e-03 
+  1.8300e-08  5.924e-03 
+  1.8400e-08  5.919e-03 
+  1.8500e-08  5.915e-03 
+  1.8600e-08  5.911e-03 
+  1.8700e-08  5.908e-03 
+  1.8800e-08  5.905e-03 
+  1.8900e-08  5.902e-03 
+  1.9000e-08  5.899e-03 
+  1.9100e-08  5.896e-03 
+  1.9200e-08  5.894e-03 
+  1.9300e-08  5.891e-03 
+  1.9400e-08  5.889e-03 
+  1.9500e-08  5.887e-03 
+  1.9600e-08  5.885e-03 
+  1.9700e-08  5.883e-03 
+  1.9800e-08  5.881e-03 
+  1.9900e-08  5.879e-03 
+  2.0000e-08  5.877e-03 
+  2.0100e-08  6.039e-03 
+  2.0200e-08  6.034e-03 
+  2.0300e-08  5.983e-03 
+  2.0400e-08  5.980e-03 
+  2.0500e-08  5.980e-03 
+  2.0600e-08  5.996e-03 
+  2.0700e-08  5.971e-03 
+  2.0800e-08  5.969e-03 
+  2.0900e-08  5.971e-03 
+  2.1000e-08  5.975e-03 
+  2.1100e-08  5.980e-03 
+  2.1200e-08  5.986e-03 
+  2.1300e-08  5.992e-03 
+  2.1400e-08  5.998e-03 
+  2.1500e-08  6.005e-03 
+  2.1600e-08  6.012e-03 
+  2.1700e-08  6.018e-03 
+  2.1800e-08  6.025e-03 
+  2.1900e-08  6.031e-03 
+  2.2000e-08  6.038e-03 
+  2.2100e-08  6.044e-03 
+  2.2200e-08  6.050e-03 
+  2.2300e-08  6.056e-03 
+  2.2400e-08  6.062e-03 
+  2.2500e-08  6.067e-03 
+  2.2600e-08  6.073e-03 
+  2.2700e-08  6.078e-03 
+  2.2800e-08  6.083e-03 
+  2.2900e-08  6.088e-03 
+  2.3000e-08  6.092e-03 
+  2.3100e-08  6.097e-03 
+  2.3200e-08  6.104e-03 
+  2.3300e-08  6.115e-03 
+  2.3400e-08  6.125e-03 
+  2.3500e-08  6.136e-03 
+  2.3600e-08  6.146e-03 
+  2.3700e-08  6.125e-03 
+  2.3800e-08  6.010e-03 
+  2.3900e-08  5.825e-03 
+  2.4000e-08  5.781e-03 
+  2.4100e-08  5.758e-03 
+  2.4200e-08  5.738e-03 
+  2.4300e-08  5.722e-03 
+  2.4400e-08  5.712e-03 
+  2.4500e-08  5.706e-03 
+  2.4600e-08  5.702e-03 
+  2.4700e-08  5.698e-03 
+  2.4800e-08  5.682e-03 
+  2.4900e-08  5.639e-03 
+  2.5000e-08  5.597e-03 
+  2.5100e-08  5.784e-03 
+  2.5200e-08  5.804e-03 
+  2.5300e-08  5.765e-03 
+  2.5400e-08  5.767e-03 
+  2.5500e-08  5.855e-03 
+  2.5600e-08  5.880e-03 
+  2.5700e-08  5.753e-03 
+  2.5800e-08  5.776e-03 
+  2.5900e-08  5.812e-03 
+  2.6000e-08  5.833e-03 
+  2.6100e-08  5.852e-03 
+  2.6200e-08  6.128e-03 
+  2.6300e-08  6.106e-03 
+  2.6400e-08  6.075e-03 
+  2.6500e-08  6.052e-03 
+  2.6600e-08  6.048e-03 
+  2.6700e-08  6.055e-03 
+  2.6800e-08  6.070e-03 
+  2.6900e-08  6.094e-03 
+  2.7000e-08  6.121e-03 
+  2.7100e-08  6.139e-03 
+  2.7200e-08  6.157e-03 
+  2.7300e-08  6.219e-03 
+  2.7400e-08  6.291e-03 
+  2.7500e-08  6.036e-03 
+  2.7600e-08  5.985e-03 
+  2.7700e-08  5.967e-03 
+  2.7800e-08  5.910e-03 
+  2.7900e-08  5.896e-03 
+  2.8000e-08  5.892e-03 
+  2.8100e-08  5.887e-03 
+  2.8200e-08  5.883e-03 
+  2.8300e-08  5.879e-03 
+  2.8400e-08  5.875e-03 
+  2.8500e-08  5.871e-03 
+  2.8600e-08  5.867e-03 
+  2.8700e-08  5.864e-03 
+  2.8800e-08  5.861e-03 
+  2.8900e-08  5.858e-03 
+  2.9000e-08  5.855e-03 
+  2.9100e-08  5.852e-03 
+  2.9200e-08  5.850e-03 
+  2.9300e-08  5.847e-03 
+  2.9400e-08  5.845e-03 
+  2.9500e-08  5.843e-03 
+  2.9600e-08  5.841e-03 
+  2.9700e-08  5.839e-03 
+  2.9800e-08  5.837e-03 
+  2.9900e-08  5.835e-03 
+  3.0000e-08  5.834e-03 
+  3.0100e-08  6.005e-03 
+  3.0200e-08  5.979e-03 
+  3.0300e-08  5.932e-03 
+  3.0400e-08  5.929e-03 
+  3.0500e-08  5.929e-03 
+  3.0600e-08  5.930e-03 
+  3.0700e-08  5.918e-03 
+  3.0800e-08  5.917e-03 
+  3.0900e-08  5.920e-03 
+  3.1000e-08  5.924e-03 
+  3.1100e-08  5.929e-03 
+  3.1200e-08  5.935e-03 
+  3.1300e-08  5.941e-03 
+  3.1400e-08  5.947e-03 
+  3.1500e-08  5.954e-03 
+  3.1600e-08  5.961e-03 
+  3.1700e-08  5.968e-03 
+  3.1800e-08  5.974e-03 
+  3.1900e-08  5.981e-03 
+  3.2000e-08  5.988e-03 
+  3.2100e-08  5.994e-03 
+  3.2200e-08  6.000e-03 
+  3.2300e-08  6.007e-03 
+  3.2400e-08  6.012e-03 
+  3.2500e-08  6.018e-03 
+  3.2600e-08  6.024e-03 
+  3.2700e-08  6.029e-03 
+  3.2800e-08  6.034e-03 
+  3.2900e-08  6.039e-03 
+  3.3000e-08  6.044e-03 
+  3.3100e-08  6.049e-03 
+  3.3200e-08  6.054e-03 
+  3.3300e-08  6.060e-03 
+  3.3400e-08  6.067e-03 
+  3.3500e-08  6.080e-03 
+  3.3600e-08  6.099e-03 
+  3.3700e-08  6.095e-03 
+  3.3800e-08  5.989e-03 
+  3.3900e-08  5.809e-03 
+  3.4000e-08  5.743e-03 
+  3.4100e-08  5.720e-03 
+  3.4200e-08  5.700e-03 
+  3.4300e-08  5.684e-03 
+  3.4400e-08  5.672e-03 
+  3.4500e-08  5.667e-03 
+  3.4600e-08  5.660e-03 
+  3.4700e-08  5.652e-03 
+  3.4800e-08  5.643e-03 
+  3.4900e-08  5.606e-03 
+  3.5000e-08  5.559e-03 
+  3.5100e-08  5.749e-03 
+  3.5200e-08  5.769e-03 
+  3.5300e-08  5.730e-03 
+  3.5400e-08  5.731e-03 
+  3.5500e-08  5.803e-03 
+  3.5600e-08  5.827e-03 
+  3.5700e-08  5.721e-03 
+  3.5800e-08  5.741e-03 
+  3.5900e-08  5.770e-03 
+  3.6000e-08  5.791e-03 
+  3.6100e-08  5.817e-03 
+  3.6200e-08  6.069e-03 
+  3.6300e-08  6.076e-03 
+  3.6400e-08  6.044e-03 
+  3.6500e-08  6.021e-03 
+  3.6600e-08  6.016e-03 
+  3.6700e-08  6.023e-03 
+  3.6800e-08  6.039e-03 
+  3.6900e-08  6.060e-03 
+  3.7000e-08  6.083e-03 
+  3.7100e-08  6.096e-03 
+  3.7200e-08  6.109e-03 
+  3.7300e-08  6.137e-03 
+  3.7400e-08  6.189e-03 
+  3.7500e-08  6.246e-03 
+  3.7600e-08  5.998e-03 
+  3.7700e-08  5.957e-03 
+  3.7800e-08  5.930e-03 
+  3.7900e-08  5.879e-03 
+  3.8000e-08  5.867e-03 
+  3.8100e-08  5.863e-03 
+  3.8200e-08  5.860e-03 
+  3.8300e-08  5.856e-03 
+  3.8400e-08  5.852e-03 
+  3.8500e-08  5.847e-03 
+  3.8600e-08  5.844e-03 
+  3.8700e-08  5.841e-03 
+  3.8800e-08  5.838e-03 
+  3.8900e-08  5.834e-03 
+  3.9000e-08  5.832e-03 
+  3.9100e-08  5.829e-03 
+  3.9200e-08  5.827e-03 
+  3.9300e-08  5.825e-03 
+  3.9400e-08  5.823e-03 
+  3.9500e-08  5.820e-03 
+  3.9600e-08  5.818e-03 
+  3.9700e-08  5.816e-03 
+  3.9800e-08  5.814e-03 
+  3.9900e-08  5.812e-03 
+  4.0000e-08  5.811e-03 
+  4.0100e-08  5.965e-03 
+  4.0200e-08  5.945e-03 
+  4.0300e-08  5.902e-03 
+  4.0400e-08  5.899e-03 
+  4.0500e-08  5.902e-03 
+  4.0600e-08  5.919e-03 
+  4.0700e-08  5.892e-03 
+  4.0800e-08  5.888e-03 
+  4.0900e-08  5.890e-03 
+  4.1000e-08  5.895e-03 
+  4.1100e-08  5.900e-03 
+  4.1200e-08  5.905e-03 
+  4.1300e-08  5.911e-03 
+  4.1400e-08  5.918e-03 
+  4.1500e-08  5.925e-03 
+  4.1600e-08  5.932e-03 
+  4.1700e-08  5.939e-03 
+  4.1800e-08  5.946e-03 
+  4.1900e-08  5.952e-03 
+  4.2000e-08  5.959e-03 
+  4.2100e-08  5.965e-03 
+  4.2200e-08  5.972e-03 
+  4.2300e-08  5.978e-03 
+  4.2400e-08  5.984e-03 
+  4.2500e-08  5.990e-03 
+  4.2600e-08  5.995e-03 
+  4.2700e-08  6.001e-03 
+  4.2800e-08  6.007e-03 
+  4.2900e-08  6.012e-03 
+  4.3000e-08  6.017e-03 
+  4.3100e-08  6.022e-03 
+  4.3200e-08  6.028e-03 
+  4.3300e-08  6.033e-03 
+  4.3400e-08  6.042e-03 
+  4.3500e-08  6.055e-03 
+  4.3600e-08  6.062e-03 
+  4.3700e-08  5.982e-03 
+  4.3800e-08  5.901e-03 
+  4.3900e-08  5.805e-03 
+  4.4000e-08  5.717e-03 
+  4.4100e-08  5.692e-03 
+  4.4200e-08  5.673e-03 
+  4.4300e-08  5.657e-03 
+  4.4400e-08  5.646e-03 
+  4.4500e-08  5.641e-03 
+  4.4600e-08  5.641e-03 
+  4.4700e-08  5.633e-03 
+  4.4800e-08  5.620e-03 
+  4.4900e-08  5.579e-03 
+  4.5000e-08  5.531e-03 
+  4.5100e-08  5.732e-03 
+  4.5200e-08  5.752e-03 
+  4.5300e-08  5.709e-03 
+  4.5400e-08  5.708e-03 
+  4.5500e-08  5.746e-03 
+  4.5600e-08  5.818e-03 
+  4.5700e-08  5.697e-03 
+  4.5800e-08  5.720e-03 
+  4.5900e-08  5.741e-03 
+  4.6000e-08  5.759e-03 
+  4.6100e-08  5.797e-03 
+  4.6200e-08  6.081e-03 
+  4.6300e-08  6.053e-03 
+  4.6400e-08  6.021e-03 
+  4.6500e-08  5.998e-03 
+  4.6600e-08  5.995e-03 
+  4.6700e-08  6.004e-03 
+  4.6800e-08  6.020e-03 
+  4.6900e-08  6.039e-03 
+  4.7000e-08  6.058e-03 
+  4.7100e-08  6.070e-03 
+  4.7200e-08  6.083e-03 
+  4.7300e-08  6.089e-03 
+  4.7400e-08  6.095e-03 
+  4.7500e-08  6.142e-03 
+  4.7600e-08  6.230e-03 
+  4.7700e-08  5.962e-03 
+  4.7800e-08  5.946e-03 
+  4.7900e-08  5.889e-03 
+  4.8000e-08  5.858e-03 
+  4.8100e-08  5.850e-03 
+  4.8200e-08  5.847e-03 
+  4.8300e-08  5.843e-03 
+  4.8400e-08  5.840e-03 
+  4.8500e-08  5.836e-03 
+  4.8600e-08  5.832e-03 
+  4.8700e-08  5.829e-03 
+  4.8800e-08  5.826e-03 
+  4.8900e-08  5.823e-03 
+  4.9000e-08  5.820e-03 
+  4.9100e-08  5.818e-03 
+  4.9200e-08  5.815e-03 
+  4.9300e-08  5.813e-03 
+  4.9400e-08  5.810e-03 
+  4.9500e-08  5.809e-03 
+  4.9600e-08  5.807e-03 
+  4.9700e-08  5.805e-03 
+  4.9800e-08  5.803e-03 
+  4.9900e-08  5.801e-03 
+  5.0000e-08  5.799e-03 
+y
+  **warning** (array_multiplier_dual_vth.sp:338) Measure results may be incorrect since initial start time is non-zero.
+ average_power= 5.9877e-03  from= 1.0000e-08     to= 3.0000e-08
+  **warning** (array_multiplier_dual_vth.sp:339) .MEASURE t_delay never reached the target value, Measurement failed! 
+   t_delay= failed       targ= not found    trig=  5.0150e-09
+ t_rise=-4.9611e-10  targ= 5.0163e-09   trig= 5.5124e-09
+
+          ***** job concluded
+ ******  
+ ****array multiplier design****
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =   10429 # elements   =    2313
+  # resistors   =       7 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =      18
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =    2288 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point          55.50           1        7960
+  transient         25.20         491        5832        1358 rev=        63
+  readin             0.04
+  errchk             0.10
+  setup              0.18
+  output             0.00
+
+
+           peak memory used         97.34 megabytes
+           total cpu time           81.02 seconds
+           total elapsed time       81.06 seconds
+           job started at     10:50:07 01/25/2022
+           job ended   at     10:51:28 01/25/2022
+           job total runtime        81.06 seconds
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.03(s)

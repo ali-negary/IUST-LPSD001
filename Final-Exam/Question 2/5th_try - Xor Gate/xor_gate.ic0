@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "P-2019.06-SP1-1 win64"
+* "format" "HSP"
+* "rundate" "09:51:38 01/24/2022 "
+* "netlist" "xor_gate.sp "
+* "runtitle" "****exor gate design****"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ ina = 0.000e+00       
++ inb = 0.000e+00       
++ outf = 5.832e-01       
++ vddh = 2.000e+00       
++ vddl = 2.000e+00       
++ vss = 0.000e+00       
++ xor1.n2 = 1.167e+00       
+***   END: Saved Operating Point ***                     

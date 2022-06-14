@@ -1,0 +1,844 @@
+123100000000000000002001                                                        
+        01/25/2022      01:20:13 Copyright (c) 1986 - 2022 by Synopsys, Inc. All
+ Rights Reserved.          0                                                    
+                          1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       1       1       1       1       1       1       1       1     
+  1       1       8       8       8       8       8       8       8       8     
+  8       8       8      50     TIME            v(0             v(vddh          
+v(vddl          v(vss           v(xx0           v(xx1           v(xx2           
+v(xx3           v(xx4           v(xx5           v(xx6           v(xx7           
+v(yy0           v(yy1           v(yy2           v(yy3           v(yy4           
+v(yy5           v(yy6           v(yy7           v(zz0           v(zz10          
+v(zz11          v(zz12          v(zz13          v(zz14          v(zz15          
+v(zz2           v(zz3           v(zz4           v(zz5           v(zz6           
+v(zz7           v(zz8           v(zz9           v(xam88.andout01                
+v(xam88.andout02                v(xam88.andout03                v(xam88.andout04
+                v(xam88.andout05                v(xam88.andout06                
+v(xam88.andout07                v(xam88.andout10                v(xam88.andout11
+                v(xam88.andout12                v(xam88.andout13                
+v(xam88.andout14                v(xam88.andout15                v(xam88.andout16
+                v(xam88.andout17                v(xam88.andout20                
+v(xam88.andout21                v(xam88.andout22                v(xam88.andout23
+                v(xam88.andout24                v(xam88.andout25                
+v(xam88.andout26                v(xam88.andout27                v(xam88.andout30
+                v(xam88.andout31                v(xam88.andout32                
+v(xam88.andout33                v(xam88.andout34                v(xam88.andout35
+                v(xam88.andout36                v(xam88.andout37                
+v(xam88.andout40                v(xam88.andout41                v(xam88.andout42
+                v(xam88.andout43                v(xam88.andout44                
+v(xam88.andout45                v(xam88.andout46                v(xam88.andout47
+                v(xam88.andout50                v(xam88.andout51                
+v(xam88.andout52                v(xam88.andout53                v(xam88.andout54
+                v(xam88.andout55                v(xam88.andout56                
+v(xam88.andout57                v(xam88.andout60                v(xam88.andout61
+                v(xam88.andout62                v(xam88.andout63                
+v(xam88.andout64                v(xam88.andout65                v(xam88.andout66
+                v(xam88.andout67                v(xam88.andout70                
+v(xam88.andout71                v(xam88.andout72                v(xam88.andout73
+                v(xam88.andout74                v(xam88.andout75                
+v(xam88.andout76                v(xam88.andout77                v(xam88.facarry0
+1               v(xam88.facarry02               v(xam88.facarry03               
+v(xam88.facarry04               v(xam88.facarry05               v(xam88.facarry0
+6               v(xam88.facarry11               v(xam88.facarry12               
+v(xam88.facarry13               v(xam88.facarry14               v(xam88.facarry1
+5               v(xam88.facarry16               v(xam88.facarry17               
+v(xam88.facarry21               v(xam88.facarry22               v(xam88.facarry2
+3               v(xam88.facarry24               v(xam88.facarry25               
+v(xam88.facarry26               v(xam88.facarry27               v(xam88.facarry3
+1               v(xam88.facarry32               v(xam88.facarry33               
+v(xam88.facarry34               v(xam88.facarry35               v(xam88.facarry3
+6               v(xam88.facarry37               v(xam88.facarry41               
+v(xam88.facarry42               v(xam88.facarry43               v(xam88.facarry4
+4               v(xam88.facarry45               v(xam88.facarry46               
+v(xam88.facarry47               v(xam88.facarry51               v(xam88.facarry5
+2               v(xam88.facarry53               v(xam88.facarry54               
+v(xam88.facarry55               v(xam88.facarry56               v(xam88.facarry5
+7               v(xam88.facarry61               v(xam88.facarry62               
+v(xam88.facarry63               v(xam88.facarry64               v(xam88.facarry6
+5               v(xam88.facarry66               v(xam88.hacarry1                
+v(xam88.hacarry2                v(xam88.hacarry3                v(xam88.hacarry4
+                v(xam88.hacarry5                v(xam88.hacarry6                
+v(xam88.hacarry7                v(xam88.hacarry8                v(xam88.outfa01 
+v(xam88.outfa02 v(xam88.outfa03 v(xam88.outfa04 v(xam88.outfa05 v(xam88.outfa06 
+v(xam88.outfa08 v(xam88.outfa11 v(xam88.outfa12 v(xam88.outfa13 v(xam88.outfa14 
+v(xam88.outfa15 v(xam88.outfa16 v(xam88.outfa17 v(xam88.outfa18 v(xam88.outfa21 
+v(xam88.outfa22 v(xam88.outfa23 v(xam88.outfa24 v(xam88.outfa25 v(xam88.outfa26 
+v(xam88.outfa27 v(xam88.outfa28 v(xam88.outfa31 v(xam88.outfa32 v(xam88.outfa33 
+v(xam88.outfa34 v(xam88.outfa35 v(xam88.outfa36 v(xam88.outfa37 v(xam88.outfa38 
+v(xam88.outfa41 v(xam88.outfa42 v(xam88.outfa43 v(xam88.outfa44 v(xam88.outfa45 
+v(xam88.outfa46 v(xam88.outfa47 v(xam88.outfa48 v(xam88.outfa51 v(xam88.outfa52 
+v(xam88.outfa53 v(xam88.outfa54 v(xam88.outfa55 v(xam88.outfa56 v(xam88.outfa57 
+v(xam88.outfa58 v(xam88.outha8  v(xam88.outp1   v(xam88.xandgate00.n2           
+v(xam88.xandgate00.n3           v(xam88.xandgate01.n2           v(xam88.xandgate
+01.n3           v(xam88.xandgate02.n2           v(xam88.xandgate02.n3           
+v(xam88.xandgate03.n2           v(xam88.xandgate03.n3           v(xam88.xandgate
+04.n2           v(xam88.xandgate04.n3           v(xam88.xandgate05.n2           
+v(xam88.xandgate05.n3           v(xam88.xandgate06.n2           v(xam88.xandgate
+06.n3           v(xam88.xandgate07.n2           v(xam88.xandgate07.n3           
+v(xam88.xandgate10.n2           v(xam88.xandgate10.n3           v(xam88.xandgate
+11.n2           v(xam88.xandgate11.n3           v(xam88.xandgate12.n2           
+v(xam88.xandgate12.n3           v(xam88.xandgate13.n2           v(xam88.xandgate
+13.n3           v(xam88.xandgate14.n2           v(xam88.xandgate14.n3           
+v(xam88.xandgate15.n2           v(xam88.xandgate15.n3           v(xam88.xandgate
+16.n2           v(xam88.xandgate16.n3           v(xam88.xandgate17.n2           
+v(xam88.xandgate17.n3           v(xam88.xandgate20.n2           v(xam88.xandgate
+20.n3           v(xam88.xandgate21.n2           v(xam88.xandgate21.n3           
+v(xam88.xandgate22.n2           v(xam88.xandgate22.n3           v(xam88.xandgate
+23.n2           v(xam88.xandgate23.n3           v(xam88.xandgate24.n2           
+v(xam88.xandgate24.n3           v(xam88.xandgate25.n2           v(xam88.xandgate
+25.n3           v(xam88.xandgate26.n2           v(xam88.xandgate26.n3           
+v(xam88.xandgate27.n2           v(xam88.xandgate27.n3           v(xam88.xandgate
+30.n2           v(xam88.xandgate30.n3           v(xam88.xandgate31.n2           
+v(xam88.xandgate31.n3           v(xam88.xandgate32.n2           v(xam88.xandgate
+32.n3           v(xam88.xandgate33.n2           v(xam88.xandgate33.n3           
+v(xam88.xandgate34.n2           v(xam88.xandgate34.n3           v(xam88.xandgate
+35.n2           v(xam88.xandgate35.n3           v(xam88.xandgate36.n2           
+v(xam88.xandgate36.n3           v(xam88.xandgate37.n2           v(xam88.xandgate
+37.n3           v(xam88.xandgate40.n2           v(xam88.xandgate40.n3           
+v(xam88.xandgate41.n2           v(xam88.xandgate41.n3           v(xam88.xandgate
+42.n2           v(xam88.xandgate42.n3           v(xam88.xandgate43.n2           
+v(xam88.xandgate43.n3           v(xam88.xandgate44.n2           v(xam88.xandgate
+44.n3           v(xam88.xandgate45.n2           v(xam88.xandgate45.n3           
+v(xam88.xandgate46.n2           v(xam88.xandgate46.n3           v(xam88.xandgate
+47.n2           v(xam88.xandgate47.n3           v(xam88.xandgate50.n2           
+v(xam88.xandgate50.n3           v(xam88.xandgate51.n2           v(xam88.xandgate
+51.n3           v(xam88.xandgate52.n2           v(xam88.xandgate52.n3           
+v(xam88.xandgate53.n2           v(xam88.xandgate53.n3           v(xam88.xandgate
+54.n2           v(xam88.xandgate54.n3           v(xam88.xandgate55.n2           
+v(xam88.xandgate55.n3           v(xam88.xandgate56.n2           v(xam88.xandgate
+56.n3           v(xam88.xandgate57.n2           v(xam88.xandgate57.n3           
+v(xam88.xandgate60.n2           v(xam88.xandgate60.n3           v(xam88.xandgate
+61.n2           v(xam88.xandgate61.n3           v(xam88.xandgate62.n2           
+v(xam88.xandgate62.n3           v(xam88.xandgate63.n2           v(xam88.xandgate
+63.n3           v(xam88.xandgate64.n2           v(xam88.xandgate64.n3           
+v(xam88.xandgate65.n2           v(xam88.xandgate65.n3           v(xam88.xandgate
+66.n2           v(xam88.xandgate66.n3           v(xam88.xandgate67.n2           
+v(xam88.xandgate67.n3           v(xam88.xandgate70.n2           v(xam88.xandgate
+70.n3           v(xam88.xandgate71.n2           v(xam88.xandgate71.n3           
+v(xam88.xandgate72.n2           v(xam88.xandgate72.n3           v(xam88.xandgate
+73.n2           v(xam88.xandgate73.n3           v(xam88.xandgate74.n2           
+v(xam88.xandgate74.n3           v(xam88.xandgate75.n2           v(xam88.xandgate
+75.n3           v(xam88.xandgate76.n2           v(xam88.xandgate76.n3           
+v(xam88.xandgate77.n2           v(xam88.xandgate77.n3           v(xam88.xfulladd
+er01.fatemp0    v(xam88.xfulladder01.fatemp1    v(xam88.xfulladder01.fatemp2    
+v(xam88.xfulladder01.fatemp3    v(xam88.xfulladder02.fatemp0    v(xam88.xfulladd
+er02.fatemp1    v(xam88.xfulladder02.fatemp2    v(xam88.xfulladder02.fatemp3    
+v(xam88.xfulladder03.fatemp0    v(xam88.xfulladder03.fatemp1    v(xam88.xfulladd
+er03.fatemp2    v(xam88.xfulladder03.fatemp3    v(xam88.xfulladder04.fatemp0    
+v(xam88.xfulladder04.fatemp1    v(xam88.xfulladder04.fatemp2    v(xam88.xfulladd
+er04.fatemp3    v(xam88.xfulladder05.fatemp0    v(xam88.xfulladder05.fatemp1    
+v(xam88.xfulladder05.fatemp2    v(xam88.xfulladder05.fatemp3    v(xam88.xfulladd
+er06.fatemp0    v(xam88.xfulladder06.fatemp1    v(xam88.xfulladder06.fatemp2    
+v(xam88.xfulladder06.fatemp3    v(xam88.xfulladder11.fatemp0    v(xam88.xfulladd
+er11.fatemp1    v(xam88.xfulladder11.fatemp2    v(xam88.xfulladder11.fatemp3    
+v(xam88.xfulladder21.fatemp0    v(xam88.xfulladder21.fatemp1    v(xam88.xfulladd
+er21.fatemp2    v(xam88.xfulladder21.fatemp3    v(xam88.xfulladder31.fatemp0    
+v(xam88.xfulladder31.fatemp1    v(xam88.xfulladder31.fatemp2    v(xam88.xfulladd
+er31.fatemp3    v(xam88.xfulladder41.fatemp0    v(xam88.xfulladder41.fatemp1    
+v(xam88.xfulladder41.fatemp2    v(xam88.xfulladder41.fatemp3    v(xam88.xfulladd
+er51.fatemp0    v(xam88.xfulladder51.fatemp1    v(xam88.xfulladder51.fatemp2    
+v(xam88.xfulladder51.fatemp3    v(xam88.xfulladder61.fatemp0    v(xam88.xfulladd
+er61.fatemp1    v(xam88.xfulladder61.fatemp2    v(xam88.xfulladder61.fatemp3    
+v(xam88.xfulladder16.fatemp0    v(xam88.xfulladder16.fatemp1    v(xam88.xfulladd
+er16.fatemp2    v(xam88.xfulladder16.fatemp3    v(xam88.xfulladder12.fatemp0    
+v(xam88.xfulladder12.fatemp1    v(xam88.xfulladder12.fatemp2    v(xam88.xfulladd
+er12.fatemp3    v(xam88.xfulladder13.fatemp0    v(xam88.xfulladder13.fatemp1    
+v(xam88.xfulladder13.fatemp2    v(xam88.xfulladder13.fatemp3    v(xam88.xfulladd
+er14.fatemp0    v(xam88.xfulladder14.fatemp1    v(xam88.xfulladder14.fatemp2    
+v(xam88.xfulladder14.fatemp3    v(xam88.xfulladder15.fatemp0    v(xam88.xfulladd
+er15.fatemp1    v(xam88.xfulladder15.fatemp2    v(xam88.xfulladder15.fatemp3    
+v(xam88.xfulladder17.fatemp0    v(xam88.xfulladder17.fatemp1    v(xam88.xfulladd
+er17.fatemp2    v(xam88.xfulladder17.fatemp3    v(xam88.xfulladder22.fatemp0    
+v(xam88.xfulladder22.fatemp1    v(xam88.xfulladder22.fatemp2    v(xam88.xfulladd
+er22.fatemp3    v(xam88.xfulladder23.fatemp0    v(xam88.xfulladder23.fatemp1    
+v(xam88.xfulladder23.fatemp2    v(xam88.xfulladder23.fatemp3    v(xam88.xfulladd
+er24.fatemp0    v(xam88.xfulladder24.fatemp1    v(xam88.xfulladder24.fatemp2    
+v(xam88.xfulladder24.fatemp3    v(xam88.xfulladder25.fatemp0    v(xam88.xfulladd
+er25.fatemp1    v(xam88.xfulladder25.fatemp2    v(xam88.xfulladder25.fatemp3    
+v(xam88.xfulladder26.fatemp0    v(xam88.xfulladder26.fatemp1    v(xam88.xfulladd
+er26.fatemp2    v(xam88.xfulladder26.fatemp3    v(xam88.xfulladder27.fatemp0    
+v(xam88.xfulladder27.fatemp1    v(xam88.xfulladder27.fatemp2    v(xam88.xfulladd
+er27.fatemp3    v(xam88.xfulladder32.fatemp0    v(xam88.xfulladder32.fatemp1    
+v(xam88.xfulladder32.fatemp2    v(xam88.xfulladder32.fatemp3    v(xam88.xfulladd
+er33.fatemp0    v(xam88.xfulladder33.fatemp1    v(xam88.xfulladder33.fatemp2    
+v(xam88.xfulladder33.fatemp3    v(xam88.xfulladder34.fatemp0    v(xam88.xfulladd
+er34.fatemp1    v(xam88.xfulladder34.fatemp2    v(xam88.xfulladder34.fatemp3    
+v(xam88.xfulladder35.fatemp0    v(xam88.xfulladder35.fatemp1    v(xam88.xfulladd
+er35.fatemp2    v(xam88.xfulladder35.fatemp3    v(xam88.xfulladder36.fatemp0    
+v(xam88.xfulladder36.fatemp1    v(xam88.xfulladder36.fatemp2    v(xam88.xfulladd
+er36.fatemp3    v(xam88.xfulladder37.fatemp0    v(xam88.xfulladder37.fatemp1    
+v(xam88.xfulladder37.fatemp2    v(xam88.xfulladder37.fatemp3    v(xam88.xfulladd
+er42.fatemp0    v(xam88.xfulladder42.fatemp1    v(xam88.xfulladder42.fatemp2    
+v(xam88.xfulladder42.fatemp3    v(xam88.xfulladder43.fatemp0    v(xam88.xfulladd
+er43.fatemp1    v(xam88.xfulladder43.fatemp2    v(xam88.xfulladder43.fatemp3    
+v(xam88.xfulladder44.fatemp0    v(xam88.xfulladder44.fatemp1    v(xam88.xfulladd
+er44.fatemp2    v(xam88.xfulladder44.fatemp3    v(xam88.xfulladder45.fatemp0    
+v(xam88.xfulladder45.fatemp1    v(xam88.xfulladder45.fatemp2    v(xam88.xfulladd
+er45.fatemp3    v(xam88.xfulladder46.fatemp0    v(xam88.xfulladder46.fatemp1    
+v(xam88.xfulladder46.fatemp2    v(xam88.xfulladder46.fatemp3    v(xam88.xfulladd
+er47.fatemp0    v(xam88.xfulladder47.fatemp1    v(xam88.xfulladder47.fatemp2    
+v(xam88.xfulladder47.fatemp3    v(xam88.xfulladder52.fatemp0    v(xam88.xfulladd
+er52.fatemp1    v(xam88.xfulladder52.fatemp2    v(xam88.xfulladder52.fatemp3    
+v(xam88.xfulladder53.fatemp0    v(xam88.xfulladder53.fatemp1    v(xam88.xfulladd
+er53.fatemp2    v(xam88.xfulladder53.fatemp3    v(xam88.xfulladder54.fatemp0    
+v(xam88.xfulladder54.fatemp1    v(xam88.xfulladder54.fatemp2    v(xam88.xfulladd
+er54.fatemp3    v(xam88.xfulladder55.fatemp0    v(xam88.xfulladder55.fatemp1    
+v(xam88.xfulladder55.fatemp2    v(xam88.xfulladder55.fatemp3    v(xam88.xfulladd
+er56.fatemp0    v(xam88.xfulladder56.fatemp1    v(xam88.xfulladder56.fatemp2    
+v(xam88.xfulladder56.fatemp3    v(xam88.xfulladder57.fatemp0    v(xam88.xfulladd
+er57.fatemp1    v(xam88.xfulladder57.fatemp2    v(xam88.xfulladder57.fatemp3    
+v(xam88.xfulladder62.fatemp0    v(xam88.xfulladder62.fatemp1    v(xam88.xfulladd
+er62.fatemp2    v(xam88.xfulladder62.fatemp3    v(xam88.xfulladder63.fatemp0    
+v(xam88.xfulladder63.fatemp1    v(xam88.xfulladder63.fatemp2    v(xam88.xfulladd
+er63.fatemp3    v(xam88.xfulladder64.fatemp0    v(xam88.xfulladder64.fatemp1    
+v(xam88.xfulladder64.fatemp2    v(xam88.xfulladder64.fatemp3    v(xam88.xfulladd
+er65.fatemp0    v(xam88.xfulladder65.fatemp1    v(xam88.xfulladder65.fatemp2    
+v(xam88.xfulladder65.fatemp3    v(xam88.xfulladder66.fatemp0    v(xam88.xfulladd
+er66.fatemp1    v(xam88.xfulladder66.fatemp2    v(xam88.xfulladder66.fatemp3    
+v(xam88.xfulladder67.fatemp0    v(xam88.xfulladder67.fatemp1    v(xam88.xfulladd
+er67.fatemp2    v(xam88.xfulladder67.fatemp3    v(xam88.xfulladder01.xorexfa.xor
+out1            v(xam88.xfulladder01.xorexfa.xortemp1           v(xam88.xfulladd
+er01.xandfa0.n2 v(xam88.xfulladder01.xandfa0.n3 v(xam88.xfulladder01.xandfa1.n2 
+v(xam88.xfulladder01.xandfa1.n3 v(xam88.xfulladder01.xandfa2.n2 v(xam88.xfulladd
+er01.xandfa2.n3 v(xam88.xfulladder01.xorfa0.n2  v(xam88.xfulladder01.xorfa0.n3  
+v(xam88.xfulladder01.xorfa1.n2  v(xam88.xfulladder01.xorfa1.n3  v(xam88.xfulladd
+er02.xorexfa.xorout1            v(xam88.xfulladder02.xorexfa.xortemp1           
+v(xam88.xfulladder02.xandfa0.n2 v(xam88.xfulladder02.xandfa0.n3 v(xam88.xfulladd
+er02.xandfa1.n2 v(xam88.xfulladder02.xandfa1.n3 v(xam88.xfulladder02.xandfa2.n2 
+v(xam88.xfulladder02.xandfa2.n3 v(xam88.xfulladder02.xorfa0.n2  v(xam88.xfulladd
+er02.xorfa0.n3  v(xam88.xfulladder02.xorfa1.n2  v(xam88.xfulladder02.xorfa1.n3  
+v(xam88.xfulladder03.xorexfa.xorout1            v(xam88.xfulladder03.xorexfa.xor
+temp1           v(xam88.xfulladder03.xandfa0.n2 v(xam88.xfulladder03.xandfa0.n3 
+v(xam88.xfulladder03.xandfa1.n2 v(xam88.xfulladder03.xandfa1.n3 v(xam88.xfulladd
+er03.xandfa2.n2 v(xam88.xfulladder03.xandfa2.n3 v(xam88.xfulladder03.xorfa0.n2  
+v(xam88.xfulladder03.xorfa0.n3  v(xam88.xfulladder03.xorfa1.n2  v(xam88.xfulladd
+er03.xorfa1.n3  v(xam88.xfulladder04.xorexfa.xorout1            v(xam88.xfulladd
+er04.xorexfa.xortemp1           v(xam88.xfulladder04.xandfa0.n2 v(xam88.xfulladd
+er04.xandfa0.n3 v(xam88.xfulladder04.xandfa1.n2 v(xam88.xfulladder04.xandfa1.n3 
+v(xam88.xfulladder04.xandfa2.n2 v(xam88.xfulladder04.xandfa2.n3 v(xam88.xfulladd
+er04.xorfa0.n2  v(xam88.xfulladder04.xorfa0.n3  v(xam88.xfulladder04.xorfa1.n2  
+v(xam88.xfulladder04.xorfa1.n3  v(xam88.xfulladder05.xorexfa.xorout1            
+v(xam88.xfulladder05.xorexfa.xortemp1           v(xam88.xfulladder05.xandfa0.n2 
+v(xam88.xfulladder05.xandfa0.n3 v(xam88.xfulladder05.xandfa1.n2 v(xam88.xfulladd
+er05.xandfa1.n3 v(xam88.xfulladder05.xandfa2.n2 v(xam88.xfulladder05.xandfa2.n3 
+v(xam88.xfulladder05.xorfa0.n2  v(xam88.xfulladder05.xorfa0.n3  v(xam88.xfulladd
+er05.xorfa1.n2  v(xam88.xfulladder05.xorfa1.n3  v(xam88.xfulladder06.xorexfa.xor
+out1            v(xam88.xfulladder06.xorexfa.xortemp1           v(xam88.xfulladd
+er06.xandfa0.n2 v(xam88.xfulladder06.xandfa0.n3 v(xam88.xfulladder06.xandfa1.n2 
+v(xam88.xfulladder06.xandfa1.n3 v(xam88.xfulladder06.xandfa2.n2 v(xam88.xfulladd
+er06.xandfa2.n3 v(xam88.xfulladder06.xorfa0.n2  v(xam88.xfulladder06.xorfa0.n3  
+v(xam88.xfulladder06.xorfa1.n2  v(xam88.xfulladder06.xorfa1.n3  v(xam88.xfulladd
+er11.xorexfa.xorout1            v(xam88.xfulladder11.xorexfa.xortemp1           
+v(xam88.xfulladder11.xandfa0.n2 v(xam88.xfulladder11.xandfa0.n3 v(xam88.xfulladd
+er11.xandfa1.n2 v(xam88.xfulladder11.xandfa1.n3 v(xam88.xfulladder11.xandfa2.n2 
+v(xam88.xfulladder11.xandfa2.n3 v(xam88.xfulladder11.xorfa0.n2  v(xam88.xfulladd
+er11.xorfa0.n3  v(xam88.xfulladder11.xorfa1.n2  v(xam88.xfulladder11.xorfa1.n3  
+v(xam88.xfulladder21.xorexfa.xorout1            v(xam88.xfulladder21.xorexfa.xor
+temp1           v(xam88.xfulladder21.xandfa0.n2 v(xam88.xfulladder21.xandfa0.n3 
+v(xam88.xfulladder21.xandfa1.n2 v(xam88.xfulladder21.xandfa1.n3 v(xam88.xfulladd
+er21.xandfa2.n2 v(xam88.xfulladder21.xandfa2.n3 v(xam88.xfulladder21.xorfa0.n2  
+v(xam88.xfulladder21.xorfa0.n3  v(xam88.xfulladder21.xorfa1.n2  v(xam88.xfulladd
+er21.xorfa1.n3  v(xam88.xfulladder31.xorexfa.xorout1            v(xam88.xfulladd
+er31.xorexfa.xortemp1           v(xam88.xfulladder31.xandfa0.n2 v(xam88.xfulladd
+er31.xandfa0.n3 v(xam88.xfulladder31.xandfa1.n2 v(xam88.xfulladder31.xandfa1.n3 
+v(xam88.xfulladder31.xandfa2.n2 v(xam88.xfulladder31.xandfa2.n3 v(xam88.xfulladd
+er31.xorfa0.n2  v(xam88.xfulladder31.xorfa0.n3  v(xam88.xfulladder31.xorfa1.n2  
+v(xam88.xfulladder31.xorfa1.n3  v(xam88.xfulladder41.xorexfa.xorout1            
+v(xam88.xfulladder41.xorexfa.xortemp1           v(xam88.xfulladder41.xandfa0.n2 
+v(xam88.xfulladder41.xandfa0.n3 v(xam88.xfulladder41.xandfa1.n2 v(xam88.xfulladd
+er41.xandfa1.n3 v(xam88.xfulladder41.xandfa2.n2 v(xam88.xfulladder41.xandfa2.n3 
+v(xam88.xfulladder41.xorfa0.n2  v(xam88.xfulladder41.xorfa0.n3  v(xam88.xfulladd
+er41.xorfa1.n2  v(xam88.xfulladder41.xorfa1.n3  v(xam88.xfulladder51.xorexfa.xor
+out1            v(xam88.xfulladder51.xorexfa.xortemp1           v(xam88.xfulladd
+er51.xandfa0.n2 v(xam88.xfulladder51.xandfa0.n3 v(xam88.xfulladder51.xandfa1.n2 
+v(xam88.xfulladder51.xandfa1.n3 v(xam88.xfulladder51.xandfa2.n2 v(xam88.xfulladd
+er51.xandfa2.n3 v(xam88.xfulladder51.xorfa0.n2  v(xam88.xfulladder51.xorfa0.n3  
+v(xam88.xfulladder51.xorfa1.n2  v(xam88.xfulladder51.xorfa1.n3  v(xam88.xfulladd
+er61.xorexfa.xorout1            v(xam88.xfulladder61.xorexfa.xortemp1           
+v(xam88.xfulladder61.xandfa0.n2 v(xam88.xfulladder61.xandfa0.n3 v(xam88.xfulladd
+er61.xandfa1.n2 v(xam88.xfulladder61.xandfa1.n3 v(xam88.xfulladder61.xandfa2.n2 
+v(xam88.xfulladder61.xandfa2.n3 v(xam88.xfulladder61.xorfa0.n2  v(xam88.xfulladd
+er61.xorfa0.n3  v(xam88.xfulladder61.xorfa1.n2  v(xam88.xfulladder61.xorfa1.n3  
+v(xam88.xfulladder16.xorexfa.xorout1            v(xam88.xfulladder16.xorexfa.xor
+temp1           v(xam88.xfulladder16.xandfa0.n2 v(xam88.xfulladder16.xandfa0.n3 
+v(xam88.xfulladder16.xandfa1.n2 v(xam88.xfulladder16.xandfa1.n3 v(xam88.xfulladd
+er16.xandfa2.n2 v(xam88.xfulladder16.xandfa2.n3 v(xam88.xfulladder16.xorfa0.n2  
+v(xam88.xfulladder16.xorfa0.n3  v(xam88.xfulladder16.xorfa1.n2  v(xam88.xfulladd
+er16.xorfa1.n3  v(xam88.xfulladder12.xorexfa.xorout1            v(xam88.xfulladd
+er12.xorexfa.xortemp1           v(xam88.xfulladder12.xandfa0.n2 v(xam88.xfulladd
+er12.xandfa0.n3 v(xam88.xfulladder12.xandfa1.n2 v(xam88.xfulladder12.xandfa1.n3 
+v(xam88.xfulladder12.xandfa2.n2 v(xam88.xfulladder12.xandfa2.n3 v(xam88.xfulladd
+er12.xorfa0.n2  v(xam88.xfulladder12.xorfa0.n3  v(xam88.xfulladder12.xorfa1.n2  
+v(xam88.xfulladder12.xorfa1.n3  v(xam88.xfulladder13.xorexfa.xorout1            
+v(xam88.xfulladder13.xorexfa.xortemp1           v(xam88.xfulladder13.xandfa0.n2 
+v(xam88.xfulladder13.xandfa0.n3 v(xam88.xfulladder13.xandfa1.n2 v(xam88.xfulladd
+er13.xandfa1.n3 v(xam88.xfulladder13.xandfa2.n2 v(xam88.xfulladder13.xandfa2.n3 
+v(xam88.xfulladder13.xorfa0.n2  v(xam88.xfulladder13.xorfa0.n3  v(xam88.xfulladd
+er13.xorfa1.n2  v(xam88.xfulladder13.xorfa1.n3  v(xam88.xfulladder14.xorexfa.xor
+out1            v(xam88.xfulladder14.xorexfa.xortemp1           v(xam88.xfulladd
+er14.xandfa0.n2 v(xam88.xfulladder14.xandfa0.n3 v(xam88.xfulladder14.xandfa1.n2 
+v(xam88.xfulladder14.xandfa1.n3 v(xam88.xfulladder14.xandfa2.n2 v(xam88.xfulladd
+er14.xandfa2.n3 v(xam88.xfulladder14.xorfa0.n2  v(xam88.xfulladder14.xorfa0.n3  
+v(xam88.xfulladder14.xorfa1.n2  v(xam88.xfulladder14.xorfa1.n3  v(xam88.xfulladd
+er15.xorexfa.xorout1            v(xam88.xfulladder15.xorexfa.xortemp1           
+v(xam88.xfulladder15.xandfa0.n2 v(xam88.xfulladder15.xandfa0.n3 v(xam88.xfulladd
+er15.xandfa1.n2 v(xam88.xfulladder15.xandfa1.n3 v(xam88.xfulladder15.xandfa2.n2 
+v(xam88.xfulladder15.xandfa2.n3 v(xam88.xfulladder15.xorfa0.n2  v(xam88.xfulladd
+er15.xorfa0.n3  v(xam88.xfulladder15.xorfa1.n2  v(xam88.xfulladder15.xorfa1.n3  
+v(xam88.xfulladder17.xorexfa.xorout1            v(xam88.xfulladder17.xorexfa.xor
+temp1           v(xam88.xfulladder17.xandfa0.n2 v(xam88.xfulladder17.xandfa0.n3 
+v(xam88.xfulladder17.xandfa1.n2 v(xam88.xfulladder17.xandfa1.n3 v(xam88.xfulladd
+er17.xandfa2.n2 v(xam88.xfulladder17.xandfa2.n3 v(xam88.xfulladder17.xorfa0.n2  
+v(xam88.xfulladder17.xorfa0.n3  v(xam88.xfulladder17.xorfa1.n2  v(xam88.xfulladd
+er17.xorfa1.n3  v(xam88.xfulladder22.xorexfa.xorout1            v(xam88.xfulladd
+er22.xorexfa.xortemp1           v(xam88.xfulladder22.xandfa0.n2 v(xam88.xfulladd
+er22.xandfa0.n3 v(xam88.xfulladder22.xandfa1.n2 v(xam88.xfulladder22.xandfa1.n3 
+v(xam88.xfulladder22.xandfa2.n2 v(xam88.xfulladder22.xandfa2.n3 v(xam88.xfulladd
+er22.xorfa0.n2  v(xam88.xfulladder22.xorfa0.n3  v(xam88.xfulladder22.xorfa1.n2  
+v(xam88.xfulladder22.xorfa1.n3  v(xam88.xfulladder23.xorexfa.xorout1            
+v(xam88.xfulladder23.xorexfa.xortemp1           v(xam88.xfulladder23.xandfa0.n2 
+v(xam88.xfulladder23.xandfa0.n3 v(xam88.xfulladder23.xandfa1.n2 v(xam88.xfulladd
+er23.xandfa1.n3 v(xam88.xfulladder23.xandfa2.n2 v(xam88.xfulladder23.xandfa2.n3 
+v(xam88.xfulladder23.xorfa0.n2  v(xam88.xfulladder23.xorfa0.n3  v(xam88.xfulladd
+er23.xorfa1.n2  v(xam88.xfulladder23.xorfa1.n3  v(xam88.xfulladder24.xorexfa.xor
+out1            v(xam88.xfulladder24.xorexfa.xortemp1           v(xam88.xfulladd
+er24.xandfa0.n2 v(xam88.xfulladder24.xandfa0.n3 v(xam88.xfulladder24.xandfa1.n2 
+v(xam88.xfulladder24.xandfa1.n3 v(xam88.xfulladder24.xandfa2.n2 v(xam88.xfulladd
+er24.xandfa2.n3 v(xam88.xfulladder24.xorfa0.n2  v(xam88.xfulladder24.xorfa0.n3  
+v(xam88.xfulladder24.xorfa1.n2  v(xam88.xfulladder24.xorfa1.n3  v(xam88.xfulladd
+er25.xorexfa.xorout1            v(xam88.xfulladder25.xorexfa.xortemp1           
+v(xam88.xfulladder25.xandfa0.n2 v(xam88.xfulladder25.xandfa0.n3 v(xam88.xfulladd
+er25.xandfa1.n2 v(xam88.xfulladder25.xandfa1.n3 v(xam88.xfulladder25.xandfa2.n2 
+v(xam88.xfulladder25.xandfa2.n3 v(xam88.xfulladder25.xorfa0.n2  v(xam88.xfulladd
+er25.xorfa0.n3  v(xam88.xfulladder25.xorfa1.n2  v(xam88.xfulladder25.xorfa1.n3  
+v(xam88.xfulladder26.xorexfa.xorout1            v(xam88.xfulladder26.xorexfa.xor
+temp1           v(xam88.xfulladder26.xandfa0.n2 v(xam88.xfulladder26.xandfa0.n3 
+v(xam88.xfulladder26.xandfa1.n2 v(xam88.xfulladder26.xandfa1.n3 v(xam88.xfulladd
+er26.xandfa2.n2 v(xam88.xfulladder26.xandfa2.n3 v(xam88.xfulladder26.xorfa0.n2  
+v(xam88.xfulladder26.xorfa0.n3  v(xam88.xfulladder26.xorfa1.n2  v(xam88.xfulladd
+er26.xorfa1.n3  v(xam88.xfulladder27.xorexfa.xorout1            v(xam88.xfulladd
+er27.xorexfa.xortemp1           v(xam88.xfulladder27.xandfa0.n2 v(xam88.xfulladd
+er27.xandfa0.n3 v(xam88.xfulladder27.xandfa1.n2 v(xam88.xfulladder27.xandfa1.n3 
+v(xam88.xfulladder27.xandfa2.n2 v(xam88.xfulladder27.xandfa2.n3 v(xam88.xfulladd
+er27.xorfa0.n2  v(xam88.xfulladder27.xorfa0.n3  v(xam88.xfulladder27.xorfa1.n2  
+v(xam88.xfulladder27.xorfa1.n3  v(xam88.xfulladder32.xorexfa.xorout1            
+v(xam88.xfulladder32.xorexfa.xortemp1           v(xam88.xfulladder32.xandfa0.n2 
+v(xam88.xfulladder32.xandfa0.n3 v(xam88.xfulladder32.xandfa1.n2 v(xam88.xfulladd
+er32.xandfa1.n3 v(xam88.xfulladder32.xandfa2.n2 v(xam88.xfulladder32.xandfa2.n3 
+v(xam88.xfulladder32.xorfa0.n2  v(xam88.xfulladder32.xorfa0.n3  v(xam88.xfulladd
+er32.xorfa1.n2  v(xam88.xfulladder32.xorfa1.n3  v(xam88.xfulladder33.xorexfa.xor
+out1            v(xam88.xfulladder33.xorexfa.xortemp1           v(xam88.xfulladd
+er33.xandfa0.n2 v(xam88.xfulladder33.xandfa0.n3 v(xam88.xfulladder33.xandfa1.n2 
+v(xam88.xfulladder33.xandfa1.n3 v(xam88.xfulladder33.xandfa2.n2 v(xam88.xfulladd
+er33.xandfa2.n3 v(xam88.xfulladder33.xorfa0.n2  v(xam88.xfulladder33.xorfa0.n3  
+v(xam88.xfulladder33.xorfa1.n2  v(xam88.xfulladder33.xorfa1.n3  v(xam88.xfulladd
+er34.xorexfa.xorout1            v(xam88.xfulladder34.xorexfa.xortemp1           
+v(xam88.xfulladder34.xandfa0.n2 v(xam88.xfulladder34.xandfa0.n3 v(xam88.xfulladd
+er34.xandfa1.n2 v(xam88.xfulladder34.xandfa1.n3 v(xam88.xfulladder34.xandfa2.n2 
+v(xam88.xfulladder34.xandfa2.n3 v(xam88.xfulladder34.xorfa0.n2  v(xam88.xfulladd
+er34.xorfa0.n3  v(xam88.xfulladder34.xorfa1.n2  v(xam88.xfulladder34.xorfa1.n3  
+v(xam88.xfulladder35.xorexfa.xorout1            v(xam88.xfulladder35.xorexfa.xor
+temp1           v(xam88.xfulladder35.xandfa0.n2 v(xam88.xfulladder35.xandfa0.n3 
+v(xam88.xfulladder35.xandfa1.n2 v(xam88.xfulladder35.xandfa1.n3 v(xam88.xfulladd
+er35.xandfa2.n2 v(xam88.xfulladder35.xandfa2.n3 v(xam88.xfulladder35.xorfa0.n2  
+v(xam88.xfulladder35.xorfa0.n3  v(xam88.xfulladder35.xorfa1.n2  v(xam88.xfulladd
+er35.xorfa1.n3  v(xam88.xfulladder36.xorexfa.xorout1            v(xam88.xfulladd
+er36.xorexfa.xortemp1           v(xam88.xfulladder36.xandfa0.n2 v(xam88.xfulladd
+er36.xandfa0.n3 v(xam88.xfulladder36.xandfa1.n2 v(xam88.xfulladder36.xandfa1.n3 
+v(xam88.xfulladder36.xandfa2.n2 v(xam88.xfulladder36.xandfa2.n3 v(xam88.xfulladd
+er36.xorfa0.n2  v(xam88.xfulladder36.xorfa0.n3  v(xam88.xfulladder36.xorfa1.n2  
+v(xam88.xfulladder36.xorfa1.n3  v(xam88.xfulladder37.xorexfa.xorout1            
+v(xam88.xfulladder37.xorexfa.xortemp1           v(xam88.xfulladder37.xandfa0.n2 
+v(xam88.xfulladder37.xandfa0.n3 v(xam88.xfulladder37.xandfa1.n2 v(xam88.xfulladd
+er37.xandfa1.n3 v(xam88.xfulladder37.xandfa2.n2 v(xam88.xfulladder37.xandfa2.n3 
+v(xam88.xfulladder37.xorfa0.n2  v(xam88.xfulladder37.xorfa0.n3  v(xam88.xfulladd
+er37.xorfa1.n2  v(xam88.xfulladder37.xorfa1.n3  v(xam88.xfulladder42.xorexfa.xor
+out1            v(xam88.xfulladder42.xorexfa.xortemp1           v(xam88.xfulladd
+er42.xandfa0.n2 v(xam88.xfulladder42.xandfa0.n3 v(xam88.xfulladder42.xandfa1.n2 
+v(xam88.xfulladder42.xandfa1.n3 v(xam88.xfulladder42.xandfa2.n2 v(xam88.xfulladd
+er42.xandfa2.n3 v(xam88.xfulladder42.xorfa0.n2  v(xam88.xfulladder42.xorfa0.n3  
+v(xam88.xfulladder42.xorfa1.n2  v(xam88.xfulladder42.xorfa1.n3  v(xam88.xfulladd
+er43.xorexfa.xorout1            v(xam88.xfulladder43.xorexfa.xortemp1           
+v(xam88.xfulladder43.xandfa0.n2 v(xam88.xfulladder43.xandfa0.n3 v(xam88.xfulladd
+er43.xandfa1.n2 v(xam88.xfulladder43.xandfa1.n3 v(xam88.xfulladder43.xandfa2.n2 
+v(xam88.xfulladder43.xandfa2.n3 v(xam88.xfulladder43.xorfa0.n2  v(xam88.xfulladd
+er43.xorfa0.n3  v(xam88.xfulladder43.xorfa1.n2  v(xam88.xfulladder43.xorfa1.n3  
+v(xam88.xfulladder44.xorexfa.xorout1            v(xam88.xfulladder44.xorexfa.xor
+temp1           v(xam88.xfulladder44.xandfa0.n2 v(xam88.xfulladder44.xandfa0.n3 
+v(xam88.xfulladder44.xandfa1.n2 v(xam88.xfulladder44.xandfa1.n3 v(xam88.xfulladd
+er44.xandfa2.n2 v(xam88.xfulladder44.xandfa2.n3 v(xam88.xfulladder44.xorfa0.n2  
+v(xam88.xfulladder44.xorfa0.n3  v(xam88.xfulladder44.xorfa1.n2  v(xam88.xfulladd
+er44.xorfa1.n3  v(xam88.xfulladder45.xorexfa.xorout1            v(xam88.xfulladd
+er45.xorexfa.xortemp1           v(xam88.xfulladder45.xandfa0.n2 v(xam88.xfulladd
+er45.xandfa0.n3 v(xam88.xfulladder45.xandfa1.n2 v(xam88.xfulladder45.xandfa1.n3 
+v(xam88.xfulladder45.xandfa2.n2 v(xam88.xfulladder45.xandfa2.n3 v(xam88.xfulladd
+er45.xorfa0.n2  v(xam88.xfulladder45.xorfa0.n3  v(xam88.xfulladder45.xorfa1.n2  
+v(xam88.xfulladder45.xorfa1.n3  v(xam88.xfulladder46.xorexfa.xorout1            
+v(xam88.xfulladder46.xorexfa.xortemp1           v(xam88.xfulladder46.xandfa0.n2 
+v(xam88.xfulladder46.xandfa0.n3 v(xam88.xfulladder46.xandfa1.n2 v(xam88.xfulladd
+er46.xandfa1.n3 v(xam88.xfulladder46.xandfa2.n2 v(xam88.xfulladder46.xandfa2.n3 
+v(xam88.xfulladder46.xorfa0.n2  v(xam88.xfulladder46.xorfa0.n3  v(xam88.xfulladd
+er46.xorfa1.n2  v(xam88.xfulladder46.xorfa1.n3  v(xam88.xfulladder47.xorexfa.xor
+out1            v(xam88.xfulladder47.xorexfa.xortemp1           v(xam88.xfulladd
+er47.xandfa0.n2 v(xam88.xfulladder47.xandfa0.n3 v(xam88.xfulladder47.xandfa1.n2 
+v(xam88.xfulladder47.xandfa1.n3 v(xam88.xfulladder47.xandfa2.n2 v(xam88.xfulladd
+er47.xandfa2.n3 v(xam88.xfulladder47.xorfa0.n2  v(xam88.xfulladder47.xorfa0.n3  
+v(xam88.xfulladder47.xorfa1.n2  v(xam88.xfulladder47.xorfa1.n3  v(xam88.xfulladd
+er52.xorexfa.xorout1            v(xam88.xfulladder52.xorexfa.xortemp1           
+v(xam88.xfulladder52.xandfa0.n2 v(xam88.xfulladder52.xandfa0.n3 v(xam88.xfulladd
+er52.xandfa1.n2 v(xam88.xfulladder52.xandfa1.n3 v(xam88.xfulladder52.xandfa2.n2 
+v(xam88.xfulladder52.xandfa2.n3 v(xam88.xfulladder52.xorfa0.n2  v(xam88.xfulladd
+er52.xorfa0.n3  v(xam88.xfulladder52.xorfa1.n2  v(xam88.xfulladder52.xorfa1.n3  
+v(xam88.xfulladder53.xorexfa.xorout1            v(xam88.xfulladder53.xorexfa.xor
+temp1           v(xam88.xfulladder53.xandfa0.n2 v(xam88.xfulladder53.xandfa0.n3 
+v(xam88.xfulladder53.xandfa1.n2 v(xam88.xfulladder53.xandfa1.n3 v(xam88.xfulladd
+er53.xandfa2.n2 v(xam88.xfulladder53.xandfa2.n3 v(xam88.xfulladder53.xorfa0.n2  
+v(xam88.xfulladder53.xorfa0.n3  v(xam88.xfulladder53.xorfa1.n2  v(xam88.xfulladd
+er53.xorfa1.n3  v(xam88.xfulladder54.xorexfa.xorout1            v(xam88.xfulladd
+er54.xorexfa.xortemp1           v(xam88.xfulladder54.xandfa0.n2 v(xam88.xfulladd
+er54.xandfa0.n3 v(xam88.xfulladder54.xandfa1.n2 v(xam88.xfulladder54.xandfa1.n3 
+v(xam88.xfulladder54.xandfa2.n2 v(xam88.xfulladder54.xandfa2.n3 v(xam88.xfulladd
+er54.xorfa0.n2  v(xam88.xfulladder54.xorfa0.n3  v(xam88.xfulladder54.xorfa1.n2  
+v(xam88.xfulladder54.xorfa1.n3  v(xam88.xfulladder55.xorexfa.xorout1            
+v(xam88.xfulladder55.xorexfa.xortemp1           v(xam88.xfulladder55.xandfa0.n2 
+v(xam88.xfulladder55.xandfa0.n3 v(xam88.xfulladder55.xandfa1.n2 v(xam88.xfulladd
+er55.xandfa1.n3 v(xam88.xfulladder55.xandfa2.n2 v(xam88.xfulladder55.xandfa2.n3 
+v(xam88.xfulladder55.xorfa0.n2  v(xam88.xfulladder55.xorfa0.n3  v(xam88.xfulladd
+er55.xorfa1.n2  v(xam88.xfulladder55.xorfa1.n3  v(xam88.xfulladder56.xorexfa.xor
+out1            v(xam88.xfulladder56.xorexfa.xortemp1           v(xam88.xfulladd
+er56.xandfa0.n2 v(xam88.xfulladder56.xandfa0.n3 v(xam88.xfulladder56.xandfa1.n2 
+v(xam88.xfulladder56.xandfa1.n3 v(xam88.xfulladder56.xandfa2.n2 v(xam88.xfulladd
+er56.xandfa2.n3 v(xam88.xfulladder56.xorfa0.n2  v(xam88.xfulladder56.xorfa0.n3  
+v(xam88.xfulladder56.xorfa1.n2  v(xam88.xfulladder56.xorfa1.n3  v(xam88.xfulladd
+er57.xorexfa.xorout1            v(xam88.xfulladder57.xorexfa.xortemp1           
+v(xam88.xfulladder57.xandfa0.n2 v(xam88.xfulladder57.xandfa0.n3 v(xam88.xfulladd
+er57.xandfa1.n2 v(xam88.xfulladder57.xandfa1.n3 v(xam88.xfulladder57.xandfa2.n2 
+v(xam88.xfulladder57.xandfa2.n3 v(xam88.xfulladder57.xorfa0.n2  v(xam88.xfulladd
+er57.xorfa0.n3  v(xam88.xfulladder57.xorfa1.n2  v(xam88.xfulladder57.xorfa1.n3  
+v(xam88.xfulladder62.xorexfa.xorout1            v(xam88.xfulladder62.xorexfa.xor
+temp1           v(xam88.xfulladder62.xandfa0.n2 v(xam88.xfulladder62.xandfa0.n3 
+v(xam88.xfulladder62.xandfa1.n2 v(xam88.xfulladder62.xandfa1.n3 v(xam88.xfulladd
+er62.xandfa2.n2 v(xam88.xfulladder62.xandfa2.n3 v(xam88.xfulladder62.xorfa0.n2  
+v(xam88.xfulladder62.xorfa0.n3  v(xam88.xfulladder62.xorfa1.n2  v(xam88.xfulladd
+er62.xorfa1.n3  v(xam88.xfulladder63.xorexfa.xorout1            v(xam88.xfulladd
+er63.xorexfa.xortemp1           v(xam88.xfulladder63.xandfa0.n2 v(xam88.xfulladd
+er63.xandfa0.n3 v(xam88.xfulladder63.xandfa1.n2 v(xam88.xfulladder63.xandfa1.n3 
+v(xam88.xfulladder63.xandfa2.n2 v(xam88.xfulladder63.xandfa2.n3 v(xam88.xfulladd
+er63.xorfa0.n2  v(xam88.xfulladder63.xorfa0.n3  v(xam88.xfulladder63.xorfa1.n2  
+v(xam88.xfulladder63.xorfa1.n3  v(xam88.xfulladder64.xorexfa.xorout1            
+v(xam88.xfulladder64.xorexfa.xortemp1           v(xam88.xfulladder64.xandfa0.n2 
+v(xam88.xfulladder64.xandfa0.n3 v(xam88.xfulladder64.xandfa1.n2 v(xam88.xfulladd
+er64.xandfa1.n3 v(xam88.xfulladder64.xandfa2.n2 v(xam88.xfulladder64.xandfa2.n3 
+v(xam88.xfulladder64.xorfa0.n2  v(xam88.xfulladder64.xorfa0.n3  v(xam88.xfulladd
+er64.xorfa1.n2  v(xam88.xfulladder64.xorfa1.n3  v(xam88.xfulladder65.xorexfa.xor
+out1            v(xam88.xfulladder65.xorexfa.xortemp1           v(xam88.xfulladd
+er65.xandfa0.n2 v(xam88.xfulladder65.xandfa0.n3 v(xam88.xfulladder65.xandfa1.n2 
+v(xam88.xfulladder65.xandfa1.n3 v(xam88.xfulladder65.xandfa2.n2 v(xam88.xfulladd
+er65.xandfa2.n3 v(xam88.xfulladder65.xorfa0.n2  v(xam88.xfulladder65.xorfa0.n3  
+v(xam88.xfulladder65.xorfa1.n2  v(xam88.xfulladder65.xorfa1.n3  v(xam88.xfulladd
+er66.xorexfa.xorout1            v(xam88.xfulladder66.xorexfa.xortemp1           
+v(xam88.xfulladder66.xandfa0.n2 v(xam88.xfulladder66.xandfa0.n3 v(xam88.xfulladd
+er66.xandfa1.n2 v(xam88.xfulladder66.xandfa1.n3 v(xam88.xfulladder66.xandfa2.n2 
+v(xam88.xfulladder66.xandfa2.n3 v(xam88.xfulladder66.xorfa0.n2  v(xam88.xfulladd
+er66.xorfa0.n3  v(xam88.xfulladder66.xorfa1.n2  v(xam88.xfulladder66.xorfa1.n3  
+v(xam88.xfulladder67.xorexfa.xorout1            v(xam88.xfulladder67.xorexfa.xor
+temp1           v(xam88.xfulladder67.xandfa0.n2 v(xam88.xfulladder67.xandfa0.n3 
+v(xam88.xfulladder67.xandfa1.n2 v(xam88.xfulladder67.xandfa1.n3 v(xam88.xfulladd
+er67.xandfa2.n2 v(xam88.xfulladder67.xandfa2.n3 v(xam88.xfulladder67.xorfa0.n2  
+v(xam88.xfulladder67.xorfa0.n3  v(xam88.xfulladder67.xorfa1.n2  v(xam88.xfulladd
+er67.xorfa1.n3  v(xam88.xhalfadder1.xorxha1.n2  v(xam88.xhalfadder1.xandha1.n2  
+v(xam88.xhalfadder1.xandha1.n3  v(xam88.xhalfadder2.xorxha1.n2  v(xam88.xhalfadd
+er2.xandha1.n2  v(xam88.xhalfadder2.xandha1.n3  v(xam88.xhalfadder3.xorxha1.n2  
+v(xam88.xhalfadder3.xandha1.n2  v(xam88.xhalfadder3.xandha1.n3  v(xam88.xhalfadd
+er4.xorxha1.n2  v(xam88.xhalfadder4.xandha1.n2  v(xam88.xhalfadder4.xandha1.n3  
+v(xam88.xhalfadder5.xorxha1.n2  v(xam88.xhalfadder5.xandha1.n2  v(xam88.xhalfadd
+er5.xandha1.n3  v(xam88.xhalfadder6.xorxha1.n2  v(xam88.xhalfadder6.xandha1.n2  
+v(xam88.xhalfadder6.xandha1.n3  v(xam88.xhalfadder7.xorxha1.n2  v(xam88.xhalfadd
+er7.xandha1.n2  v(xam88.xhalfadder7.xandha1.n3  v(xam88.xhalfadder8.xorxha1.n2  
+v(xam88.xhalfadder8.xandha1.n2  v(xam88.xhalfadder8.xandha1.n3  v(xam88.xfulladd
+er01.xorexfa.xor3f1.n2          v(xam88.xfulladder01.xorexfa.xor3f2.n2          
+v(xam88.xfulladder02.xorexfa.xor3f1.n2          v(xam88.xfulladder02.xorexfa.xor
+3f2.n2          v(xam88.xfulladder03.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er03.xorexfa.xor3f2.n2          v(xam88.xfulladder04.xorexfa.xor3f1.n2          
+v(xam88.xfulladder04.xorexfa.xor3f2.n2          v(xam88.xfulladder05.xorexfa.xor
+3f1.n2          v(xam88.xfulladder05.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er06.xorexfa.xor3f1.n2          v(xam88.xfulladder06.xorexfa.xor3f2.n2          
+v(xam88.xfulladder11.xorexfa.xor3f1.n2          v(xam88.xfulladder11.xorexfa.xor
+3f2.n2          v(xam88.xfulladder21.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er21.xorexfa.xor3f2.n2          v(xam88.xfulladder31.xorexfa.xor3f1.n2          
+v(xam88.xfulladder31.xorexfa.xor3f2.n2          v(xam88.xfulladder41.xorexfa.xor
+3f1.n2          v(xam88.xfulladder41.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er51.xorexfa.xor3f1.n2          v(xam88.xfulladder51.xorexfa.xor3f2.n2          
+v(xam88.xfulladder61.xorexfa.xor3f1.n2          v(xam88.xfulladder61.xorexfa.xor
+3f2.n2          v(xam88.xfulladder16.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er16.xorexfa.xor3f2.n2          v(xam88.xfulladder12.xorexfa.xor3f1.n2          
+v(xam88.xfulladder12.xorexfa.xor3f2.n2          v(xam88.xfulladder13.xorexfa.xor
+3f1.n2          v(xam88.xfulladder13.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er14.xorexfa.xor3f1.n2          v(xam88.xfulladder14.xorexfa.xor3f2.n2          
+v(xam88.xfulladder15.xorexfa.xor3f1.n2          v(xam88.xfulladder15.xorexfa.xor
+3f2.n2          v(xam88.xfulladder17.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er17.xorexfa.xor3f2.n2          v(xam88.xfulladder22.xorexfa.xor3f1.n2          
+v(xam88.xfulladder22.xorexfa.xor3f2.n2          v(xam88.xfulladder23.xorexfa.xor
+3f1.n2          v(xam88.xfulladder23.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er24.xorexfa.xor3f1.n2          v(xam88.xfulladder24.xorexfa.xor3f2.n2          
+v(xam88.xfulladder25.xorexfa.xor3f1.n2          v(xam88.xfulladder25.xorexfa.xor
+3f2.n2          v(xam88.xfulladder26.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er26.xorexfa.xor3f2.n2          v(xam88.xfulladder27.xorexfa.xor3f1.n2          
+v(xam88.xfulladder27.xorexfa.xor3f2.n2          v(xam88.xfulladder32.xorexfa.xor
+3f1.n2          v(xam88.xfulladder32.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er33.xorexfa.xor3f1.n2          v(xam88.xfulladder33.xorexfa.xor3f2.n2          
+v(xam88.xfulladder34.xorexfa.xor3f1.n2          v(xam88.xfulladder34.xorexfa.xor
+3f2.n2          v(xam88.xfulladder35.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er35.xorexfa.xor3f2.n2          v(xam88.xfulladder36.xorexfa.xor3f1.n2          
+v(xam88.xfulladder36.xorexfa.xor3f2.n2          v(xam88.xfulladder37.xorexfa.xor
+3f1.n2          v(xam88.xfulladder37.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er42.xorexfa.xor3f1.n2          v(xam88.xfulladder42.xorexfa.xor3f2.n2          
+v(xam88.xfulladder43.xorexfa.xor3f1.n2          v(xam88.xfulladder43.xorexfa.xor
+3f2.n2          v(xam88.xfulladder44.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er44.xorexfa.xor3f2.n2          v(xam88.xfulladder45.xorexfa.xor3f1.n2          
+v(xam88.xfulladder45.xorexfa.xor3f2.n2          v(xam88.xfulladder46.xorexfa.xor
+3f1.n2          v(xam88.xfulladder46.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er47.xorexfa.xor3f1.n2          v(xam88.xfulladder47.xorexfa.xor3f2.n2          
+v(xam88.xfulladder52.xorexfa.xor3f1.n2          v(xam88.xfulladder52.xorexfa.xor
+3f2.n2          v(xam88.xfulladder53.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er53.xorexfa.xor3f2.n2          v(xam88.xfulladder54.xorexfa.xor3f1.n2          
+v(xam88.xfulladder54.xorexfa.xor3f2.n2          v(xam88.xfulladder55.xorexfa.xor
+3f1.n2          v(xam88.xfulladder55.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er56.xorexfa.xor3f1.n2          v(xam88.xfulladder56.xorexfa.xor3f2.n2          
+v(xam88.xfulladder57.xorexfa.xor3f1.n2          v(xam88.xfulladder57.xorexfa.xor
+3f2.n2          v(xam88.xfulladder62.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er62.xorexfa.xor3f2.n2          v(xam88.xfulladder63.xorexfa.xor3f1.n2          
+v(xam88.xfulladder63.xorexfa.xor3f2.n2          v(xam88.xfulladder64.xorexfa.xor
+3f1.n2          v(xam88.xfulladder64.xorexfa.xor3f2.n2          v(xam88.xfulladd
+er65.xorexfa.xor3f1.n2          v(xam88.xfulladder65.xorexfa.xor3f2.n2          
+v(xam88.xfulladder66.xorexfa.xor3f1.n2          v(xam88.xfulladder66.xorexfa.xor
+3f2.n2          v(xam88.xfulladder67.xorexfa.xor3f1.n2          v(xam88.xfulladd
+er67.xorexfa.xor3f2.n2          i(vground       i(vsupplyh      i(vsupplyl      
+i(vxx0          i(vxx1          i(vxx2          i(vxx3          i(vxx4          
+i(vxx5          i(vxx6          i(vxx7          power           $&%#            
+0.1982400E-080.0000000E+000.3000000E+010.3000000E+010.0000000E+000.0000000E+00
+0.0000000E+000.1000000E+010.1000000E+010.0000000E+000.0000000E+000.1000000E+01
+0.1000000E+010.2110110E+010.2112550E+010.2109887E+010.2111888E+010.2111888E+01
+0.2111888E+010.2111888E+010.2111888E+010.2120368E+000.0000000E+000.0000000E+00
+0.0000000E+000.0000000E+000.0000000E+000.5785441E+000.1579733E+010.1579449E+01
+0.1579449E+010.1579449E+010.1579449E+010.1579449E+010.0000000E+000.0000000E+00
+0.1025735E+010.1007182E+010.1006872E+010.1006872E+010.1006872E+010.1006872E+01
+0.1006872E+010.2252553E+000.2363389E+000.2364898E+000.2366870E+000.2366870E+00
+0.2366870E+000.2366870E+000.2366870E+000.1295186E+010.2572255E+000.2575333E+00
+0.2571161E+000.2571161E+000.2571161E+000.2571161E+000.2571161E+000.1293630E+01
+0.2572217E+000.2575486E+000.2571314E+000.2571314E+000.2571314E+000.2571314E+00
+0.2571314E+000.1024776E+010.2363384E+000.2362307E+000.2361777E+000.2361777E+00
+0.2361777E+000.2361777E+000.2361777E+000.1025703E+010.2363418E+000.2362308E+00
+0.2361778E+000.2361778E+000.2361778E+000.2361778E+000.2361778E+000.1295184E+01
+0.2572265E+000.2591238E+000.2571318E+000.2571318E+000.2571318E+000.2571318E+00
+0.2571318E+000.1293630E+010.1163546E+010.2575303E+000.2571317E+000.2571317E+00
+0.2571317E+000.2571317E+000.2571317E+000.2446280E+010.2411939E+010.2258852E+01
+0.2181546E+010.2401312E+010.2404616E+010.1373316E+010.9549934E+000.9481663E+00
+0.9468798E+000.9571956E+000.1298652E+010.5831105E+000.1381936E+010.9503712E+00
+0.9469769E+000.9457274E+000.9456194E+000.9467938E+000.5785441E+000.1381936E+01
+0.9503712E+000.9469769E+000.9457274E+000.9456194E+000.9467938E+000.5785441E+00
+0.1381936E+010.9503712E+000.9469769E+000.9457274E+000.9456194E+000.9467938E+00
+0.5785441E+000.1381936E+010.9503712E+000.9469769E+000.9457274E+000.9456194E+00
+0.9467938E+000.5785441E+000.1381936E+010.9503712E+000.9469769E+000.9457274E+00
+0.9456194E+000.9467938E+000.1489619E+010.4967336E+000.3952948E+000.3952948E+00
+0.3952948E+000.3952948E+000.3952948E+000.2083400E+000.1549680E+010.1586019E+01
+0.1573094E+010.1569917E+010.1569830E+010.1753630E+010.1910401E+010.1748481E+01
+0.1586530E+010.1881952E+010.1755699E+010.1753660E+010.1752903E+010.1752827E+01
+0.1753554E+010.1748481E+010.1586530E+010.1881952E+010.1755699E+010.1753660E+01
+0.1752903E+010.1752827E+010.1753554E+010.1748481E+010.1586530E+010.1881952E+01
+0.1755699E+010.1753660E+010.1752903E+010.1752827E+010.1753554E+010.1748481E+01
+0.1586530E+010.1881952E+010.1755699E+010.1753660E+010.1752903E+010.1752827E+01
+0.1753554E+010.1748481E+010.1586530E+010.1881952E+010.1755699E+010.1753660E+01
+0.1752903E+010.1752827E+010.1753554E+010.1717559E+010.1558011E+010.2999937E+01
+0.1755202E+010.2999936E+010.1756655E+010.2999937E+010.1755021E+010.2999936E+01
+0.1756250E+010.2999936E+010.1756250E+010.2999936E+010.1756250E+010.2999936E+01
+0.1756250E+010.2999936E+010.1756250E+010.2999937E+010.1755202E+010.2999936E+01
+0.1756701E+010.2999937E+010.1755065E+010.2999936E+010.1756294E+010.2999936E+01
+0.1756294E+010.2999936E+010.1756294E+010.2999936E+010.1756294E+010.2999936E+01
+0.1756294E+010.2915498E+010.1169456E+010.2915267E+010.1171424E+010.2915518E+01
+0.1169276E+010.2915330E+010.1170890E+010.2915330E+010.1170890E+010.2915330E+01
+0.1170890E+010.2915330E+010.1170890E+010.2915330E+010.1170890E+010.2915498E+01
+0.1169456E+010.2915267E+010.1171424E+010.2915518E+010.1169276E+010.2915330E+01
+0.1170890E+010.2915330E+010.1170890E+010.2915330E+010.1170890E+010.2915330E+01
+0.1170890E+010.2915330E+010.1170890E+010.2999937E+010.1755157E+010.2999936E+01
+0.1756701E+010.2999937E+010.1755065E+010.2999936E+010.1756294E+010.2999936E+01
+0.1756294E+010.2999936E+010.1756294E+010.2999936E+010.1756294E+010.2999936E+01
+0.1756294E+010.2999937E+010.1755156E+010.2999936E+010.1756701E+010.2999937E+01
+0.1755065E+010.2999936E+010.1756294E+010.2999936E+010.1756294E+010.2999936E+01
+0.1756294E+010.2999936E+010.1756294E+010.2999936E+010.1756294E+010.2915498E+01
+0.1169456E+010.2915267E+010.1171424E+010.2915518E+010.1169276E+010.2915330E+01
+0.1170890E+010.2915330E+010.1170890E+010.2915330E+010.1170890E+010.2915330E+01
+0.1170890E+010.2915330E+010.1170890E+010.2915498E+010.1169456E+010.2915267E+01
+0.1171424E+010.2915518E+010.1169276E+010.2915330E+010.1170890E+010.2915330E+01
+0.1170890E+010.2915330E+010.1170890E+010.2915330E+010.1170890E+010.2915330E+01
+0.1170890E+010.1518170E+010.6538115E+000.1525490E+010.1113531E+010.1520012E+01
+0.6245646E+000.1525044E+010.1026325E+010.1501630E+010.4691007E+000.1521441E+01
+0.7739623E+000.1490218E+010.4767396E+000.1520590E+010.7585552E+000.1517873E+01
+0.6159969E+000.1523881E+010.9852181E+000.1519943E+010.6151211E+000.1524615E+01
+0.9986497E+000.1527125E+010.1459519E+010.2038852E+000.2683172E+010.1527175E+01
+0.1482143E+010.2015404E+000.2694111E+010.1527175E+010.1482143E+010.2015404E+00
+0.2694111E+010.1527175E+010.1482143E+010.2015404E+000.2694111E+010.1527175E+01
+0.1482143E+010.2015404E+000.2694111E+010.1527175E+010.1482143E+010.2015404E+00
+0.2694111E+010.1477930E+010.1373100E+010.2009758E+000.2544612E+010.6680646E+00
+0.1506605E+010.2581386E+000.7502501E+000.4587994E+000.1460355E+010.2584638E+00
+0.7031796E+000.4561424E+000.1421522E+010.2561127E+000.6955977E+000.3608402E+00
+0.1419087E+010.2406331E+000.6891470E+000.4292487E+000.1506331E+010.2328627E+00
+0.7094389E+000.5050835E+000.1506689E+010.2342827E+000.7173543E+000.3611085E+00
+0.1455774E+010.2418664E+000.6962764E+000.3608597E+000.1419169E+010.2406277E+00
+0.6891640E+000.3607884E+000.1416659E+010.2406775E+000.6886680E+000.3608383E+00
+0.1450852E+010.2420660E+000.6953196E+000.3608963E+000.1452136E+010.2420153E+00
+0.6955690E+000.5050835E+000.1506689E+010.2342827E+000.7173543E+000.3611085E+00
+0.1455774E+010.2418664E+000.6962764E+000.3608597E+000.1419169E+010.2406277E+00
+0.6891640E+000.3607884E+000.1416659E+010.2406775E+000.6886680E+000.3608383E+00
+0.1450852E+010.2420660E+000.6953196E+000.3608963E+000.1452136E+010.2420153E+00
+0.6955690E+000.5050835E+000.1506689E+010.2342827E+000.7173543E+000.3611085E+00
+0.1455774E+010.2418664E+000.6962764E+000.3608597E+000.1419169E+010.2406277E+00
+0.6891640E+000.3607884E+000.1416659E+010.2406775E+000.6886680E+000.3608383E+00
+0.1450852E+010.2420660E+000.6953196E+000.3608963E+000.1452136E+010.2420153E+00
+0.6955690E+000.5050835E+000.1506689E+010.2342827E+000.7173543E+000.3611085E+00
+0.1455774E+010.2418664E+000.6962764E+000.3608597E+000.1419169E+010.2406277E+00
+0.6891640E+000.3607884E+000.1416659E+010.2406775E+000.6886680E+000.3608383E+00
+0.1450852E+010.2420660E+000.6953196E+000.3608963E+000.1452136E+010.2420153E+00
+0.6955690E+000.5050835E+000.1506689E+010.2342827E+000.7173543E+000.3611085E+00
+0.1455774E+010.2418664E+000.6962764E+000.3608597E+000.1419169E+010.2406277E+00
+0.6891640E+000.3607884E+000.1416659E+010.2406775E+000.6886680E+000.3608383E+00
+0.1450852E+010.2420660E+000.6953196E+000.3608963E+000.1452136E+010.2420153E+00
+0.6955690E+000.1722550E+010.1561135E+010.2967577E+010.1062251E+000.2887102E+01
+0.6542567E+000.2966362E+010.9435673E-010.2219339E+010.1739940E+010.1309605E+01
+0.7331399E+000.1731932E+010.1564957E+010.2969424E+010.9948979E-010.2884874E+01
+0.6700802E+000.2967719E+010.8660493E-010.2241581E+010.1782034E+010.1449999E+01
+0.8746796E+000.1756546E+010.1560072E+010.2970791E+010.1430034E+000.2936875E+01
+0.8103529E+000.2967425E+010.8542940E-010.2373183E+010.2000836E+010.2013904E+01
+0.1472581E+010.1755969E+010.1558935E+010.2968832E+010.1565011E+000.2937044E+01
+0.8040516E+000.2965721E+010.9104003E-010.2395279E+010.2025738E+010.2048341E+01
+0.1512291E+010.1749071E+010.1561135E+010.2967577E+010.1062242E+000.2883610E+01
+0.6744978E+000.2965747E+010.9115277E-010.2256570E+010.1805516E+010.1536600E+01
+0.9624812E+000.1738320E+010.1564957E+010.2969424E+010.9948950E-010.2883954E+01
+0.6751930E+000.2967558E+010.8593954E-010.2250100E+010.1797552E+010.1505412E+01
+0.9307458E+000.1586024E+010.1586022E+010.2965628E+010.9054560E-010.2947355E+01
+0.1407960E+000.2970177E+010.2378738E+010.1054307E+010.4745860E+000.2260747E+01
+0.1671228E+010.1586533E+010.1586532E+010.2965642E+010.9047477E-010.2963723E+01
+0.9485860E-010.2970462E+010.2623536E+010.1047592E+010.4677541E+000.2256712E+01
+0.1667076E+010.1586533E+010.1586532E+010.2965642E+010.9047477E-010.2963723E+01
+0.9485860E-010.2970462E+010.2623536E+010.1047592E+010.4677541E+000.2256712E+01
+0.1667076E+010.1586533E+010.1586532E+010.2965642E+010.9047477E-010.2963723E+01
+0.9485860E-010.2970462E+010.2623536E+010.1047592E+010.4677541E+000.2256712E+01
+0.1667076E+010.1586533E+010.1586532E+010.2965642E+010.9047477E-010.2963723E+01
+0.9485860E-010.2970462E+010.2623536E+010.1047592E+010.4677541E+000.2256712E+01
+0.1667076E+010.1586533E+010.1586532E+010.2965642E+010.9047477E-010.2963723E+01
+0.9485860E-010.2970462E+010.2623536E+010.1047592E+010.4677541E+000.2256712E+01
+0.1667076E+010.1546943E+010.1513732E+010.2971247E+010.1789318E+000.2966242E+01
+0.2604737E+000.2974367E+010.2834435E+010.1158638E+010.5792760E+000.2317617E+01
+0.1729643E+010.1851373E+010.1851380E+010.2865927E+010.6393807E+000.2968974E+01
+0.9421974E-010.2999992E+010.1339279E+010.2596421E+010.2040295E+010.2706368E+01
+0.2360118E+010.1550556E+010.1532487E+010.2949551E+010.8382772E+000.2971110E+01
+0.1826166E+000.2999992E+010.1336560E+010.2675093E+010.2137385E+010.2711577E+01
+0.2378649E+010.1549202E+010.1526357E+010.2950718E+010.8417468E+000.2969101E+01
+0.2204116E+000.2999993E+010.1354866E+010.2684469E+010.2154813E+010.2712752E+01
+0.2382185E+010.1549019E+010.1525201E+010.2946234E+010.9460240E+000.2969105E+01
+0.2227169E+000.2999992E+010.1513447E+010.2695655E+010.2169801E+010.2714144E+01
+0.2385372E+010.1815140E+010.1815143E+010.2857810E+010.7985898E+000.2969420E+01
+0.9902539E-010.2999987E+010.1631413E+010.2667751E+010.2123245E+010.2711353E+01
+0.2375971E+010.1854473E+010.1854480E+010.2837150E+010.7273111E+000.2968887E+01
+0.9385248E-010.2999988E+010.1607229E+010.2653069E+010.2105796E+010.2710310E+01
+0.2372586E+010.1549825E+010.1528337E+010.2945533E+010.9449997E+000.2971089E+01
+0.1877018E+000.2999990E+010.1497779E+010.2687484E+010.2153242E+010.2712997E+01
+0.2381917E+010.1549031E+010.1525288E+010.2946215E+010.9459782E+000.2969100E+01
+0.2226351E+000.2999992E+010.1513516E+010.2695636E+010.2169761E+010.2714142E+01
+0.2385364E+010.1548859E+010.1524164E+010.2946466E+010.9463336E+000.2969104E+01
+0.2249735E+000.2999992E+010.1512861E+010.2696153E+010.2170917E+010.2714221E+01
+0.2385610E+010.1549185E+010.1524065E+010.2946488E+010.9463574E+000.2971107E+01
+0.1930086E+000.2999990E+010.1495283E+010.2688664E+010.2155457E+010.2713138E+01
+0.2382371E+010.1549334E+010.1525121E+010.2946252E+010.9460335E+000.2971102E+01
+0.1916387E+000.2999990E+010.1495915E+010.2688359E+010.2154879E+010.2713109E+01
+0.2382272E+010.1854473E+010.1854480E+010.2837150E+010.7273111E+000.2968887E+01
+0.9385248E-010.2999988E+010.1607229E+010.2653069E+010.2105796E+010.2710310E+01
+0.2372586E+010.1549825E+010.1528337E+010.2945533E+010.9449997E+000.2971089E+01
+0.1877018E+000.2999990E+010.1497779E+010.2687484E+010.2153242E+010.2712997E+01
+0.2381917E+010.1549031E+010.1525288E+010.2946215E+010.9459782E+000.2969100E+01
+0.2226351E+000.2999992E+010.1513516E+010.2695636E+010.2169761E+010.2714142E+01
+0.2385364E+010.1548859E+010.1524164E+010.2946466E+010.9463336E+000.2969104E+01
+0.2249735E+000.2999992E+010.1512861E+010.2696153E+010.2170917E+010.2714221E+01
+0.2385610E+010.1549185E+010.1524065E+010.2946488E+010.9463574E+000.2971107E+01
+0.1930086E+000.2999990E+010.1495283E+010.2688664E+010.2155457E+010.2713138E+01
+0.2382371E+010.1549334E+010.1525121E+010.2946252E+010.9460335E+000.2971102E+01
+0.1916387E+000.2999990E+010.1495915E+010.2688359E+010.2154879E+010.2713109E+01
+0.2382272E+010.1854473E+010.1854480E+010.2837150E+010.7273111E+000.2968887E+01
+0.9385248E-010.2999988E+010.1607229E+010.2653069E+010.2105796E+010.2710310E+01
+0.2372586E+010.1549825E+010.1528337E+010.2945533E+010.9449997E+000.2971089E+01
+0.1877018E+000.2999990E+010.1497779E+010.2687484E+010.2153242E+010.2712997E+01
+0.2381917E+010.1549031E+010.1525288E+010.2946215E+010.9459782E+000.2969100E+01
+0.2226351E+000.2999992E+010.1513516E+010.2695636E+010.2169761E+010.2714142E+01
+0.2385364E+010.1548859E+010.1524164E+010.2946466E+010.9463336E+000.2969104E+01
+0.2249735E+000.2999992E+010.1512861E+010.2696153E+010.2170917E+010.2714221E+01
+0.2385610E+010.1549185E+010.1524065E+010.2946488E+010.9463574E+000.2971107E+01
+0.1930086E+000.2999990E+010.1495283E+010.2688664E+010.2155457E+010.2713138E+01
+0.2382371E+010.1549334E+010.1525121E+010.2946252E+010.9460335E+000.2971102E+01
+0.1916387E+000.2999990E+010.1495915E+010.2688359E+010.2154879E+010.2713109E+01
+0.2382272E+010.1854473E+010.1854480E+010.2837150E+010.7273111E+000.2968887E+01
+0.9385248E-010.2999988E+010.1607229E+010.2653069E+010.2105796E+010.2710310E+01
+0.2372586E+010.1549825E+010.1528337E+010.2945533E+010.9449997E+000.2971089E+01
+0.1877018E+000.2999990E+010.1497779E+010.2687484E+010.2153242E+010.2712997E+01
+0.2381917E+010.1549031E+010.1525288E+010.2946215E+010.9459782E+000.2969100E+01
+0.2226351E+000.2999992E+010.1513516E+010.2695636E+010.2169761E+010.2714142E+01
+0.2385364E+010.1548859E+010.1524164E+010.2946466E+010.9463336E+000.2969104E+01
+0.2249735E+000.2999992E+010.1512861E+010.2696153E+010.2170917E+010.2714221E+01
+0.2385610E+010.1549185E+010.1524065E+010.2946488E+010.9463574E+000.2971107E+01
+0.1930086E+000.2999990E+010.1495283E+010.2688664E+010.2155457E+010.2713138E+01
+0.2382371E+010.1549334E+010.1525121E+010.2946252E+010.9460335E+000.2971102E+01
+0.1916387E+000.2999990E+010.1495915E+010.2688359E+010.2154879E+010.2713109E+01
+0.2382272E+010.1854473E+010.1854480E+010.2837150E+010.7273111E+000.2968887E+01
+0.9385248E-010.2999988E+010.1607229E+010.2653069E+010.2105796E+010.2710310E+01
+0.2372586E+010.1549825E+010.1528337E+010.2945533E+010.9449997E+000.2971089E+01
+0.1877018E+000.2999990E+010.1497779E+010.2687484E+010.2153242E+010.2712997E+01
+0.2381917E+010.1549031E+010.1525288E+010.2946215E+010.9459782E+000.2969100E+01
+0.2226351E+000.2999992E+010.1513516E+010.2695636E+010.2169761E+010.2714142E+01
+0.2385364E+010.1548859E+010.1524164E+010.2946466E+010.9463336E+000.2969104E+01
+0.2249735E+000.2999992E+010.1512861E+010.2696153E+010.2170917E+010.2714221E+01
+0.2385610E+010.1549185E+010.1524065E+010.2946488E+010.9463574E+000.2971107E+01
+0.1930086E+000.2999990E+010.1495283E+010.2688664E+010.2155457E+010.2713138E+01
+0.2382371E+010.1549334E+010.1525121E+010.2946252E+010.9460335E+000.2971102E+01
+0.1916387E+000.2999990E+010.1495915E+010.2688359E+010.2154879E+010.2713109E+01
+0.2382272E+010.2130690E+010.2967736E+010.1647211E+000.2152283E+010.2940933E+01
+0.8025385E+000.2152026E+010.2935226E+010.9035493E+000.2152026E+010.2935226E+01
+0.9035493E+000.2152026E+010.2935226E+010.9035493E+000.2152026E+010.2935226E+01
+0.9035493E+000.2152026E+010.2935226E+010.9035493E+000.2265401E+010.2812576E+01
+0.1269726E+010.2115707E+010.1985608E+010.2119522E+010.1964334E+010.2132711E+01
+0.1991399E+010.2131578E+010.1997512E+010.2115707E+010.1985621E+010.2119522E+01
+0.1964334E+010.1834662E+010.1834706E+010.1831301E+010.1831333E+010.1831301E+01
+0.1831333E+010.1831301E+010.1831333E+010.1831301E+010.1831333E+010.1831301E+01
+0.1831333E+010.2090881E+010.2052468E+010.2329596E+010.9167869E+000.2109107E+01
+0.2039819E+010.2103455E+010.2044802E+010.2102386E+010.2045671E+010.2331638E+01
+0.9696390E+000.2327065E+010.9126609E+000.2105280E+010.2043478E+010.2102467E+01
+0.2045606E+010.2101429E+010.2046424E+010.2101337E+010.2046778E+010.2102312E+01
+0.2046000E+010.2327065E+010.9126609E+000.2105280E+010.2043478E+010.2102467E+01
+0.2045606E+010.2101429E+010.2046424E+010.2101337E+010.2046778E+010.2102312E+01
+0.2046000E+010.2327065E+010.9126609E+000.2105280E+010.2043478E+010.2102467E+01
+0.2045606E+010.2101429E+010.2046424E+010.2101337E+010.2046778E+010.2102312E+01
+0.2046000E+010.2327065E+010.9126609E+000.2105280E+010.2043478E+010.2102467E+01
+0.2045606E+010.2101429E+010.2046424E+010.2101337E+010.2046778E+010.2102312E+01
+0.2046000E+010.2327065E+010.9126609E+000.2105280E+010.2043478E+010.2102467E+01
+0.2045606E+010.2101429E+010.2046424E+010.2101337E+010.2046778E+010.2102312E+01
+0.2046000E+010.1901252E-01-.1901252E-01-.3000000E-050.9775727E-040.9775727E-04
+0.2225426E-070.2225426E-070.9775727E-040.9775727E-040.2225426E-070.2225426E-07
+0.5704648E-010.1000000E+31

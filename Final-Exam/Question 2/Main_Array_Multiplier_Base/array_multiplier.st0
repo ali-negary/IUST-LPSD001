@@ -1,0 +1,106 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: array_multiplier.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   Ali_Negary           HOSTNAME: AliNegary-Desktop
+lic: HOSTID: "d0534943d96d"       PID:      11284
+lic: Using FLEXlm license file:
+lic: 27000@AliNegary-Desktop
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2030.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@AliNegary-Desktop
+lic:
+
+ init: begin read circuit files, cpu clock= 6.20E-02
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option post =     2.00
+       option autostop
+       option ingold =     2.00
+ init: end read circuit files, cpu clock= 6.80E-02 peak memory=      61 mb
+ init: begin check errors, cpu clock= 6.80E-02
+  **warning**  No DC path to ground from node        1:
+ init: end check errors, cpu clock= 1.62E-01 peak memory=      75 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.62E-01
+       establish matrix -- done, cpu clock= 1.76E-01 peak memory=      78 mb
+       re-order matrix -- done, cpu clock= 3.46E-01 peak memory=      86 mb
+ init: end setup matrix, cpu clock= 3.59E-01 peak memory=      87 mb
+ dcop: begin dcop, cpu clock= 3.68E-01
+ dcop: begin pseudo transient
+ dcop: end pseudo transient
+ dcop: begin gshunt ramping
+ dcop: gshunt =      0.1000000E-03, gmin =      0.1000000E-11, iter =       14
+ dcop: gshunt =      0.1000000E-04, gmin =      0.1000000E-11, iter =       52
+ dcop: gshunt =      0.1000000E-04, gmin =      0.9500000E-11, iter =       89
+ dcop: gshunt =      0.5050000E-04, gmin =      0.9500000E-11, iter =       15
+ dcop: gshunt =      0.2550250E-04, gmin =      0.9500000E-11, iter =        8
+ dcop: gshunt =      0.2550250E-04, gmin =      0.4750000E-11, iter =        3
+ dcop: gshunt =      0.1287876E-04, gmin =      0.4750000E-11, iter =       13
+ dcop: gshunt =      0.1287876E-04, gmin =      0.2375000E-11, iter =        3
+ dcop: gshunt =      0.6503775E-05, gmin =      0.2375000E-11, iter =       14
+ dcop: gshunt =      0.6503775E-05, gmin =      0.1187500E-11, iter =        3
+ dcop: gshunt =      0.1674722E-05, gmin =      0.1187500E-11, iter =       42
+ dcop: gshunt =      0.1674722E-05, gmin =      0.1000000E-11, iter =        3
+ dcop: gshunt =      0.1674722E-06, gmin =      0.1000000E-11, iter =       13
+ dcop: gshunt =      0.1674722E-07, gmin =      0.1000000E-11, iter =       15
+ dcop: gshunt =      0.1674722E-08, gmin =      0.1000000E-11, iter =       42
+ dcop: gshunt =      0.1674722E-09, gmin =      0.1000000E-11, iter =       14
+ dcop: gshunt =      0.1674722E-10, gmin =      0.1000000E-11, iter =       22
+ dcop: gshunt =      0.1674722E-11, gmin =      0.1000000E-11, iter =       47
+ dcop: gshunt =      0.1674722E-11, gmin =      0.9500000E-11, iter =       62
+ dcop: gshunt =      0.8457346E-11, gmin =      0.9500000E-11, iter =       17
+ dcop: gshunt =      0.4270960E-11, gmin =      0.9500000E-11, iter =        8
+ dcop: gshunt =      0.4270960E-11, gmin =      0.4750000E-11, iter =        6
+ dcop: gshunt =      0.2156835E-11, gmin =      0.4750000E-11, iter =       59
+ dcop: gshunt =      0.2156835E-11, gmin =      0.4512500E-10, iter =       49
+ dcop: gshunt =      0.3108191E-11, gmin =      0.4512500E-10, iter =       66
+ dcop: gshunt =      0.3108191E-11, gmin =      0.4286875E-09, iter =       53
+ dcop: gshunt =      0.3631437E-11, gmin =      0.4286875E-09, iter =       59
+ dcop: gshunt =      0.3631437E-11, gmin =      0.4072531E-08, iter =       61
+ dcop: gshunt =      0.3919222E-11, gmin =      0.4072531E-08, iter =       61
+ dcop: gshunt =      0.3919222E-11, gmin =      0.3868905E-07, iter =       59
+ dcop: gshunt =      0.4077504E-11, gmin =      0.3868905E-07, iter =       62
+ dcop: gshunt =      0.4077504E-11, gmin =      0.3675459E-06, iter =       61
+ dcop: gshunt =      0.4164559E-11, gmin =      0.3675459E-06, iter =       51
+ dcop: gshunt =      0.4164559E-11, gmin =      0.1000000E-05, iter =       57
+ dcop: gshunt =      0.4212440E-11, gmin =      0.1000000E-05, iter =       62
+ dcop: gshunt =      0.4238774E-11, gmin =      0.1000000E-05, iter =       50
+ dcop: gshunt =      0.4253258E-11, gmin =      0.1000000E-05, iter =       54
+ dcop: gshunt =      0.4261224E-11, gmin =      0.1000000E-05, iter =       63
+ dcop: gshunt =      0.4265605E-11, gmin =      0.1000000E-05, iter =       63
+ dcop: gshunt =      0.4268015E-11, gmin =      0.1000000E-05, iter =       64
+ dcop: gshunt =      0.4269340E-11, gmin =      0.1000000E-05, iter =       55
+ dcop: gshunt =      0.4270069E-11, gmin =      0.1000000E-05, iter =       58
+ dcop: gshunt =      0.4270470E-11, gmin =      0.1000000E-05, iter =       58
+ dcop: gshunt =      0.4270690E-11, gmin =      0.1000000E-05, iter =       56
+ dcop: gshunt ramping succeeded
+ dcop: end dcop, cpu clock= 4.11E+01 peak memory=      96 mb tot_iter=    4215
+ output: C:\Users\Ali_Negary\Desktop\IUST\Semester 3\Low-Power System Design\Fin
+ sweep: tran tran0    begin, stop_t=  1.00E-07 #sweeps= 991 cpu clock= 4.11E+01
+ tran: time= 1.0000E-08 tot_iter=    1465 conv_iter=     338 cpu clock= 4.76E+01
+ tran: time= 2.0000E-08 tot_iter=    2481 conv_iter=     573 cpu clock= 5.16E+01
+ tran: time= 3.0000E-08 tot_iter=    3589 conv_iter=     818 cpu clock= 5.61E+01
+ tran: time= 4.0000E-08 tot_iter=    4580 conv_iter=    1045 cpu clock= 6.24E+01
+ tran: time= 5.0000E-08 tot_iter=    5559 conv_iter=    1272 cpu clock= 6.69E+01
+ tran: time= 6.0000E-08 tot_iter=    6596 conv_iter=    1506 cpu clock= 7.20E+01
+ tran: time= 7.0000E-08 tot_iter=    7674 conv_iter=    1745 cpu clock= 7.67E+01
+ tran: time= 8.0005E-08 tot_iter=    8776 conv_iter=    1997 cpu clock= 8.17E+01
+ tran: time= 9.0000E-08 tot_iter=    9751 conv_iter=    2229 cpu clock= 8.62E+01
+ tran: time= 1.0000E-07 tot_iter=   10778 conv_iter=    2467 cpu clock= 9.05E+01
+ sweep: tran tran0    end, cpu clock= 9.05E+01 peak memory=      95 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

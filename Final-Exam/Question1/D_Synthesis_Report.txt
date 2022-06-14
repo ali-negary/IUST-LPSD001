@@ -1,0 +1,453 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: pipeline_8x8.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pipeline_8x8.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pipeline_8x8"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : pipeline_8x8
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Ali_Negary\Desktop\IUST\Semester 3\Low-Power System Design\Final Exam\Question1\Multiplier_8_8_Pipeline\pipeline_multiplier.vhd" into library work
+Parsing entity <pipeline_8x8>.
+Parsing architecture <pipe1> of entity <pipeline_8x8>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <pipeline_8x8> (architecture <pipe1>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pipeline_8x8>.
+    Related source file is "C:\Users\Ali_Negary\Desktop\IUST\Semester 3\Low-Power System Design\Final Exam\Question1\Multiplier_8_8_Pipeline\pipeline_multiplier.vhd".
+    Found 4-bit register for signal <p_ma_hi<1>>.
+    Found 4-bit register for signal <p_ma_hi<2>>.
+    Found 4-bit register for signal <p_ma_hi<3>>.
+    Found 4-bit register for signal <p_ma_lo<0>>.
+    Found 4-bit register for signal <p_ma_lo<1>>.
+    Found 4-bit register for signal <p_mb_hi<0>>.
+    Found 4-bit register for signal <p_mb_hi<1>>.
+    Found 4-bit register for signal <p_mb_hi<2>>.
+    Found 4-bit register for signal <p_mb_hi<3>>.
+    Found 4-bit register for signal <p_mb_lo<0>>.
+    Found 4-bit register for signal <p_mb_lo<1>>.
+    Found 4-bit register for signal <p_mb_lo<2>>.
+    Found 4-bit register for signal <p_m1<0>>.
+    Found 4-bit register for signal <p_m1<1>>.
+    Found 4-bit register for signal <p_m1<2>>.
+    Found 4-bit register for signal <p_m3>.
+    Found 4-bit register for signal <p_ma_hi<0>>.
+    Found 9-bit register for signal <r_m1<8:0>>.
+    Found 9-bit register for signal <r_m2>.
+    Found 9-bit register for signal <r_m3>.
+    Found 8-bit register for signal <r_m4>.
+    Found 10-bit register for signal <r_p1>.
+    Found 9-bit register for signal <r_p2>.
+    Found 9-bit register for signal <r_p3>.
+    Found 8-bit register for signal <r_p4>.
+    Found 9-bit adder for signal <r_p2[8]_r_m1[8]_add_7_OUT> created at line 96.
+    Found 9-bit adder for signal <r_p3[8]_r_m2[8]_add_8_OUT> created at line 97.
+    Found 8-bit adder for signal <r_p4[7]_r_m3[8]_add_9_OUT> created at line 98.
+    Found 5x5-bit multiplier for signal <GND_4_o_GND_4_o_MuLt_3_OUT> created at line 90.
+    Found 5x4-bit multiplier for signal <GND_4_o_p_mb_hi[1][3]_MuLt_4_OUT> created at line 91.
+    Found 4x5-bit multiplier for signal <p_ma_hi[2][3]_GND_4_o_MuLt_5_OUT> created at line 92.
+    Found 4x4-bit multiplier for signal <p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT> created at line 93.
+    Summary:
+	inferred   4 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred 139 D-type flip-flop(s).
+Unit <pipeline_8x8> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 4
+ 4x4-bit multiplier                                    : 1
+ 5x4-bit multiplier                                    : 2
+ 5x5-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 3
+ 8-bit adder                                           : 1
+ 9-bit adder                                           : 2
+# Registers                                            : 25
+ 10-bit register                                       : 1
+ 4-bit register                                        : 17
+ 8-bit register                                        : 2
+ 9-bit register                                        : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <r_p1_9> of sequential type is unconnected in block <pipeline_8x8>.
+
+Synthesizing (advanced) Unit <pipeline_8x8>.
+	Multiplier <Mmult_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT> in block <pipeline_8x8> and adder/subtractor <Madd_r_p4[7]_r_m3[8]_add_9_OUT> in block <pipeline_8x8> are combined into a MAC<Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT>.
+	The following registers are also absorbed by the MAC: <r_p4> in block <pipeline_8x8>.
+	Multiplier <Mmult_p_ma_hi[2][3]_GND_4_o_MuLt_5_OUT> in block <pipeline_8x8> and adder/subtractor <Madd_r_p3[8]_r_m2[8]_add_8_OUT> in block <pipeline_8x8> are combined into a MAC<Maddsub_p_ma_hi[2][3]_GND_4_o_MuLt_5_OUT>.
+	The following registers are also absorbed by the MAC: <r_p3> in block <pipeline_8x8>.
+	Multiplier <Mmult_GND_4_o_p_mb_hi[1][3]_MuLt_4_OUT> in block <pipeline_8x8> and adder/subtractor <Madd_r_p2[8]_r_m1[8]_add_7_OUT> in block <pipeline_8x8> are combined into a MAC<Maddsub_GND_4_o_p_mb_hi[1][3]_MuLt_4_OUT>.
+	The following registers are also absorbed by the MAC: <r_p2> in block <pipeline_8x8>.
+	Found pipelined multiplier on signal <GND_4_o_GND_4_o_MuLt_3_OUT>:
+		- 1 pipeline level(s) found in a register connected to the multiplier macro output.
+		Pushing register(s) into the multiplier macro.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_GND_4_o_GND_4_o_MuLt_3_OUT by adding 1 register level(s).
+Unit <pipeline_8x8> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 3
+ 4x4-to-8-bit MAC                                      : 1
+ 5x4-to-9-bit MAC                                      : 2
+# Multipliers                                          : 1
+ 5x5-bit registered multiplier                         : 1
+# Registers                                            : 103
+ Flip-Flops                                            : 103
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <pipeline_8x8> ...
+INFO:Xst:2261 - The FF/Latch <Maddsub_GND_4_o_p_mb_hi[1][3]_MuLt_4_OUT_1> in Unit <pipeline_8x8> is equivalent to the following FF/Latch, which will be removed : <Maddsub_GND_4_o_p_mb_hi[1][3]_MuLt_4_OUT_0> 
+INFO:Xst:2261 - The FF/Latch <Maddsub_p_ma_hi[2][3]_GND_4_o_MuLt_5_OUT_1> in Unit <pipeline_8x8> is equivalent to the following FF/Latch, which will be removed : <Maddsub_p_ma_hi[2][3]_GND_4_o_MuLt_5_OUT_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pipeline_8x8, actual ratio is 8.
+
+Final Macro Processing ...
+
+Processing Unit <pipeline_8x8> :
+	Found 4-bit shift register for signal <p_m1_2_0>.
+	Found 4-bit shift register for signal <p_m1_2_1>.
+	Found 4-bit shift register for signal <p_m1_2_2>.
+	Found 4-bit shift register for signal <p_m1_2_3>.
+Unit <pipeline_8x8> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 111
+ Flip-Flops                                            : 111
+# Shift Registers                                      : 4
+ 4-bit shift register                                  : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : pipeline_8x8.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 279
+#      GND                         : 1
+#      INV                         : 8
+#      LUT2                        : 80
+#      LUT3                        : 2
+#      LUT4                        : 13
+#      MUXCY                       : 82
+#      VCC                         : 1
+#      XORCY                       : 92
+# FlipFlops/Latches                : 122
+#      FDC                         : 87
+#      FDCE                        : 7
+#      FDE                         : 28
+# Shift Registers                  : 4
+#      SRLC16E                     : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 17
+#      OBUF                        : 16
+# DSPs                             : 1
+#      DSP48A1                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             122  out of   4800     2%  
+ Number of Slice LUTs:                  107  out of   2400     4%  
+    Number used as Logic:               103  out of   2400     4%  
+    Number used as Memory:                4  out of   1200     0%  
+       Number used as SRL:                4
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    173
+   Number with an unused Flip Flop:      51  out of    173    29%  
+   Number with an unused LUT:            66  out of    173    38%  
+   Number of fully used LUT-FF pairs:    56  out of    173    32%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    102    33%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of DSP48A1s:                      1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+i_clk                              | BUFGP                  | 127   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.375ns (Maximum Frequency: 228.587MHz)
+   Minimum input arrival time before clock: 4.901ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'i_clk'
+  Clock period: 4.375ns (frequency: 228.587MHz)
+  Total number of paths / destination ports: 3625 / 117
+-------------------------------------------------------------------------
+Delay:               4.375ns (Levels of Logic = 10)
+  Source:            p_mb_hi_3_1 (FF)
+  Destination:       Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_0 (FF)
+  Source Clock:      i_clk rising
+  Destination Clock: i_clk rising
+
+  Data Path: p_mb_hi_3_1 to Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.447   0.943  p_mb_hi_3_1 (p_mb_hi_3_1)
+     LUT4:I1->O            1   0.205   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd2_lut<2> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd2_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd2_cy<2> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd2_cy<2>)
+     MUXCY:CI->O           1   0.213   0.580  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd2_cy<3> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd2_cy<3>)
+     LUT3:I2->O            1   0.205   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_lut<4> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_cy<4> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_cy<5> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_cy<5>)
+     XORCY:CI->O           1   0.180   0.580  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd3_xor<6> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd_62)
+     LUT2:I1->O            1   0.205   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd4_lut<6> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd4_lut<6>)
+     MUXCY:S->O            0   0.172   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd4_cy<6> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd4_cy<6>)
+     XORCY:CI->O           1   0.180   0.000  Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd4_xor<7> (Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_Madd_73)
+     FDE:D                     0.102          Maddsub_p_ma_hi[3][3]_p_mb_hi[3][3]_MuLt_6_OUT_0
+    ----------------------------------------
+    Total                      4.375ns (2.272ns logic, 2.103ns route)
+                                       (51.9% logic, 48.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'i_clk'
+  Total number of paths / destination ports: 135 / 135
+-------------------------------------------------------------------------
+Offset:              4.901ns (Levels of Logic = 2)
+  Source:            i_rstb (PAD)
+  Destination:       p_ma_lo_0_0 (FF)
+  Destination Clock: i_clk rising
+
+  Data Path: i_rstb to p_ma_lo_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            26   1.222   1.206  i_rstb_IBUF (i_rstb_IBUF)
+     INV:I->O             94   0.206   1.837  i_rstb_inv1_INV_0 (i_rstb_inv)
+     FDC:CLR                   0.430          p_ma_lo_0_0
+    ----------------------------------------
+    Total                      4.901ns (1.858ns logic, 3.043ns route)
+                                       (37.9% logic, 62.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'i_clk'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            r_m4_7 (FF)
+  Destination:       o_m<15> (PAD)
+  Source Clock:      i_clk rising
+
+  Data Path: r_m4_7 to o_m<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  r_m4_7 (r_m4_7)
+     OBUF:I->O                 2.571          o_m_15_OBUF (o_m<15>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock i_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+i_clk          |    4.375|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.42 secs
+ 
+--> 
+
+Total memory usage is 4487544 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

@@ -1,0 +1,7 @@
+       1 xor3.
+       2 xor3.xorex2.
+       3 xor3.xand6.
+       4 xor3.xand7.
+       5 xor3.xor3.
+       6 xor3.xorex2.xor1.
+       7 xor3.xorex2.xor2.
